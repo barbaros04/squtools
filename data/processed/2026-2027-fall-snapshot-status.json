@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/combine_schedules.py",
+  "term": {
+    "term_id": "2026/2027-FALL",
+    "label": "Fall 2026/2027",
+    "timezone": "Asia/Muscat"
+  },
+  "snapshot": {
+    "snapshot_id": "7b0035f4dbffd9a87cfeb9350266b7b19f5a7160d13fb2a6caf1eb0fb05b39f2",
+    "source_retrieval_completed_at": "2026-09-14T10:40:21.753608Z"
+  },
+  "record_counts": {
+    "courses": 1755,
+    "sections": 3976,
+    "meetings": 8006
+  }
+}

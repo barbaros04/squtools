@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/combine_schedules.py",
-  "generated_at": "2026-09-14T10:40:39.139947Z",
+  "generated_at": "2026-09-14T11:06:58.378484Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",

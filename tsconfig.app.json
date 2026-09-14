@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "useDefineForClassFields": true, "module": "ESNext", "lib": ["ES2022", "DOM", "DOM.Iterable"], "skipLibCheck": true, "moduleResolution": "bundler", "allowImportingTsExtensions": true, "resolveJsonModule": true, "verbatimModuleSyntax": true, "moduleDetection": "force", "noEmit": true, "jsx": "preserve", "jsxImportSource": "solid-js", "strict": true
+  },
+  "include": ["src"]
+}

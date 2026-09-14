@@ -198,6 +198,14 @@ def main() -> int:
         "courses": list(courses.values()),
     }
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    status_path = output.with_name(f"{args.term}-snapshot-status.json")
+    status_path.write_text(json.dumps({
+        "schema_version": 1,
+        "generator": "scripts/combine_schedules.py",
+        "term": payload["term"],
+        "snapshot": {key: payload["snapshot"][key] for key in ("snapshot_id", "source_retrieval_completed_at")},
+        "record_counts": payload["record_counts"],
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Verified all 10 college/CPS artifacts; wrote {payload['record_counts']['courses']} courses, {payload['record_counts']['sections']} sections, and {payload['record_counts']['meetings']} meetings to {output}")
     return 0
 

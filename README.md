@@ -61,6 +61,18 @@ Combine the selected Fall artifacts only after collection succeeds. This writes 
 
 The default unknown-location threshold is 10%; pass `--max-unknown-location-rate` to set a reviewed release threshold.
 
+## Development
+
+The static site uses Solid 2, TypeScript, and Vite:
+
+```sh
+npm install
+npm run dev
+npm run build
+```
+
+See [`docs/repository-architecture.md`](docs/repository-architecture.md) for ownership boundaries and [`data/README.md`](data/README.md) for data layout.
+
 ## Repository status
 
-The local collector and combined-artifact validation produce a draft normalized dataset. Compression and final data-contract review remain to be implemented.
+The local collector and combined-artifact validation produce a draft normalized dataset. The site shell is ready for isolated tool modules; Schedule Builder is the next implementation target. Compression and final data-contract review remain to be implemented.

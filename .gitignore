@@ -3,8 +3,13 @@
 # Python
 __pycache__/
 *.py[cod]
+*.tsbuildinfo
 .venv/
 .env
+
+# TypeScript build intermediates
+/vite.config.js
+/vite.config.d.ts
 
 # Node / Vite
 node_modules/
