@@ -3,79 +3,106 @@ import { formatSnapshotTime, publishedSnapshot } from "./data/snapshot";
 import "./styles.css";
 
 type Tool = {
-  page: string;
+  path: string;
   title: string;
   summary: string;
-  state: "Available next" | "In preparation";
-  color: "cyan" | "yellow" | "magenta";
+  availability: string;
+  featured?: boolean;
 };
 
 const tools: Tool[] = [
   {
-    page: "101",
-    title: "Schedule builder",
-    summary: "Choose course sections. Keep only combinations that fit together.",
-    state: "Available next",
-    color: "cyan",
+    path: "/schedule-builder",
+    title: "Schedule Builder",
+    summary: "Pick course sections and compare combinations without time conflicts.",
+    availability: "Next up",
+    featured: true,
   },
   {
-    page: "202",
-    title: "Empty room finder",
-    summary: "Check known physical room bookings by day, time, and building.",
-    state: "In preparation",
-    color: "yellow",
+    path: "/empty-rooms",
+    title: "Empty Room Finder",
+    summary: "Check known room bookings by building, day, and time.",
+    availability: "In preparation",
   },
   {
-    page: "303",
-    title: "Academic plan helper",
-    summary: "Lay out courses you have taken and courses you are considering.",
-    state: "In preparation",
-    color: "magenta",
+    path: "/academic-plan",
+    title: "Academic Plan Helper",
+    summary: "Keep a simple view of completed, current, and planned courses.",
+    availability: "In preparation",
   },
 ];
 
-function App() {
+function SnapshotNote() {
   return (
-    <main class="teletext-shell">
-      <header class="masthead">
-        <a class="wordmark" href="/" aria-label="Squidwool home">SQUIDWOOL</a>
-        <span>SQU student tools</span>
-        <span class="page-number">100</span>
+    <p class="snapshot-note">
+      Fall 2026/2027 timetable snapshot · retrieved {formatSnapshotTime(publishedSnapshot.snapshot.source_retrieval_completed_at)}
+    </p>
+  );
+}
+
+function HomePage() {
+  return (
+    <main class="app-shell">
+      <header class="site-header">
+        <a class="wordmark" href="/">SQU Tools</a>
+        <a class="data-link" href="#data">Schedule data</a>
       </header>
 
-      <section class="intro" aria-labelledby="page-title">
-        <div class="signal-mark" aria-hidden="true"><i /><i /><i /><i /></div>
-        <div>
-          <h1 id="page-title">Plan the term.<br />Leave the tabs behind.</h1>
-          <p>Small, local tools built around the published SQU timetable.</p>
-        </div>
+      <section class="home-intro" aria-labelledby="page-title">
+        <p class="section-label">SQU planning tools</p>
+        <h1 id="page-title">Plan the term with less tab switching.</h1>
+        <p>Tools built from the published course schedule. No sign-in, no registration actions.</p>
       </section>
 
-      <nav class="tool-grid" aria-label="Squidwool tools">
+      <nav class="tool-grid" aria-label="Tools">
         {tools.map((tool) => (
-          <a class={`tool tool-${tool.color}`} href={`#${tool.title.toLowerCase().replaceAll(" ", "-")}`}>
-            <span class="tool-page">{tool.page}</span>
-            <h2>{tool.title}</h2>
-            <p>{tool.summary}</p>
-            <span class="tool-state">{tool.state}</span>
-            <span class="tool-arrow" aria-hidden="true">›</span>
+          <a class={`tool-card${tool.featured ? " tool-card-featured" : ""}`} href={tool.path}>
+            <div>
+              <span class="tool-status">{tool.availability}</span>
+              <h2>{tool.title}</h2>
+              <p>{tool.summary}</p>
+            </div>
+            <span class="open-tool">Open tool</span>
           </a>
         ))}
       </nav>
 
-      <section class="snapshot" aria-label="Schedule data snapshot">
-        <div class="snapshot-label">TIMETABLE SNAPSHOT</div>
-        <p><strong>{publishedSnapshot.term.label}</strong> · retrieved {formatSnapshotTime(publishedSnapshot.snapshot.source_retrieval_completed_at)}</p>
-        <p>{publishedSnapshot.record_counts.courses.toLocaleString()} courses · {publishedSnapshot.record_counts.sections.toLocaleString()} sections · {publishedSnapshot.record_counts.meetings.toLocaleString()} meetings</p>
-        <a href="#data-notes">How this data is handled</a>
+      <section class="data-panel" id="data" aria-labelledby="data-heading">
+        <div>
+          <p class="section-label" id="data-heading">Current data</p>
+          <SnapshotNote />
+        </div>
+        <p class="data-counts">
+          {publishedSnapshot.record_counts.courses.toLocaleString()} courses<br />
+          {publishedSnapshot.record_counts.sections.toLocaleString()} sections<br />
+          {publishedSnapshot.record_counts.meetings.toLocaleString()} meetings
+        </p>
       </section>
-
-      <footer>
-        <span>Public SQU schedule data · snapshot, not live availability</span>
-        <span>100&nbsp;&nbsp; 101&nbsp;&nbsp; 202&nbsp;&nbsp; 303</span>
-      </footer>
     </main>
   );
+}
+
+function ToolPage(props: { tool: Tool }) {
+  return (
+    <main class="app-shell tool-page">
+      <header class="site-header">
+        <a class="wordmark" href="/">SQU Tools</a>
+        <a class="back-link" href="/">All tools</a>
+      </header>
+      <section class="tool-page-content" aria-labelledby="tool-title">
+        <p class="section-label">{props.tool.availability}</p>
+        <h1 id="tool-title">{props.tool.title}</h1>
+        <p>{props.tool.summary}</p>
+        <div class="coming-soon">This tool is not built yet. The route and page shell are ready for its isolated feature module.</div>
+      </section>
+      <footer><SnapshotNote /></footer>
+    </main>
+  );
+}
+
+function App() {
+  const tool = tools.find(({ path }) => path === window.location.pathname);
+  return tool ? <ToolPage tool={tool} /> : <HomePage />;
 }
 
 render(() => <App />, document.getElementById("root")!);

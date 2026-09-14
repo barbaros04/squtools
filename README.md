@@ -1,4 +1,4 @@
-# Squidwool
+# SQU Tools
 
 A fast, static collection of utility tools for Sultan Qaboos University (SQU) students.
 
@@ -9,7 +9,7 @@ A fast, static collection of utility tools for Sultan Qaboos University (SQU) st
 
 ## Architecture
 
-Squidwool will run entirely on GitHub Pages. A Python pipeline gathers and validates public timetable/course data, produces compressed JSON artifacts, and the Solid + TypeScript frontend queries them locally. There is no runtime backend.
+SQU Tools will run entirely on GitHub Pages. A Python pipeline gathers and validates public timetable/course data, produces compressed JSON artifacts, and the Solid + TypeScript frontend queries them locally. There is no runtime backend.
 
 ## Current milestone: data gathering
 

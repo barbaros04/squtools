@@ -1,6 +1,6 @@
 # Repository architecture
 
-Squidwool has two independent delivery paths joined by a published data contract.
+SQU Tools has two independent delivery paths joined by a published data contract.
 
 ## Data path
 

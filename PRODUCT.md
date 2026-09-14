@@ -16,7 +16,7 @@ SQU students planning a term, checking whether a room is scheduled, or assessing
 
 ## Product Purpose
 
-Squidwool turns published SQU timetable facts into useful planning tools without a runtime backend. Success is a student finding a workable choice quickly while being able to see how current the underlying snapshot is.
+SQU Tools turns published SQU timetable facts into useful planning tools without a runtime backend. Success is a student finding a workable choice quickly while being able to see how current the underlying snapshot is.
 
 ## Positioning
 

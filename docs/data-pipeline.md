@@ -59,7 +59,7 @@ The existing Fall 2026/2027 captures predate this field and are therefore **lega
 
 ## Freshness policy
 
-The snapshot's `source_retrieval_completed_at` is the authoritative freshness timestamp. A generated timestamp only says when Squidwool transformed the captures; it does not prove the SIS data was current.
+The snapshot's `source_retrieval_completed_at` is the authoritative freshness timestamp. A generated timestamp only says when SQU Tools transformed the captures; it does not prove the SIS data was current.
 
 - Before SIS publishes a term timetable, do not publish a schedule-coverage claim for that term.
 - From first publication until four weeks before the term starts, refresh at least weekly.

@@ -24,7 +24,7 @@ FORM_URL: Final = "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx"
 REPORT_URL: Final = "https://sis.squ.edu.om/umisreports/viewers/localreportviewer.aspx"
 TIMEOUT: Final = (20, 180)  # connect, read seconds; report generation is server-side.
 MIN_REQUEST_INTERVAL: Final = 1.0
-USER_AGENT: Final = "Squidwool-data-collector/0.2 (local research; contact: repository owner)"
+USER_AGENT: Final = "squtools-data-collector/0.2 (local research; contact: repository owner)"
 DAYS: Final = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"}
 UNKNOWN_LOCATION_MARKERS: Final = {"", "nor", "clo", "fld", "frm", "no room available", "closed section", "field", "faculty room"}
 
