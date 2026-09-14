@@ -1,0 +1,96 @@
+{
+  "generator": "scripts/combine_schedules.py",
+  "generated_at": "2026-09-14T07:22:59.988781Z",
+  "term": {
+    "term_id": "2026/2027-FALL",
+    "label": "Fall 2026/2027",
+    "timezone": "Asia/Muscat"
+  },
+  "coverage_statement": "All selections in this manifest were validated from the SIS collection inventory at the stated snapshot; no broader university-wide coverage is implied.",
+  "collections": [
+    {
+      "collection_id": "center-for-preparatory-studies",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-center-for-preparatory-studies-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-agricultural-and-marine-sciences",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-agricultural-and-marine-sciences-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-arts-and-social-sciences",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-arts-and-social-sciences-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-economics-and-political-science",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-economics-and-political-science-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-education",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-education-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-engineering",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-engineering-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-law",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-law-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-medicine-and-health-sciences",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-nursing",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-nursing-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "college-of-science",
+      "scope": "college_or_cps",
+      "artifact": "2026-2027-fall-college-of-science-all-departments-english.json",
+      "raw_capture_count": 3,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "university-electives",
+      "scope": "university_check",
+      "artifact": "2026-2027-fall-university-all-departments-english-university-electives.json",
+      "raw_capture_count": 2,
+      "outcome": "validated"
+    },
+    {
+      "collection_id": "university-requirements",
+      "scope": "university_check",
+      "artifact": "2026-2027-fall-university-all-departments-english-university-requirements.json",
+      "raw_capture_count": 2,
+      "outcome": "validated"
+    }
+  ]
+}

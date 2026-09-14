@@ -1,0 +1,4193 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/scrape_schedule.py",
+  "generated_at": "2026-09-12T11:15:59.866175Z",
+  "term": {
+    "term_id": "2026/2027-FALL",
+    "label": "Fall 2026/2027",
+    "timezone": "Asia/Muscat"
+  },
+  "source": {
+    "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+    "captures": [
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\preview-response.html",
+        "sha256": "7bf15e86c4b1258c35d96c159fce3ede31441ac322b677729872e9c9dab0fda6"
+      },
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "cea930adf64356a25063202d818cf3b344d5f50009e3b789abf1c3a55f595265"
+      },
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "478beaa77716d62b153afaa17f5ed0f3a5906abcde4389599a7464a9881eb4a0"
+      }
+    ]
+  },
+  "record_counts": {
+    "courses": 58,
+    "sections": 76,
+    "meetings": 193,
+    "unscheduled_sections": 0,
+    "duplicate_source_rows": 0,
+    "collapsed_co_taught_rows": 33
+  },
+  "courses": [
+    {
+      "course_id": "ANAT8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "ANAT8001-01",
+          "section_code": "01",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "RUQAIYA KHALFAN ABDULLAH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ANAT8001-01:b1fe759b7dde",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "17:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "1",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC6002",
+      "title": "Instrumentation and Biochemical Techniques",
+      "sections": [
+        {
+          "section_id": "BIOC6002-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "MOHAMMED NASSER RASHID AL-TOBI",
+            "Shaima Mazin Jawad Al Khabouri",
+            "AMANI THANI ALI ALKHAIFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC6002-01:0fdd3ef80c5f",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "BIOC6002-01:a876cf903b24",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "4",
+            "maximum": "6"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC6006",
+      "title": "Biochemical Basis for Disease",
+      "sections": [
+        {
+          "section_id": "BIOC6006-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "KHALID HUMAID MOHAMED AL-RASADI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC6006-01:f3f47ff0f23f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "BIOC6006-01:c480bdca640c",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "6"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC7002",
+      "title": "Research project - MSc",
+      "sections": [
+        {
+          "section_id": "BIOC7002-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "MOHAMMED NASSER RASHID AL-TOBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC7002-01:aeac7cc7257c",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "6"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "BIOC8001-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "MOHAMMED NASSER RASHID AL-TOBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC8001-01:9a4080f2af52",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "6"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "DRUG6001",
+      "title": "Pharmacokinetics and Therapeutic Drug Monitoring",
+      "sections": [
+        {
+          "section_id": "DRUG6001-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "MOHAMMED ABDULLAH MOHAMMED ALZAABI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "DRUG6001-01:4d598c5a36e3",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "DRUG6001-01:617472ac8479",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS6000",
+      "title": "Statistics and Computers",
+      "sections": [
+        {
+          "section_id": "EPIS6000-01",
+          "section_code": "01",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "MOON FAI CHAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS6000-01:292283ba04a3",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "1085",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "EPIS6000-01:8f7d8bc1954a",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "1085",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "25",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS6004",
+      "title": "Applied Epidemiology",
+      "sections": [
+        {
+          "section_id": "EPIS6004-01",
+          "section_code": "01",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "YAHYA MOHAMED ISSA AL-FARSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS6004-01:1a90aa2c8a17",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "EPIS6004-01:97419cb8c837",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "25",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS6005",
+      "title": "Statistical Methods in Quality Control",
+      "sections": [
+        {
+          "section_id": "EPIS6005-01",
+          "section_code": "01",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "Amal Ali Saki Malehi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS6005-01:4bfeae1d36a8",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "EPIS6005-01:2bceda3d2489",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "15",
+            "maximum": "35"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS6008",
+      "title": "Health Leadership and Management",
+      "sections": [
+        {
+          "section_id": "EPIS6008-01",
+          "section_code": "01",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "MOON FAI CHAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS6008-01:cd71a8258ba2",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "EPIS6008-01:f6a3b1a31ee3",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "1",
+            "maximum": "15"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS7002",
+      "title": "Research Project",
+      "sections": [
+        {
+          "section_id": "EPIS7002-01",
+          "section_code": "01",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "MOON FAI CHAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS7002-01:aeac7cc7257c",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EPIS8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "EPIS8001-02",
+          "section_code": "02",
+          "department": "Department of Family Medicine & Public Health",
+          "instructors": [
+            "MOON FAI CHAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EPIS8001-02:6d32296b94ca",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "15:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "12",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "GENT8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "GENT8001-01",
+          "section_code": "01",
+          "department": "Department of Genetics",
+          "instructors": [
+            "FAKHRIYA MOHAMMED HILAL AL-AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "GENT8001-01:9a4080f2af52",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR6001",
+      "title": "Medical Microbiology",
+      "sections": [
+        {
+          "section_id": "MICR6001-01",
+          "section_code": "01",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [
+            "MEHER RIZVI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MICR6001-01:5417801464f2",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MICR6001-01:47a7c8459799",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "5"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR7002",
+      "title": "Research Project",
+      "sections": [
+        {
+          "section_id": "MICR7002-01",
+          "section_code": "01",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MICR7002-01:87ea1c1e6abf",
+              "type": "Thesis",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "1091",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "MICR8001-01",
+          "section_code": "01",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MICR8001-01:358ee00af3d8",
+              "type": "Thesis",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "1089",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MPHY6012",
+      "title": "Advanced Neurophysiology",
+      "sections": [
+        {
+          "section_id": "MPHY6012-01",
+          "section_code": "01",
+          "department": "Department of Physiology",
+          "instructors": [
+            "HUSSEIN FAROUK HAMED SAKR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MPHY6012-01:761fc5d2b5ef",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MPHY6012-01:4f289d21566e",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MPHY6012-01:a876cf903b24",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "4",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR6001",
+      "title": "Clinical Pharmacy (1)",
+      "sections": [
+        {
+          "section_id": "PHAR6001-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "ALY MOHAMED OMAR ABDELRAHMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHAR6001-01:cd1d45e75b00",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PHAR6001-01:f89c355ff908",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "11:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PHAR6001-01:93af58d560ac",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR7002",
+      "title": "Research Project",
+      "sections": [
+        {
+          "section_id": "PHAR7002-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "ALY MOHAMED OMAR ABDELRAHMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHAR7002-01:aeac7cc7257c",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "6",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "PHAR8001-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "ALY MOHAMED OMAR ABDELRAHMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHAR8001-01:9a4080f2af52",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "4",
+            "maximum": "4"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC4202",
+      "title": "Methods in Clinical Chemistry",
+      "sections": [
+        {
+          "section_id": "BIOC4202-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "MOHAMMED NASSER RASHID AL-TOBI",
+            "ABDULRAHIM KHALIFA SALIM AL-ABRI",
+            "AMANI THANI ALI ALKHAIFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC4202-01:4d914d483ebc",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "BIOC4202-01:0f90abc50182",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "20",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC4301",
+      "title": "Investigation of Endocrine Diseases",
+      "sections": [
+        {
+          "section_id": "BIOC4301-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "ARWA NASR HAMOOD AL KINDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC4301-01:b6362ed3e983",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "D Common Teaching",
+              "room": "D13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "BIOC4301-01:4aa7dba1c7bf",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "BIOC4302",
+      "title": "Investigation of Endocrine Diseases",
+      "sections": [
+        {
+          "section_id": "BIOC4302-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "JUMANA SALEH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "BIOC4302-01:010d356be7e1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "BIOC4302-01:362962d8b41b",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "17",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "HAEM4101",
+      "title": "Structure and Function of Blood Cells",
+      "sections": [
+        {
+          "section_id": "HAEM4101-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "MOHAMED RACHID BOULASSEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HAEM4101-01:a876cf903b24",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "HAEM4101-01:e0e101fcf619",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "15:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "20",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "HAEM4201",
+      "title": "Basic Principles of Blood Banking",
+      "sections": [
+        {
+          "section_id": "HAEM4201-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "HAEM4201-01:7069676964a6",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "HAEM4201-01:1ba0eb18fb29",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "HAEM4202",
+      "title": "Principles of Immunohematology",
+      "sections": [
+        {
+          "section_id": "HAEM4202-01",
+          "section_code": "01",
+          "department": "Department of Haematology",
+          "instructors": [
+            "MUNA MOHAMED SALIM AL-MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HAEM4202-01:b85340e45db0",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "HAEM4202-01:1ba0eb18fb29",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "18",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4001",
+      "title": "Practicum (1)",
+      "sections": [
+        {
+          "section_id": "ICHS4001-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "FAKHRIYA MOHAMMED HILAL AL-AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4001-01:267495033850",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ICHS4001-01:387df0093204",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4002",
+      "title": "Practicum (2)",
+      "sections": [
+        {
+          "section_id": "ICHS4002-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "FAKHRIYA MOHAMMED HILAL AL-AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4002-01:ada4d7bb676b",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ICHS4002-01:bb5fe73c4061",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4003",
+      "title": "Practicum (3)",
+      "sections": [
+        {
+          "section_id": "ICHS4003-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "FAKHRIYA MOHAMMED HILAL AL-AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4003-01:34c9035954a8",
+              "type": "Practical",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ICHS4003-01:75a351e1f23d",
+              "type": "Practical",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "1",
+            "maximum": "1"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4004",
+      "title": "Practicum (4)",
+      "sections": [
+        {
+          "section_id": "ICHS4004-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4004-01:01a85b87cc69",
+              "type": "Practical",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ICHS4004-01:cae798d06b45",
+              "type": "Practical",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "1"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4100",
+      "title": "Seminars in Research (1)",
+      "sections": [
+        {
+          "section_id": "ICHS4100-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "MOHAMED RACHID BOULASSEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4100-01:8760b2a56d22",
+              "type": "Seminar",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "17:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ICHS4400",
+      "title": "Research Project (1)",
+      "sections": [
+        {
+          "section_id": "ICHS4400-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "MOHAMED RACHID BOULASSEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ICHS4400-01:1fbfd74e9cca",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "17:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ICHS4400-01:b93b3e9d382c",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "7.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MDLS3105",
+      "title": "Introductory Biomedical Sciences",
+      "sections": [
+        {
+          "section_id": "MDLS3105-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "Hafidha Salim Shinain Al Hattali"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MDLS3105-01:567bff3e2ecd",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MDLS3105-01:0752eb53e47e",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MDLS3105-01:74594d8cfcc3",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "23",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MDLS4101",
+      "title": "Biostatistics",
+      "sections": [
+        {
+          "section_id": "MDLS4101-01",
+          "section_code": "01",
+          "department": "Department of Family and Community Health",
+          "instructors": [
+            "Amal Ali Saki Malehi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MDLS4101-01:e703c3d9d015",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MDLS4101-01:f3f47ff0f23f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "19",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI2100",
+      "title": "Medical Informatics (1)",
+      "sections": [
+        {
+          "section_id": "MEDI2100-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "Syaheerah Binti Lebai Lutfi",
+            "KENNETH ANDREW MASTERS"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2100-01:ce6aed493388",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2100-01:fde36b230dfa",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "70",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2100-02",
+          "section_code": "02",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "KENNETH ANDREW MASTERS",
+            "Syaheerah Binti Lebai Lutfi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2100-02:fde36b230dfa",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2100-02:d94931e87cf7",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "70",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2100-03",
+          "section_code": "03",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "KENNETH ANDREW MASTERS",
+            "Syaheerah Binti Lebai Lutfi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2100-03:fde36b230dfa",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2100-03:12ff6da69f2e",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "69",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI2107",
+      "title": "Human Physiology",
+      "sections": [
+        {
+          "section_id": "MEDI2107-01",
+          "section_code": "01",
+          "department": "Department of Physiology",
+          "instructors": [
+            "Murtala Bello Abubakar",
+            "HAJAR MOHAMMED AMUR AL-RAJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2107-01:396021ff3c13",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-01:f7fd827f738d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-01:0cc05b7958ae",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-01:8bbeed25b527",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "35",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2107-02",
+          "section_code": "02",
+          "department": "Department of Physiology",
+          "instructors": [
+            "Murtala Bello Abubakar",
+            "HAJAR MOHAMMED AMUR AL-RAJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2107-02:f7fd827f738d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-02:0cc05b7958ae",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-02:8bbeed25b527",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-02:51255d95b58e",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "35",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2107-03",
+          "section_code": "03",
+          "department": "Department of Physiology",
+          "instructors": [
+            "Murtala Bello Abubakar",
+            "HAJAR MOHAMMED AMUR AL-RAJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2107-03:f7fd827f738d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-03:0cc05b7958ae",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-03:8bbeed25b527",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-03:1e49f755dd59",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "35",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2107-04",
+          "section_code": "04",
+          "department": "Department of Physiology",
+          "instructors": [
+            "Murtala Bello Abubakar",
+            "HAJAR MOHAMMED AMUR AL-RAJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2107-04:f7fd827f738d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-04:0cc05b7958ae",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-04:7cce2cabd850",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2107-04:8bbeed25b527",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "35",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI2108",
+      "title": "Enzymology and Metabolism",
+      "sections": [
+        {
+          "section_id": "MEDI2108-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "Shaima Mazin Jawad Al Khabouri",
+            "NADIYA MOHAMED HASSAN AL-WARDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2108-01:093f92a46296",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2108-01:d7f15ff29202",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI2108-01:ce97de83b4c5",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "37",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2108-02",
+          "section_code": "02",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "Shaima Mazin Jawad Al Khabouri",
+            "NADIYA MOHAMED HASSAN AL-WARDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2108-02:d7f15ff29202",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI2108-02:868d5e39442e",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2108-02:ce97de83b4c5",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI2108-03",
+          "section_code": "03",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "Shaima Mazin Jawad Al Khabouri",
+            "NADIYA MOHAMED HASSAN AL-WARDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2108-03:37c08427858a",
+              "type": "Tutorial",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2108-03:d7f15ff29202",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI2108-03:ce97de83b4c5",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI2109",
+      "title": "Cellular Communication and Introduction to Drug Action",
+      "sections": [
+        {
+          "section_id": "MEDI2109-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "YOUSUF MOHAMMED KHALFAN ALSULEIMANI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2109-01:756e645bfcff",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI2109-01:ea987bcfe049",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "150",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3101",
+      "title": "Molecular Biology and Principles of Genetics",
+      "sections": [
+        {
+          "section_id": "MEDI3101-01",
+          "section_code": "01",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "YAHYA TAMIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3101-01:44fcf39558b1",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-01:32a72b6fcfd8",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Medicine",
+              "room": "2219",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-01:53ac49832857",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "54",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3101-02",
+          "section_code": "02",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "YAHYA TAMIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3101-02:1d5804a105c4",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Medicine",
+              "room": "2219",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-02:44fcf39558b1",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-02:53ac49832857",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "53",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3101-03",
+          "section_code": "03",
+          "department": "Department of Biochemistry",
+          "instructors": [
+            "YAHYA TAMIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3101-03:44fcf39558b1",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-03:395a5a45481f",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Medicine",
+              "room": "2219",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3101-03:53ac49832857",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "55",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3102",
+      "title": "Structure-Function Relationship",
+      "sections": [
+        {
+          "section_id": "MEDI3102-01",
+          "section_code": "01",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN FAROUK HAMED SAKR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3102-01:fd9b5918764d",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-01:82d81f3d984c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-01:e82380912c9f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-01:3f33692a758e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-01:14f2b653eb1c",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3102-02",
+          "section_code": "02",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN FAROUK HAMED SAKR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3102-02:82d81f3d984c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-02:e82380912c9f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-02:3f33692a758e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-02:4fe092c0322f",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-02:b11d6bf120fd",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "31",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3102-03",
+          "section_code": "03",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN FAROUK HAMED SAKR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3102-03:82d81f3d984c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-03:e82380912c9f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-03:3f33692a758e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-03:a8ccba533fc5",
+              "type": "Tutorial",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3102-03:2a87fc31faf3",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3103",
+      "title": "Growth and Development",
+      "sections": [
+        {
+          "section_id": "MEDI3103-01",
+          "section_code": "01",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "RUQAIYA KHALFAN ABDULLAH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3103-01:53f5a84f69df",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "130",
+            "maximum": "250"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3104",
+      "title": "Response to Infection and Pathobiology",
+      "sections": [
+        {
+          "section_id": "MEDI3104-01",
+          "section_code": "01",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [
+            "Amira Gaber Ali Elbaradei"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3104-01:23c059c1173d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-01:4ecde52c0d53",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-01:7ad9c5324572",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-01:12c0f7d46c9b",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-01:b11d6bf120fd",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "55",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3104-02",
+          "section_code": "02",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [
+            "Amira Gaber Ali Elbaradei"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3104-02:80ab802fe1a2",
+              "type": "Tutorial",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-02:23c059c1173d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-02:4ecde52c0d53",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-02:7ad9c5324572",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-02:2a87fc31faf3",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI3104-03",
+          "section_code": "03",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [
+            "Amira Gaber Ali Elbaradei"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3104-03:a9804c6cd265",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-03:23c059c1173d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-03:4ecde52c0d53",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-03:7ad9c5324572",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3104-03:14f2b653eb1c",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "55",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3105",
+      "title": "Hospital and Community Attachment",
+      "sections": [
+        {
+          "section_id": "MEDI3105-01",
+          "section_code": "01",
+          "department": "Department of Family and Community Health",
+          "instructors": [
+            "HANA HARIB SAID AL SUMRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3105-01:19e12850ecbd",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3105-01:9dd7255240f1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI3105-01:2563ae718a6f",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI3105-01:e19e58ba41a7",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "131",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI3203",
+      "title": "Ethics and Professional Behavior",
+      "sections": [
+        {
+          "section_id": "MEDI3203-01",
+          "section_code": "01",
+          "department": "Department of Behavioural Medicine",
+          "instructors": [
+            "AHMED BINSUMEIT ABDUL RAHMAN BADAWY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI3203-01:a97c24dc1a2f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI3203-01:861417e8e2be",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "9999"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI4301",
+      "title": "Integrated Module (11)",
+      "sections": [
+        {
+          "section_id": "MEDI4301-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "SRINIVASA RAO SIRASANAGANDLA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4301-01:a7700cc78f8c",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI4301-01:b90c42b89aca",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4301-01:db2b50c25baa",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Medicine",
+              "room": "MLT",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "146",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI4303",
+      "title": "Alimentary System",
+      "sections": [
+        {
+          "section_id": "MEDI4303-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "AMANI THANI ALI ALKHAIFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4303-01:5cc059150e81",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-01:b511194fe119",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-01:cbb57ce6d15d",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-01:e236d56ffe5f",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-01:cfccccb59f26",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D11",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "47",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI4303-02",
+          "section_code": "02",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "AMANI THANI ALI ALKHAIFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4303-02:0bbbae011262",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-02:b511194fe119",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-02:cbb57ce6d15d",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-02:e236d56ffe5f",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-02:bfaef6ef21f2",
+              "type": "Tutorial",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI4303-03",
+          "section_code": "03",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "AMANI THANI ALI ALKHAIFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4303-03:b511194fe119",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-03:cbb57ce6d15d",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-03:e236d56ffe5f",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-03:1ee1b36da54c",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4303-03:622c198789aa",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "5.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI4304",
+      "title": "The Uro-reproductive System",
+      "sections": [
+        {
+          "section_id": "MEDI4304-01",
+          "section_code": "01",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN MOHAMMED HUSSEIN ABDELLATIF"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4304-01:c25a53a79da5",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-01:dea2a90cf19a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-01:1f0f05311ed5",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-01:6280c401e181",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "37",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI4304-02",
+          "section_code": "02",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN MOHAMMED HUSSEIN ABDELLATIF"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4304-02:c25a53a79da5",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-02:bcad40c3e644",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-02:20fc8baedad3",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-02:dea2a90cf19a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI4304-03",
+          "section_code": "03",
+          "department": "Department of Human and Clinical Anatomy",
+          "instructors": [
+            "HUSSEIN MOHAMMED HUSSEIN ABDELLATIF"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4304-03:c25a53a79da5",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-03:722fd1b7556d",
+              "type": "Tutorial",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-03:00b8e36f2c28",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "D Common Teaching",
+              "room": "D13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4304-03:dea2a90cf19a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI4305",
+      "title": "Clinical Nutrition",
+      "sections": [
+        {
+          "section_id": "MEDI4305-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "JUMANA SALEH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4305-01:edd682655a68",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEDI4305-01:d41f0faa446b",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Common Teaching",
+              "room": "LET5",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "146",
+            "maximum": "146"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI4511",
+      "title": "Student Project (1)",
+      "sections": [
+        {
+          "section_id": "MEDI4511-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "HAMZA ALI BABIKER MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4511-01:1d4f1391e5ab",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "154",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEDI4511-02",
+          "section_code": "02",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [
+            "HAMZA ALI BABIKER MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDI4511-02:c577202b1afe",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDI4511-02:244e7741bb22",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDP3000",
+      "title": "Physics of Ionising Radiation",
+      "sections": [
+        {
+          "section_id": "MEDP3000-01",
+          "section_code": "01",
+          "department": "Department of Medical Physics",
+          "instructors": [
+            "AMNA JUMA SAID AL- JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDP3000-01:a1b09a41d89d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDP3000-01:f8177018dd35",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDP4004",
+      "title": "Medical Physics (Project-A)",
+      "sections": [
+        {
+          "section_id": "MEDP4004-01",
+          "section_code": "01",
+          "department": "Department of Medical Physics",
+          "instructors": [
+            "YASSINE BOUCHAREB"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEDP4004-01:be92582d7379",
+              "type": "Project",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MEDP4004-01:16bbc98dd773",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "12",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR4101",
+      "title": "General Medical Microbiology",
+      "sections": [
+        {
+          "section_id": "MICR4101-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "MOHAMED MABRUK"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MICR4101-01:567bff3e2ecd",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MICR4101-01:832ba0b3b247",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR4104",
+      "title": "General Medical Microbiology",
+      "sections": [
+        {
+          "section_id": "MICR4104-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "MOHAMED MABRUK"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MICR4104-01:567bff3e2ecd",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MICR4104-01:832ba0b3b247",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MICR4104-01:387413b26d78",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "19",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MICR4301",
+      "title": "Parasitology",
+      "sections": [
+        {
+          "section_id": "MICR4301-01",
+          "section_code": "01",
+          "department": "Department of Microbiology and Immunology",
+          "instructors": [
+            "Amira Gaber Ali Elbaradei"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MICR4301-01:12cce814d10c",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "MICR4301-01:b344fa036e88",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PATH4101",
+      "title": "Principles of Histopathology",
+      "sections": [
+        {
+          "section_id": "PATH4101-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "NASAR YOUSUF ABDULLA AL-WAHAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PATH4101-01:df4bd6b03086",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PATH4101-01:7981dd945f30",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PATH4104",
+      "title": "Principle of Histopathology",
+      "sections": [
+        {
+          "section_id": "PATH4104-01",
+          "section_code": "01",
+          "department": "Department of Pathology",
+          "instructors": [
+            "NASAR YOUSUF ABDULLA AL-WAHAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PATH4104-01:df4bd6b03086",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PATH4104-01:7981dd945f30",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PATH4104-01:61c34dc513ba",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "19",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PATH4202",
+      "title": "Principles of Cytopathology",
+      "sections": [
+        {
+          "section_id": "PATH4202-01",
+          "section_code": "01",
+          "department": "Department of Biomedical Science",
+          "instructors": [
+            "SHADIA MOHAMED HAMOOD AL-BAHLANI",
+            "NAJAT MUBARAK HUMAID Al-dairi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PATH4202-01:a876cf903b24",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PATH4202-01:96d81635f7c3",
+              "type": "Tutorial",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR2001",
+      "title": "Basic of Pharmacology and Nutrition",
+      "sections": [
+        {
+          "section_id": "PHAR2001-01",
+          "section_code": "01",
+          "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
+          "instructors": [
+            "MOHAMMED ABDULLAH MOHAMMED ALZAABI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHAR2001-01:3512f0d8ba39",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "25",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    }
+  ]
+}

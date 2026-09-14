@@ -1,0 +1,10 @@
+{
+  "byte_count": 96736,
+  "content_sha256": "c0dd5505f12df550758e71b59794246600a55087004f1f37d41cd44493cd242a",
+  "content_type": "text/html; charset=utf-8",
+  "generator": "scripts/scrape_schedule.py",
+  "retrieved_at": "2026-09-12T11:16:03.254897Z",
+  "source_url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+  "stage": "preview",
+  "term": "2026/2027 Fall"
+}

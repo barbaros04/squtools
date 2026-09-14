@@ -1,0 +1,11 @@
+{
+  "byte_count": 4002367,
+  "content_sha256": "07d003d29b709d767a37a1523b5357bb75ca6e88294e09d1998364a86646a6ce",
+  "content_type": "text/html; charset=utf-8",
+  "generator": "scripts/scrape_schedule.py",
+  "page": 1,
+  "retrieved_at": "2026-09-12T10:46:10.119494Z",
+  "source_url": "https://sis.squ.edu.om/umisreports/viewers/localreportviewer.aspx",
+  "stage": "report_viewer",
+  "term": "2026/2027 Fall"
+}

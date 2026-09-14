@@ -1,0 +1,16 @@
+# Generated data is versioned with its provenance and validation reports.
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Node / Vite
+node_modules/
+dist/
+
+# Local tooling
+.DS_Store
+.vscode/
+.idea/

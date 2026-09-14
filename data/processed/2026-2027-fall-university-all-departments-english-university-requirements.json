@@ -1,0 +1,1400 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/scrape_schedule.py",
+  "generated_at": "2026-09-12T11:20:20.060386Z",
+  "term": {
+    "term_id": "2026/2027-FALL",
+    "label": "Fall 2026/2027",
+    "timezone": "Asia/Muscat"
+  },
+  "source": {
+    "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+    "captures": [
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-university-all-departments-english-university-requirements\\preview-response.html",
+        "sha256": "cbe15a562a82e27b512011e27ca359fc2ca3950a2c2672b237fb0cee8d2e1f9b"
+      },
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-university-all-departments-english-university-requirements\\report-viewer-page-001.html",
+        "sha256": "a60468d9a96fdbd91624e5d7df461b083ca8ee9a971be1abe752fba4326fed41"
+      }
+    ]
+  },
+  "record_counts": {
+    "courses": 6,
+    "sections": 39,
+    "meetings": 52,
+    "unscheduled_sections": 0,
+    "duplicate_source_rows": 0,
+    "collapsed_co_taught_rows": 0
+  },
+  "courses": [
+    {
+      "course_id": "ARAB1019",
+      "title": "Arabic For Non Arabic Speaker",
+      "sections": [
+        {
+          "section_id": "ARAB1019-01",
+          "section_code": "01",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1019-01:437766f50fdf",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ARAB1019-01:c80f98dc184a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Bilingual",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ARAB1060",
+      "title": "Arabic",
+      "sections": [
+        {
+          "section_id": "ARAB1060-01",
+          "section_code": "01",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "Ibrahim Said Mohammed Al-Maskari"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-01:84b858e790b1",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-01:689f99021116",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-02",
+          "section_code": "02",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "TAREK SOLIMAN MOSTAFA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-02:6cf0a4290547",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-02:81e57057babb",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "99"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-03",
+          "section_code": "03",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "MHD NOUREDDIN MHD EID ALMUNJED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-03:e34c240f50c8",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-03:00f5c5777676",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "99"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-04",
+          "section_code": "04",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "OMAR AHAMEED SDIQ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-04:fcd8a908a54a",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-04:74726a4ffba1",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "99"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-05",
+          "section_code": "05",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "EISA SAID SALIM SALIM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-05:24d939b5345c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-05:ced61403d8f0",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "131",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-06",
+          "section_code": "06",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "ISSA MOHAMMED MUSLEM AL RAWAHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-06:ef31345fdaa7",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-06:cd5196944a5e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "136",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-07",
+          "section_code": "07",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "ISSA MOHAMMED MUSLEM AL RAWAHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-07:f5f27f175e35",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-07:d1a1369399ac",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-08",
+          "section_code": "08",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "Maryam Hamed Mohammed Al Husaini"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-08:4eeb25685bfb",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-08:689f99021116",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "130",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-09",
+          "section_code": "09",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "SALEH ABDULLAH SULAIMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-09:f5f27f175e35",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-09:d1a1369399ac",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "133",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-10",
+          "section_code": "10",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "TAREK SOLIMAN MOSTAFA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-10:48e54c2276f8",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-10:5a91c16005fc",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "98",
+            "maximum": "99"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-11",
+          "section_code": "11",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "Ahmed Khalifa Musabah almaqbali"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-11:6cf0a4290547",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-11:81e57057babb",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "132",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1060-12",
+          "section_code": "12",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [
+            "Ahmed Khalifa Musabah almaqbali"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1060-12:24d939b5345c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1060-12:ced61403d8f0",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "129",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "HIST1010",
+      "title": "Oman and Islamic Civilization",
+      "sections": [
+        {
+          "section_id": "HIST1010-01",
+          "section_code": "01",
+          "department": "Department of History",
+          "instructors": [
+            "BADAR HILAL KHALIFA AL-ALAWI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-01:e44765bfc086",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "3",
+            "maximum": "3"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-02",
+          "section_code": "02",
+          "department": "Department of History",
+          "instructors": [
+            "IBRAHIM YAHYA ZAHRAN AL-BUSAIDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-02:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "3",
+            "maximum": "3"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-03",
+          "section_code": "03",
+          "department": "Department of History",
+          "instructors": [
+            "AMIRA SULAIMAN ALI AL-HARTHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-03:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "130",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-04",
+          "section_code": "04",
+          "department": "Department of History",
+          "instructors": [
+            "Salman Ali Khan Alsharshani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-04:651b5ac414d0",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "130",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-05",
+          "section_code": "05",
+          "department": "Department of History",
+          "instructors": [
+            "Nabeel Majad Ibrahim Al Abri"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-05:26f9caf9e9f3",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "107",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-06",
+          "section_code": "06",
+          "department": "Department of History",
+          "instructors": [
+            "Fatma Nasser Khalaf Al Hatmi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-06:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "130",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-07",
+          "section_code": "07",
+          "department": "Department of History",
+          "instructors": [
+            "Kawthar younes mohaamed Al Yamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-07:927aeaf6d502",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "33",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "HIST1010-08",
+          "section_code": "08",
+          "department": "Department of History",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "HIST1010-08:520f5e8d485d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM1010",
+      "title": "Islamic Culture",
+      "sections": [
+        {
+          "section_id": "ISLM1010-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "MUHAMMADSAID KHALIL ALMUJAHED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-01:c5f88fd9d845",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-02",
+          "section_code": "02",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "MABROUK MANSOURI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-02:63c4563b5e53",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-03",
+          "section_code": "03",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "Ismail Kadhim Lawas"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-03:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-04",
+          "section_code": "04",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SHARIFA SALIM ALI AL-SAID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-04:c5f88fd9d845",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-05",
+          "section_code": "05",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SALEH AHMED SAIF AL-BUSAIDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-05:dd9a9a1e4221",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-06",
+          "section_code": "06",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "ANKE SANDRA BOUZENITA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-06:dd9a9a1e4221",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-07",
+          "section_code": "07",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SAID RASHID SAID AL-SAWAFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-07:e44765bfc086",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "120",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1010-08",
+          "section_code": "08",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "MUHAMMADSAID KHALIL ALMUJAHED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1010-08:f4f323d36920",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "119",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "SOCY1005",
+      "title": "Omani State & People",
+      "sections": [
+        {
+          "section_id": "SOCY1005-01",
+          "section_code": "01",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "WAFA SAID MARHOON AL-MAAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-02",
+          "section_code": "02",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "WAFA SAID MARHOON AL-MAAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-02:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-03",
+          "section_code": "03",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "Abdul Rahman Ali Salim Al Wahaibi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-03:da09ff306778",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-04",
+          "section_code": "04",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-04:8063e754ebea",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-05",
+          "section_code": "05",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "RASHID HAMED HUMAID AL-BUSAIDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-05:63c4563b5e53",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-06",
+          "section_code": "06",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "Abdul Rahman Ali Salim Al Wahaibi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-06:dd9a9a1e4221",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-07",
+          "section_code": "07",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "AMJAD HASSAN AWADH AL HAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-07:2217df3d748e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-08",
+          "section_code": "08",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "RAYA HAMED HILAL AL MAAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-08:e44765bfc086",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SOCY1005-09",
+          "section_code": "09",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1005-09:520f5e8d485d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "140",
+            "maximum": "160"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "SOCY1007",
+      "title": "Omani Contemporary Society",
+      "sections": [
+        {
+          "section_id": "SOCY1007-01",
+          "section_code": "01",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [
+            "Gahad G I Hamed"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SOCY1007-01:07b8061820bf",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Bilingual",
+          "enrollment": {
+            "current": "45",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    }
+  ]
+}

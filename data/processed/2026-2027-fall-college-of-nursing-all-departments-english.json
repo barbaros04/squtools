@@ -1,0 +1,3214 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/scrape_schedule.py",
+  "generated_at": "2026-09-12T11:15:43.894663Z",
+  "term": {
+    "term_id": "2026/2027-FALL",
+    "label": "Fall 2026/2027",
+    "timezone": "Asia/Muscat"
+  },
+  "source": {
+    "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+    "captures": [
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-nursing-all-departments-english\\preview-response.html",
+        "sha256": "0e6334c3a8eef4fe1f5a341cc1eb43e9bbe54a8dd7173987bb3376d5f6762a8c"
+      },
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-nursing-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "d953561a73aff7f29e3a74fc9c2a2fd735b9ea8d6f9fbb9dfaad19703801def1"
+      },
+      {
+        "path": "data\\raw\\sis\\2026-2027-fall-college-of-nursing-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "7af25eb2beaca41a5704c602bd64171f19dae52610525d4ca2fc8c4f51ca48b9"
+      }
+    ]
+  },
+  "record_counts": {
+    "courses": 52,
+    "sections": 71,
+    "meetings": 122,
+    "unscheduled_sections": 0,
+    "duplicate_source_rows": 2,
+    "collapsed_co_taught_rows": 137
+  },
+  "courses": [
+    {
+      "course_id": "NURS1002",
+      "title": "Sociology",
+      "sections": [
+        {
+          "section_id": "NURS1002-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "BLESSY PRABHA VALSARAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1002-01:e9e7a3f124fa",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "45",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS1002-02",
+          "section_code": "02",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "BLESSY PRABHA VALSARAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1002-02:a5db348cb6b9",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "0037",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "34",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS1008",
+      "title": "Microbiology and Immunology",
+      "sections": [
+        {
+          "section_id": "NURS1008-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ZAAIMA JUMA HAMED AL- JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1008-01:2af4732085fe",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS1008-01:f24f6f082bab",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "58",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS1009",
+      "title": "Communication / Group Dynamics",
+      "sections": [
+        {
+          "section_id": "NURS1009-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1009-01:44ee92d9e0a9",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "42",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS1009-02",
+          "section_code": "02",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "AZIZA SALAH NASSER AL SAWAFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1009-02:1f5c29775bf0",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "45",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS1009-03",
+          "section_code": "03",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1009-03:4731a59f00cc",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS1010",
+      "title": "Anatomy and Physiology 1 (with Laboratory)",
+      "sections": [
+        {
+          "section_id": "NURS1010-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "MICKAEL ANTOINE JOSEPH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1010-01:2f4f3ccda3a3",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS1010-01:48304977a0fa",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS1010-01:3001eda892e3",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "49",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS1035",
+      "title": "Foundations of Professional Nursing",
+      "sections": [
+        {
+          "section_id": "NURS1035-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS1035-01:9658e2aadc08",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS1035-01:c2e60c97d6e1",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "46",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2016",
+      "title": "Anatomy and Physiology (2)",
+      "sections": [
+        {
+          "section_id": "NURS2016-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ISEHAQ SAIF SAID AL-HUSEINI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2016-01:3c7c79cc13bc",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2016-01:3af2513f2de1",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2016-01:149c2984b151",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "80",
+            "maximum": "80"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2019",
+      "title": "Pathophysiology",
+      "sections": [
+        {
+          "section_id": "NURS2019-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "Ashraf Jehad Ibrahim Abuejheisheh"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2019-01:2c7f31a431de",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2019-01:61fd7b479d87",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2019-01:e510645778da",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "56",
+            "maximum": "110"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS2019-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "NURS2019-02:c72c3de1e9df",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2019-02:7f9d107a4450",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2019-02:a6bddf3c06ef",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2020",
+      "title": "Adult Health Nursing (1)",
+      "sections": [
+        {
+          "section_id": "NURS2020-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "JOSHUA KANAABI MULIIRA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2020-01:168284fcba06",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "0037",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2020-01:bb412fc0d5bb",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "0037",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "47",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2021",
+      "title": "Adult Health Nursing (1)/ Clinical",
+      "sections": [
+        {
+          "section_id": "NURS2021-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "JOSHUA KANAABI MULIIRA",
+            "Munira Abdullah Saleh Alrumhi",
+            "ANITHA NESA THANKA JOHN",
+            "JOY KABASINDI KAMANYIRE"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2021-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2021-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "29",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS2021-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "JOSHUA KANAABI MULIIRA",
+            "Munira Abdullah Saleh Alrumhi",
+            "ANITHA NESA THANKA JOHN",
+            "JOY KABASINDI KAMANYIRE"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2021-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2021-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "17",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2032",
+      "title": "Biochemistry for Nursing",
+      "sections": [
+        {
+          "section_id": "NURS2032-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "MAHA ZAKARIYA YAHYA ALRIYAMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2032-01:c421a2a6e22c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2032-01:79f5e509ade8",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "82",
+            "maximum": "200"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2115",
+      "title": "Health Assessment",
+      "sections": [
+        {
+          "section_id": "NURS2115-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2115-01:2aaa9f63dd53",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "32",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS2115-02",
+          "section_code": "02",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2115-02:ba6115701b16",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "1033",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "28",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2120",
+      "title": "Health Assessment /Laboratory",
+      "sections": [
+        {
+          "section_id": "NURS2120-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "CHERRY ANN BALLAD",
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2120-01:64acbec24c73",
+              "type": "LAB",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2120-01:74594d8cfcc3",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS2120-02",
+          "section_code": "02",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ARCALYD ROSE CAYABAN",
+            "FAISAL MOHAMMED SAIF AL RASHDI",
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2120-02:387413b26d78",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2120-02:0f90abc50182",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2125",
+      "title": "Pharmacology I",
+      "sections": [
+        {
+          "section_id": "NURS2125-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "RAYA SAIF HASHIL AL MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2125-01:0780af8e65d2",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "60",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2135",
+      "title": "Pharmacology II",
+      "sections": [
+        {
+          "section_id": "NURS2135-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "YOUSRA AHMED REYAD NOMIR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2135-01:85b1a8fa5486",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "61",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2145",
+      "title": "Fundamentals of Nursing -Theory",
+      "sections": [
+        {
+          "section_id": "NURS2145-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ASMA SALIM MOHAMMED AL YAHYAEI",
+            "OMAR SHAWKAT MOHAMMAD ALOMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2145-01:1ab454981e02",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS2145-01:d2c052b08635",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "65",
+            "maximum": "65"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS2150",
+      "title": "Fundamentals of Nursing- Clinical",
+      "sections": [
+        {
+          "section_id": "NURS2150-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "OMAR SHAWKAT MOHAMMAD ALOMARI",
+            "FATEMA HAMED SALIM ALABRI",
+            "Sharifa Ibrahim Moosa Albalushi",
+            "ARWA ATEF SULTAN OBEIDAT"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2150-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2150-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "25",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS2150-02",
+          "section_code": "02",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "OMAR SHAWKAT MOHAMMAD ALOMARI",
+            "FATEMA HAMED SALIM ALABRI",
+            "Sharifa Ibrahim Moosa Albalushi",
+            "ARWA ATEF SULTAN OBEIDAT"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS2150-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS2150-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3014",
+      "title": "Adult Health Nursing (2)",
+      "sections": [
+        {
+          "section_id": "NURS3014-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "SALMA JUMA FADHIL AL MUKHAINI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3014-01:4243f068ccea",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3014-01:88de9c60fe64",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "61",
+            "maximum": "61"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3015",
+      "title": "Adult Health Nursing (2)/ Clinical",
+      "sections": [
+        {
+          "section_id": "NURS3015-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "HEMA ROSLIN GEORGE",
+            "ANOUD SAID KHAMIS AL ABDUL SALLAM",
+            "SALMA JUMA FADHIL AL MUKHAINI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3015-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3015-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "31",
+            "maximum": "53"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3015-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "HEMA ROSLIN GEORGE",
+            "ANOUD SAID KHAMIS AL ABDUL SALLAM",
+            "SALMA JUMA FADHIL AL MUKHAINI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3015-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3015-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "53"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3018",
+      "title": "Maternal Health Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3018-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "IMAN HAMDOON HAMED AL-HASHMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3018-01:a0f55744f954",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3018-01:72a57457d34d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3019",
+      "title": "Maternal Health Nursing / Clinical",
+      "sections": [
+        {
+          "section_id": "NURS3019-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "DIVYA RAGHAVAN",
+            "SOPHIA CYRIL VINCENT",
+            "AISHA MOHAWISH RASHED ALSHDEFAT",
+            "OLABISI IBITOYE",
+            "SAVITHRI RAMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3019-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3019-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3019-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "DIVYA RAGHAVAN",
+            "SOPHIA CYRIL VINCENT",
+            "AISHA MOHAWISH RASHED ALSHDEFAT",
+            "OLABISI IBITOYE",
+            "SAVITHRI RAMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3019-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3019-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3020",
+      "title": "Child Health Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3020-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ERNA JUDITH ROACH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3020-01:f00dbdfa0458",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3020-01:9ab916a48742",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "57",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3021",
+      "title": "Child Health Nursing / Clinical",
+      "sections": [
+        {
+          "section_id": "NURS3021-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ERNA JUDITH ROACH",
+            "SHEEBA ELIZABETH JOHN SUNDERRAJ",
+            "SAFIYA TARESH GHALIB AL YAQOUBI",
+            "LINA (M.WALI) (M.AMIN) SHAKMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3021-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3021-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "29",
+            "maximum": "29"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3021-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "SHEEBA ELIZABETH JOHN SUNDERRAJ",
+            "JUDIE ARULAPPAN",
+            "SAFIYA TARESH GHALIB AL YAQOUBI",
+            "LINA (M.WALI) (M.AMIN) SHAKMAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3021-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3021-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3022",
+      "title": "Gerontological Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3022-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "MARYAM MOHAMMED HAMOOD AL-HARRASI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3022-01:21558739a2db",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "42",
+            "maximum": "44"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3024",
+      "title": "Nursing Research",
+      "sections": [
+        {
+          "section_id": "NURS3024-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "JUDIE ARULAPPAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3024-01:427a77437b32",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "0037",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3024-01:6c7edcb54bad",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "0037",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "38",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3125",
+      "title": "Growth and Development Across Life Span",
+      "sections": [
+        {
+          "section_id": "NURS3125-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ERNA JUDITH ROACH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3125-01:4a075b0036b8",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "66",
+            "maximum": "66"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3130",
+      "title": "Ethics and Contemporary Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3130-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "GERALD MATUA AMANDU"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3130-01:c188182251d2",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "49",
+            "maximum": "49"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3135",
+      "title": "Entrepreneurship and Innovation in Health care",
+      "sections": [
+        {
+          "section_id": "NURS3135-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "Fahad Said Ali Al Rasbi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3135-01:9f831ab80408",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "13",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3150",
+      "title": "Mental Health Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3150-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "BLESSY PRABHA VALSARAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3150-01:2b68fea4e505",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3150-01:441e0ecd169f",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3155",
+      "title": "Mental Health Nursing/ Clinical",
+      "sections": [
+        {
+          "section_id": "NURS3155-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "BLESSY PRABHA VALSARAJ",
+            "KHLOUD ABED ALHAKEM MOSTAFA ALDAMERY",
+            "RASHA ZAID MAHMOOUD ABUBAKER",
+            "IBTISAM YOUSUF HAMED AL HARTHY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3155-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3155-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "22",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3155-02",
+          "section_code": "02",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "BLESSY PRABHA VALSARAJ",
+            "KHLOUD ABED ALHAKEM MOSTAFA ALDAMERY",
+            "RASHA ZAID MAHMOOUD ABUBAKER",
+            "IBTISAM YOUSUF HAMED AL HARTHY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3155-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS3155-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "21",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3160",
+      "title": "Biostatistics and Epidemiology",
+      "sections": [
+        {
+          "section_id": "NURS3160-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "BASMA MOHAMMED ABDULLAH AL-YAZEEDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3160-01:07d86ff95fa8",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "80B",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3160-01:2496737daafb",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "80B",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "70",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3165",
+      "title": "Critical Thinking in Interprofessional Education",
+      "sections": [
+        {
+          "section_id": "NURS3165-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "WAFA HAMOOD SALEH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3165-01:cf52c521609d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "65",
+            "maximum": "67"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS3175",
+      "title": "Oncology Nursing",
+      "sections": [
+        {
+          "section_id": "NURS3175-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "FAWWAZ ABDELQADER ALALOUL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3175-01:e860812ec716",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "13",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4016",
+      "title": "Community Health Nursing",
+      "sections": [
+        {
+          "section_id": "NURS4016-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "SAMIA SALIM MOHAMMED AL HARRASI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4016-01:3ac9878a0beb",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS4016-01:9424e8f4a27e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "43",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4017",
+      "title": "Community Health Nursing/Clinical",
+      "sections": [
+        {
+          "section_id": "NURS4017-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "NASIR ASAD IBRAHIM MATANI",
+            "SAMIA SALIM MOHAMMED AL HARRASI",
+            "DEVANPRABUDOSS JESUDOSS",
+            "DIVYA KUZHIVILAYIL YESODHARAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4017-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS4017-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "21",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS4017-02",
+          "section_code": "02",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "NASIR ASAD IBRAHIM MATANI",
+            "SAMIA SALIM MOHAMMED AL HARRASI",
+            "DEVANPRABUDOSS JESUDOSS",
+            "DIVYA KUZHIVILAYIL YESODHARAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4017-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS4017-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "22",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4020",
+      "title": "Health Promotion and Health Education",
+      "sections": [
+        {
+          "section_id": "NURS4020-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "SAMIA SALIM MOHAMMED AL HARRASI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4020-01:d29a5a916c4f",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4021",
+      "title": "Nursing Informatics",
+      "sections": [
+        {
+          "section_id": "NURS4021-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "Ashraf Jehad Ibrahim Abuejheisheh",
+            "ANANDHI DEVA AMIRTHARAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4021-01:b092623fb048",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "80B",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS4021-01:be1de133195b",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "Nursing Lab",
+              "room": "80B",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "60",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS4021-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "ANANDHI DEVA AMIRTHARAJ"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4021-02:f92b83a9466d",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS4021-02:e52c935b128f",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4024",
+      "title": "Graduation Project",
+      "sections": [
+        {
+          "section_id": "NURS4024-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI",
+            "KHALOOD RASHID SAIF AL ABRI",
+            "SAMIA SALIM MOHAMMED AL HARRASI",
+            "ERNA JUDITH ROACH",
+            "FAWWAZ ABDELQADER ALALOUL",
+            "IMAN HAMDOON HAMED AL-HASHMI",
+            "BASMA MOHAMMED ABDULLAH AL-YAZEEDI",
+            "HUDA SALIM YAQOOB AL-NOU'MANI",
+            "ZEINAB NASSER SULAIMAN AL-AZRI",
+            "ZAINAB KHALIFA MOHAMMED AL KINDI",
+            "WAFA HAMOOD SALEH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4024-01:f3602b8d5001",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "59",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4135",
+      "title": "Global and Oman health care priorities",
+      "sections": [
+        {
+          "section_id": "NURS4135-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "ZAINAB KHALIFA MOHAMMED AL KINDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4135-01:814817bb8120",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4150",
+      "title": "Essentials of Critical Care Nursing",
+      "sections": [
+        {
+          "section_id": "NURS4150-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "EILEAN VICTORIA LAZARUS RATHINASAMY",
+            "OMAR ALI MOHAMMED ALZA'ABI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4150-01:5abd4f98bc69",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS4150-01:41f7aa61e7ac",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "LET67",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "60",
+            "maximum": "74"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS4155",
+      "title": "Essentials of Critical Care Nursing / Clinical",
+      "sections": [
+        {
+          "section_id": "NURS4155-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "DEVAKIRUBAI ELIZABETH JACOB",
+            "MALIHEH HORMOZ POORKIANI",
+            "SHREEDEVI BALACHANDRAN",
+            "NASSER MAJID DHAWI AL-SALMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4155-01:1555f9b2ce76",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS4155-01:bd9d6191c112",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "28",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS4155-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "DEVAKIRUBAI ELIZABETH JACOB",
+            "EILEAN VICTORIA LAZARUS RATHINASAMY",
+            "MALIHEH HORMOZ POORKIANI",
+            "SHREEDEVI BALACHANDRAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS4155-02:0e55fa1d1060",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS4155-02:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS5110",
+      "title": "Nursing Leadership and Management",
+      "sections": [
+        {
+          "section_id": "NURS5110-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "GERALD MATUA AMANDU"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS5110-01:f76e8b8a845a",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS5110-01:2ba871a76a42",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Nursing Lab",
+              "room": "0042",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "64",
+            "maximum": "80"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS5115",
+      "title": "Nursing Leadership and Management- Clinical",
+      "sections": [
+        {
+          "section_id": "NURS5115-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ARCALYD ROSE CAYABAN",
+            "CHERRY ANN BALLAD",
+            "FAISAL MOHAMMED SAIF AL RASHDI",
+            "GERALD MATUA AMANDU"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS5115-01:267495033850",
+              "type": "Field Work",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS5115-02",
+          "section_code": "02",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ARCALYD ROSE CAYABAN",
+            "CHERRY ANN BALLAD",
+            "FAISAL MOHAMMED SAIF AL RASHDI",
+            "GERALD MATUA AMANDU"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS5115-02:387df0093204",
+              "type": "Field Work",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "36",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS5120",
+      "title": "Transition to Professional Nursing Practice",
+      "sections": [
+        {
+          "section_id": "NURS5120-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI",
+            "HARSHITA PRABHAKARAN",
+            "FRINCY FRANCIS",
+            "PRABHAKARAN GIRIJA KALAYILMRS. MADHAVAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS5120-01:3f4a97fad7a7",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-01:b49045a7be88",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-01:ada4d7bb676b",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "62",
+            "maximum": "72"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS5120-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "NURS5120-02:eb01eb807285",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-02:986f27a36d7d",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-02:c86d3dfbe918",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-02:1ade85c62c41",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "2"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6110",
+      "title": "Advanced Health Assessment",
+      "sections": [
+        {
+          "section_id": "NURS6110-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "EILEAN VICTORIA LAZARUS RATHINASAMY",
+            "NASSER MAJID DHAWI AL-SALMI",
+            "OLABISI IBITOYE"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6110-01:aff5992c4534",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "1033",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS6110-01:d541422100f4",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "16:05",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "22",
+            "maximum": "26"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS6110-02",
+          "section_code": "02",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "NURS6110-02:ac861cf5e0fa",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS6110-02:2077f04e1e19",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "16:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6111",
+      "title": "Advanced Pathophysiology for Nursing Practice",
+      "sections": [
+        {
+          "section_id": "NURS6111-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "FAWWAZ ABDELQADER ALALOUL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6111-01:ebefc8391f4f",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "Nursing Lab",
+              "room": "1033",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "22",
+            "maximum": "26"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6123",
+      "title": "Roles in Advanced Nursing Practice",
+      "sections": [
+        {
+          "section_id": "NURS6123-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "MARYAM MOHAMMED HAMOOD AL-HARRASI",
+            "SALMA JUMA FADHIL AL MUKHAINI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6123-01:ea5ea664eb83",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "09:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "1033",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "14",
+            "maximum": "14"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6130",
+      "title": "Adult Acute Care Nursing II",
+      "sections": [
+        {
+          "section_id": "NURS6130-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "HUDA SALIM YAQOOB AL-NOU'MANI",
+            "ANANDHI DEVA AMIRTHARAJ",
+            "OMAR ALI MOHAMMED ALZA'ABI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6130-01:1ad7b44f89cc",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Nursing Lab",
+              "room": "1012",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS6130-01:44066f0c3c20",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "17:05",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS6130-01:48f3d79f8c3e",
+              "type": "Field Work",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "17:05",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "15"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6210",
+      "title": "Advanced Nursing Research Process and Evidence Based Practice",
+      "sections": [
+        {
+          "section_id": "NURS6210-01",
+          "section_code": "01",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ZEINAB NASSER SULAIMAN AL-AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6210-01:350d8450a6b6",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "13:00",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "1012",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "17",
+            "maximum": "17"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS6210-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "KHALOOD RASHID SAIF AL ABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6210-02:e461eb613543",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "13:00",
+              "end_time": "16:05",
+              "building": "Nursing Lab",
+              "room": "1031",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "1",
+            "maximum": "17"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6320",
+      "title": "Organization & Systems Leadership in Healthcare",
+      "sections": [
+        {
+          "section_id": "NURS6320-01",
+          "section_code": "01",
+          "department": "Department of Fundamentals and Administration",
+          "instructors": [
+            "ASMA SALIM MOHAMMED AL YAHYAEI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6320-01:12d869e64527",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "09:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "1",
+            "maximum": "15"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS6420",
+      "title": "Health Promotion in Advanced Practice Nursing",
+      "sections": [
+        {
+          "section_id": "NURS6420-01",
+          "section_code": "01",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "WAFA HAMOOD SALEH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS6420-01:dd0165d92a95",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS7001",
+      "title": "Master's Thesis",
+      "sections": [
+        {
+          "section_id": "NURS7001-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "Zakariya Yaqoob Nasser Alnaamani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS7001-01:c3dbc6dd1371",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "7",
+            "maximum": "15"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "NURS7002",
+      "title": "Master's Thesis",
+      "sections": [
+        {
+          "section_id": "NURS7002-01",
+          "section_code": "01",
+          "department": "Department of Adult Health and Critical Care",
+          "instructors": [
+            "EILEAN VICTORIA LAZARUS RATHINASAMY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS7002-01:ffb0b4d40058",
+              "type": "Project",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "8",
+            "maximum": "8"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    }
+  ]
+}
