@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:15:19.744977Z",
+  "generated_at": "2026-09-14T10:38:29.422831Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,16 +11,16 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-law-all-departments-english\\preview-response.html",
-        "sha256": "d458f487607bd2fa7812fdd5b60e754965192eb6d6eda95c986dacec47a8e53b"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-law-all-departments-english\\preview-response.html",
+        "sha256": "7dabe7567b8c1ac0134d05cfce06701e966d0ac8a1b513f7b48f007d179710c0"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-law-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "205976617b35e372ce7b1e4a54c7d1762f7d185eda417976d326f9c9230e265e"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-law-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "3ed6430a4528291c75ad8b9cd38e8409ceae21c2a465c6f683662b82271b3cfd"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-law-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "52ed871cd6c2ca67427b131076d6f54b59a05472961690330d9342ba08ae20c2"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-law-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "023dc7787252cd6970bbac96facd3c3005fd09c8fbef9b6038bd3b0fe3bc9d98"
       }
     ]
   },
@@ -62,7 +62,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "10",
+            "current": "12",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -98,7 +98,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -134,7 +134,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "14",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -170,7 +170,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -206,7 +206,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -278,7 +278,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "10",
+            "current": "11",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -350,7 +350,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "11",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -494,7 +494,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -566,7 +566,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "14",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -780,7 +780,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "1",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -829,7 +829,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "28",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1001,7 +1001,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "29",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1050,7 +1050,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "28",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1136,7 +1136,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "33",
+            "current": "35",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1150,7 +1150,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "PRLW2001-04:05d50164ad5f",
+              "meeting_id": "PRLW2001-04:5a736749927f",
               "type": "LEC",
               "days": [
                 "MON"
@@ -1158,12 +1158,12 @@
               "start_time": "08:00",
               "end_time": "09:50",
               "building": "G Common Teaching",
-              "room": "G24",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "PRLW2001-04:1cb01d8497cf",
+              "meeting_id": "PRLW2001-04:4aad6c399aa6",
               "type": "LAB",
               "days": [
                 "WED"
@@ -1171,7 +1171,7 @@
               "start_time": "08:00",
               "end_time": "09:50",
               "building": "G Common Teaching",
-              "room": "G24",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -1179,7 +1179,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
+            "current": "35",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1193,7 +1193,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "PRLW2001-05:0da2faed6a7f",
+              "meeting_id": "PRLW2001-05:29d19aac67be",
               "type": "LAB",
               "days": [
                 "MON"
@@ -1201,12 +1201,12 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "G Common Teaching",
-              "room": "G24",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "PRLW2001-05:6efeac71d2c8",
+              "meeting_id": "PRLW2001-05:1ecc2f513efd",
               "type": "LEC",
               "days": [
                 "WED"
@@ -1214,7 +1214,7 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "G Common Teaching",
-              "room": "G24",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -1400,7 +1400,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
+            "current": "42",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1443,7 +1443,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "42",
+            "current": "40",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1578,8 +1578,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "55"
+            "current": "38",
+            "maximum": "51"
           },
           "meeting_status": "scheduled"
         },
@@ -1621,7 +1621,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1664,7 +1664,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1707,7 +1707,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "43",
+            "current": "41",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1799,7 +1799,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
+            "current": "37",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1842,7 +1842,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
+            "current": "33",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1885,7 +1885,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1928,7 +1928,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "12",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2020,8 +2020,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
-            "maximum": "57"
+            "current": "43",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -2034,7 +2034,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "PRLW3007-02:02d17a40e310",
+              "meeting_id": "PRLW3007-02:363a238bd7b9",
               "type": "LEC",
               "days": [
                 "MON"
@@ -2042,12 +2042,12 @@
               "start_time": "10:00",
               "end_time": "11:20",
               "building": "G Common Teaching",
-              "room": "G20",
+              "room": "G24",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "PRLW3007-02:09ba02fb3f61",
+              "meeting_id": "PRLW3007-02:d33492e55ddf",
               "type": "LEC",
               "days": [
                 "WED"
@@ -2055,7 +2055,7 @@
               "start_time": "10:00",
               "end_time": "11:20",
               "building": "G Common Teaching",
-              "room": "G20",
+              "room": "G24",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -2063,7 +2063,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "38",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2106,7 +2106,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "29",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2149,7 +2149,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "34",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2192,7 +2192,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "42",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2333,7 +2333,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2376,7 +2376,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "55",
+            "current": "52",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2419,7 +2419,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "51",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2462,7 +2462,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "31",
+            "current": "37",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2505,7 +2505,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
+            "current": "44",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2554,7 +2554,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "25",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2597,7 +2597,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "36",
+            "current": "39",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2640,7 +2640,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
+            "current": "41",
             "maximum": "51"
           },
           "meeting_status": "scheduled"
@@ -2683,7 +2683,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
+            "current": "42",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2726,7 +2726,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "43",
+            "current": "44",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2818,8 +2818,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
-            "maximum": "31"
+            "current": "38",
+            "maximum": "38"
           },
           "meeting_status": "scheduled"
         },
@@ -2904,7 +2904,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "31",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2947,7 +2947,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "42",
+            "current": "44",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2990,7 +2990,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "46",
+            "current": "50",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3033,7 +3033,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "26",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3053,7 +3053,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "PRLW4101-01:264859bfa7d7",
+              "meeting_id": "PRLW4101-01:5b942c92b8db",
               "type": "LEC",
               "days": [
                 "MON"
@@ -3061,12 +3061,12 @@
               "start_time": "08:00",
               "end_time": "09:20",
               "building": "G Common Teaching",
-              "room": "G20",
+              "room": "G24",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "PRLW4101-01:1cbcb5351515",
+              "meeting_id": "PRLW4101-01:5adb70cbdb2a",
               "type": "LEC",
               "days": [
                 "WED"
@@ -3074,7 +3074,7 @@
               "start_time": "08:00",
               "end_time": "09:20",
               "building": "G Common Teaching",
-              "room": "G20",
+              "room": "G24",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -3082,7 +3082,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "22",
+            "current": "19",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3125,7 +3125,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "25",
+            "current": "27",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3168,7 +3168,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "10",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3188,37 +3188,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "PRLW4116-01:3b8d041527cc",
+              "meeting_id": "PRLW4116-01:4eeb25685bfb",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "08:00",
               "end_time": "09:20",
-              "building": "G Common Teaching",
-              "room": "G19",
-              "room_type": "Classroom",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
               "location_status": "known"
             },
             {
-              "meeting_id": "PRLW4116-01:481067d34f00",
+              "meeting_id": "PRLW4116-01:689f99021116",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "10:00",
               "end_time": "11:20",
-              "building": "G Common Teaching",
-              "room": "G23",
-              "room_type": "Classroom",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
               "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "69",
-            "maximum": "71"
+            "current": "86",
+            "maximum": "150"
           },
           "meeting_status": "scheduled"
         }
@@ -3310,7 +3310,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "5",
-            "maximum": "30"
+            "maximum": "5"
           },
           "meeting_status": "scheduled"
         },
@@ -3352,7 +3352,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "10",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3393,8 +3393,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
-            "maximum": "20"
+            "current": "11",
+            "maximum": "9"
           },
           "meeting_status": "scheduled"
         },
@@ -3434,8 +3434,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
-            "maximum": "30"
+            "current": "2",
+            "maximum": "8"
           },
           "meeting_status": "scheduled"
         }
@@ -3483,7 +3483,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
+            "current": "40",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3526,7 +3526,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "43",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -3569,7 +3569,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
+            "current": "39",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -3618,8 +3618,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "53",
-            "maximum": "55"
+            "current": "47",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -3661,8 +3661,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "45",
-            "maximum": "55"
+            "current": "53",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         }
@@ -3710,8 +3710,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "55",
-            "maximum": "55"
+            "current": "56",
+            "maximum": "56"
           },
           "meeting_status": "scheduled"
         },
@@ -3753,8 +3753,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "43",
-            "maximum": "43"
+            "current": "54",
+            "maximum": "56"
           },
           "meeting_status": "scheduled"
         },
@@ -3796,8 +3796,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "72"
+            "current": "56",
+            "maximum": "56"
           },
           "meeting_status": "scheduled"
         },
@@ -3840,7 +3840,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "40",
-            "maximum": "72"
+            "maximum": "56"
           },
           "meeting_status": "scheduled"
         }
@@ -3888,8 +3888,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
-            "maximum": "52"
+            "current": "35",
+            "maximum": "57"
           },
           "meeting_status": "scheduled"
         },
@@ -3931,8 +3931,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
-            "maximum": "52"
+            "current": "16",
+            "maximum": "57"
           },
           "meeting_status": "scheduled"
         },
@@ -3974,8 +3974,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "56",
+            "maximum": "57"
           },
           "meeting_status": "scheduled"
         },
@@ -4017,8 +4017,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "38",
-            "maximum": "52"
+            "current": "45",
+            "maximum": "57"
           },
           "meeting_status": "scheduled"
         },
@@ -4060,8 +4060,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "58",
+            "maximum": "58"
           },
           "meeting_status": "scheduled"
         }
@@ -4109,8 +4109,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "59",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4191,8 +4191,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "58",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         }
@@ -4240,8 +4240,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "40"
+            "current": "58",
+            "maximum": "58"
           },
           "meeting_status": "scheduled"
         },
@@ -4283,8 +4283,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "40"
+            "current": "54",
+            "maximum": "58"
           },
           "meeting_status": "scheduled"
         },
@@ -4326,8 +4326,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "40"
+            "current": "50",
+            "maximum": "58"
           },
           "meeting_status": "scheduled"
         }
@@ -4375,7 +4375,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "32",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -4461,7 +4461,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "28",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -4590,7 +4590,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "42",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -4639,8 +4639,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
-            "maximum": "50"
+            "current": "48",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4682,8 +4682,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "50"
+            "current": "52",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4725,8 +4725,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "50"
+            "current": "55",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4768,8 +4768,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "50"
+            "current": "57",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4948,8 +4948,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "59",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         },
@@ -4991,8 +4991,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
-            "maximum": "52"
+            "current": "60",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         }
@@ -5040,7 +5040,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "39",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5083,7 +5083,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "39",
+            "current": "50",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5126,7 +5126,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "54",
             "maximum": "57"
           },
           "meeting_status": "scheduled"

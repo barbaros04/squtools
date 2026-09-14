@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:15:59.866175Z",
+  "generated_at": "2026-09-14T10:38:43.940868Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,23 +11,23 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\preview-response.html",
-        "sha256": "7bf15e86c4b1258c35d96c159fce3ede31441ac322b677729872e9c9dab0fda6"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\preview-response.html",
+        "sha256": "95c0fb08c3f51c65298b4f8f99de54cca60b37d3a78d6d72b91377fa765afb46"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "cea930adf64356a25063202d818cf3b344d5f50009e3b789abf1c3a55f595265"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "f2e0a29351d36900dd483977b3cdcec2f5e4e38d9fb66588346773d224866bbc"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "478beaa77716d62b153afaa17f5ed0f3a5906abcde4389599a7464a9881eb4a0"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "22f5a977e8fa09d2264d0e7210e8831d17def928fa90303b86a358fe176522c1"
       }
     ]
   },
   "record_counts": {
-    "courses": 58,
-    "sections": 76,
-    "meetings": 193,
+    "courses": 59,
+    "sections": 77,
+    "meetings": 194,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 0,
     "collapsed_co_taught_rows": 33
@@ -303,7 +303,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "EPIS6000-01:292283ba04a3",
+              "meeting_id": "EPIS6000-01:96d6fd02d869",
               "type": "LEC",
               "days": [
                 "SUN"
@@ -311,12 +311,12 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "Medicine",
-              "room": "1085",
+              "room": "1106",
               "room_type": "Computer Room",
               "location_status": "known"
             },
             {
-              "meeting_id": "EPIS6000-01:8f7d8bc1954a",
+              "meeting_id": "EPIS6000-01:ea69325ffcae",
               "type": "LAB",
               "days": [
                 "WED"
@@ -324,7 +324,7 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "Medicine",
-              "room": "1085",
+              "room": "1106",
               "room_type": "Computer Room",
               "location_status": "known"
             }
@@ -332,8 +332,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "25"
+            "current": "34",
+            "maximum": "50"
           },
           "meeting_status": "scheduled"
         }
@@ -381,7 +381,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "26",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -430,7 +430,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -445,42 +445,40 @@
           "section_id": "EPIS6008-01",
           "section_code": "01",
           "department": "Department of Family Medicine & Public Health",
-          "instructors": [
-            "MOON FAI CHAN"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "EPIS6008-01:cd71a8258ba2",
+              "meeting_id": "EPIS6008-01:3d665e29ffaf",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "Faculty Room",
-              "room": "FRM",
-              "room_type": "Seminar Room",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
               "location_status": "unknown"
             },
             {
-              "meeting_id": "EPIS6008-01:f6a3b1a31ee3",
+              "meeting_id": "EPIS6008-01:a3ee5c3522f2",
               "type": "Tutorial",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "17:05",
-              "building": "Faculty Room",
-              "room": "FRM",
-              "room_type": "Seminar Room",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
               "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
-            "maximum": "15"
+            "current": "0",
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -587,7 +585,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -636,7 +634,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "5"
           },
           "meeting_status": "scheduled"
@@ -704,7 +702,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -902,6 +900,42 @@
           "enrollment": {
             "current": "4",
             "maximum": "4"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHYL8001",
+      "title": "PhD Thesis",
+      "sections": [
+        {
+          "section_id": "PHYL8001-01",
+          "section_code": "01",
+          "department": "Department of Physiology",
+          "instructors": [
+            "Majid Khamis Ali Al Salmani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHYL8001-01:dadef929026f",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "3",
+            "maximum": "3000"
           },
           "meeting_status": "scheduled"
         }
@@ -1113,7 +1147,9 @@
           "section_id": "HAEM4201-01",
           "section_code": "01",
           "department": "Department of Biomedical Science",
-          "instructors": [],
+          "instructors": [
+            "MUNA MOHAMED SALIM AL-MASKARI"
+          ],
           "meetings": [
             {
               "meeting_id": "HAEM4201-01:7069676964a6",
@@ -1145,7 +1181,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "4",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1194,7 +1230,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1243,7 +1279,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "6",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -1292,7 +1328,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "6",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -1341,8 +1377,8 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
-            "maximum": "1"
+            "current": "2",
+            "maximum": "5"
           },
           "meeting_status": "scheduled"
         }
@@ -1389,7 +1425,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "1"
+            "maximum": "5"
           },
           "meeting_status": "scheduled"
         }
@@ -1535,7 +1571,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "24",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1722,7 +1758,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "69",
+            "current": "70",
             "maximum": "70"
           },
           "meeting_status": "scheduled"
@@ -1798,7 +1834,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1868,7 +1904,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "45",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1938,7 +1974,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "45",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2008,7 +2044,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "40",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2234,8 +2270,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "150",
-            "maximum": "150"
+            "current": "160",
+            "maximum": "161"
           },
           "meeting_status": "scheduled"
         }
@@ -2296,7 +2332,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "54",
+            "current": "55",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2578,7 +2614,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
+            "current": "33",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -2866,7 +2902,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "34",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3072,7 +3108,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "5",
             "maximum": "9999"
           },
           "meeting_status": "scheduled"
@@ -3134,7 +3170,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "146",
+            "current": "142",
             "maximum": "150"
           },
           "meeting_status": "scheduled"
@@ -3461,7 +3497,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "42",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3530,7 +3566,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "50",
+            "current": "49",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -3684,7 +3720,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "154",
+            "current": "155",
             "maximum": "160"
           },
           "meeting_status": "scheduled"
@@ -3825,7 +3861,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3936,7 +3972,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -4096,7 +4132,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4182,7 +4218,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "26",
             "maximum": "55"
           },
           "meeting_status": "scheduled"

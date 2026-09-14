@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:18:43.140601Z",
+  "generated_at": "2026-09-14T10:34:53.608824Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,23 +11,23 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-center-for-preparatory-studies-all-departments-english\\preview-response.html",
-        "sha256": "41e8eae6bbb9a2085465ef505031173aa7e4495df77b0a9dcc4b31faff050e1e"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\center-for-preparatory-studies-all-departments-english\\preview-response.html",
+        "sha256": "35382e803423b4ceef4a2a51495c024b8e02b61f452610ce3ee32b911288e1d2"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-center-for-preparatory-studies-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "05a3e4210c70f12c0c8a9cf75d38019be2a6a9b711bae36d482a1be225164192"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\center-for-preparatory-studies-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "566ad8c0d8ba7f86996456bf3d54f38a5ae3ec0ba7ddf7e8ad70eddb04681aa5"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-center-for-preparatory-studies-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "61856160d294aa6d88b50325f690ba068e97a5726f37e625a144ba167412a514"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\center-for-preparatory-studies-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "118f795a89178ae13768e4100de078a215859d8ffaad196d7008acbf6a5325b7"
       }
     ]
   },
   "record_counts": {
     "courses": 45,
-    "sections": 480,
-    "meetings": 2031,
+    "sections": 484,
+    "meetings": 2043,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 0,
     "collapsed_co_taught_rows": 0
@@ -75,7 +75,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -118,7 +118,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -505,7 +505,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -591,7 +591,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -1021,7 +1021,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -1451,7 +1451,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -1666,7 +1666,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -1762,7 +1762,7 @@
           "section_code": "41",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Abdul Mutalib Sharaf Ali Al Musawi"
+            "Abdul mutalib Sharaf Ali Al Musawi"
           ],
           "meetings": [
             {
@@ -1838,7 +1838,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -1848,7 +1848,7 @@
           "section_code": "43",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Abdul Mutalib Sharaf Ali Al Musawi"
+            "Abdul mutalib Sharaf Ali Al Musawi"
           ],
           "meetings": [
             {
@@ -2715,7 +2715,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -3928,7 +3928,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -4339,7 +4339,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "15",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -4607,7 +4607,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -5010,7 +5010,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -5146,7 +5146,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -5158,121 +5158,121 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0560-08:9c928efa5212",
+              "meeting_id": "FPEH0560-08:ac861cf5e0fa",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:2838ab12d013",
+              "meeting_id": "FPEH0560-08:005adfb77261",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:0760e00d35c7",
+              "meeting_id": "FPEH0560-08:449036037ea1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:07bbbe1af06f",
+              "meeting_id": "FPEH0560-08:3d665e29ffaf",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:711d843bb076",
+              "meeting_id": "FPEH0560-08:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:1a35a7bbe28a",
+              "meeting_id": "FPEH0560-08:60c408164f38",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:24f58d037c37",
+              "meeting_id": "FPEH0560-08:35a347392d6a",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:066ea5c496ee",
+              "meeting_id": "FPEH0560-08:5c3345575010",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-08:d0feadc9c936",
+              "meeting_id": "FPEH0560-08:ed1f44e7d5dc",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -5290,121 +5290,121 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0560-09:73bd0fb4ba8c",
+              "meeting_id": "FPEH0560-09:18670c19ab17",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:47fd0b6805b8",
+              "meeting_id": "FPEH0560-09:bb1be7211404",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:4b5c979c3767",
+              "meeting_id": "FPEH0560-09:6d2f15fb87b1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:36046bf1c738",
+              "meeting_id": "FPEH0560-09:87b6b22d7823",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:c23c67b3dd01",
+              "meeting_id": "FPEH0560-09:fb0940b1043f",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:1a4c97392908",
+              "meeting_id": "FPEH0560-09:1cc973de7b2b",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:e791d48ad73d",
+              "meeting_id": "FPEH0560-09:68c5c6b75634",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:c7be5f7c420b",
+              "meeting_id": "FPEH0560-09:9c42f211f35a",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-09:5134fcd576e3",
+              "meeting_id": "FPEH0560-09:c08014d64bf9",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -5422,121 +5422,121 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0560-10:aa61a8cd08a6",
+              "meeting_id": "FPEH0560-10:ac861cf5e0fa",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:78abf8f0efc5",
+              "meeting_id": "FPEH0560-10:005adfb77261",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:625c70e9ae56",
+              "meeting_id": "FPEH0560-10:449036037ea1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:3feddd9af2c7",
+              "meeting_id": "FPEH0560-10:3d665e29ffaf",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:3cec7477fdf1",
+              "meeting_id": "FPEH0560-10:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:87bfef1748ee",
+              "meeting_id": "FPEH0560-10:60c408164f38",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:8bca849fb7c7",
+              "meeting_id": "FPEH0560-10:35a347392d6a",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:8d5455d1d2ea",
+              "meeting_id": "FPEH0560-10:5c3345575010",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0560-10:2c8142ebdc31",
+              "meeting_id": "FPEH0560-10:ed1f44e7d5dc",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E39",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -5979,7 +5979,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -6049,7 +6049,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -6285,7 +6285,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -6521,69 +6521,69 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0603-10:0995fe9c00d9",
+              "meeting_id": "FPEH0603-10:ac861cf5e0fa",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-10:b59f5980fe90",
+              "meeting_id": "FPEH0603-10:005adfb77261",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-10:994be77b6112",
+              "meeting_id": "FPEH0603-10:35a347392d6a",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-10:d61dc0d072e3",
+              "meeting_id": "FPEH0603-10:5c3345575010",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-10:125a91335616",
+              "meeting_id": "FPEH0603-10:ed1f44e7d5dc",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -6601,56 +6601,56 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0603-11:f7c586b92afa",
+              "meeting_id": "FPEH0603-11:6d2f15fb87b1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-11:5d4887049c59",
+              "meeting_id": "FPEH0603-11:87b6b22d7823",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-11:5b3d3928e9d1",
+              "meeting_id": "FPEH0603-11:0826636f8865",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-11:e44b6d636db2",
+              "meeting_id": "FPEH0603-11:e402003c2e9b",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -6668,56 +6668,56 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPEH0603-12:582dbeec0aa2",
+              "meeting_id": "FPEH0603-12:4122a460355f",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-12:2a0f281e9f1e",
+              "meeting_id": "FPEH0603-12:c6e798481cd8",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-12:2cd330e33d24",
+              "meeting_id": "FPEH0603-12:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPEH0603-12:2b8877ecb4a5",
+              "meeting_id": "FPEH0603-12:60c408164f38",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -6865,7 +6865,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -7000,7 +7000,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -7541,7 +7541,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -8762,7 +8762,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -9032,7 +9032,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9167,7 +9167,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -10653,7 +10653,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -10924,7 +10924,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -11059,7 +11059,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -11195,7 +11195,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -11330,7 +11330,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -13536,10 +13536,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-04:d8c099d4ad1d",
+              "meeting_id": "FPES0450-04:e596e82fcd94",
               "type": "LEC",
               "days": [
-                "THU"
+                "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
@@ -13549,10 +13549,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-04:e596e82fcd94",
+              "meeting_id": "FPES0450-04:d8c099d4ad1d",
               "type": "LEC",
               "days": [
-                "SUN"
+                "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
@@ -13575,15 +13575,15 @@
           "section_code": "05",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "BALAJI KUPPUSWAMI SRINIVASAN",
-            "MEHER BEN LAKHDHAR"
+            "MEHER BEN LAKHDHAR",
+            "BALAJI KUPPUSWAMI SRINIVASAN"
           ],
           "meetings": [
             {
-              "meeting_id": "FPES0450-05:eafd99d1440f",
+              "meeting_id": "FPES0450-05:a56d65c3c8c6",
               "type": "LEC",
               "days": [
-                "MON"
+                "WED"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
@@ -13593,10 +13593,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-05:a56d65c3c8c6",
+              "meeting_id": "FPES0450-05:eafd99d1440f",
               "type": "LEC",
               "days": [
-                "WED"
+                "MON"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
@@ -14780,7 +14780,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -15466,23 +15466,9 @@
           "section_code": "19",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "SHAPOUR VAHDATI NEJAD",
-            "RAHMA ABDULLAH RASHID AL AAMRI"
+            "SHAPOUR VAHDATI NEJAD"
           ],
           "meetings": [
-            {
-              "meeting_id": "FPES0450-19:c8522be08006",
-              "type": "LEC",
-              "days": [
-                "WED"
-              ],
-              "start_time": "10:00",
-              "end_time": "11:50",
-              "building": "G Common Teaching",
-              "room": "G30",
-              "room_type": "Classroom - Active Learning",
-              "location_status": "known"
-            },
             {
               "meeting_id": "FPES0450-19:11fe443a8e07",
               "type": "LEC",
@@ -15497,13 +15483,13 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-19:194661c4c6b3",
+              "meeting_id": "FPES0450-19:c8522be08006",
               "type": "LEC",
               "days": [
-                "MON"
+                "WED"
               ],
-              "start_time": "16:15",
-              "end_time": "18:05",
+              "start_time": "10:00",
+              "end_time": "11:50",
               "building": "G Common Teaching",
               "room": "G30",
               "room_type": "Classroom - Active Learning",
@@ -15523,13 +15509,13 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-19:177bb5a2bbdd",
+              "meeting_id": "FPES0450-19:194661c4c6b3",
               "type": "LEC",
               "days": [
-                "SUN"
+                "MON"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "16:15",
+              "end_time": "18:05",
               "building": "G Common Teaching",
               "room": "G30",
               "room_type": "Classroom - Active Learning",
@@ -15543,6 +15529,32 @@
               ],
               "start_time": "14:15",
               "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G30",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "FPES0450-19:177bb5a2bbdd",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G30",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "FPES0450-19:7d65d666a940",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
               "building": "G Common Teaching",
               "room": "G30",
               "room_type": "Classroom - Active Learning",
@@ -15573,19 +15585,6 @@
               "room": "G30",
               "room_type": "Classroom - Active Learning",
               "location_status": "known"
-            },
-            {
-              "meeting_id": "FPES0450-19:7d65d666a940",
-              "type": "LEC",
-              "days": [
-                "SUN"
-              ],
-              "start_time": "08:00",
-              "end_time": "09:50",
-              "building": "G Common Teaching",
-              "room": "G30",
-              "room_type": "Classroom - Active Learning",
-              "location_status": "known"
             }
           ],
           "credit_hours": "0.0",
@@ -15602,22 +15601,9 @@
           "department": "English For Science Department(CPS)",
           "instructors": [
             "SHAPOUR VAHDATI NEJAD",
-            "RAHMA ABDULLAH RASHID AL AAMRI"
+            "HANI MOHAMED HUSSEIN HASSAN"
           ],
           "meetings": [
-            {
-              "meeting_id": "FPES0450-20:6e316d45bdeb",
-              "type": "LEC",
-              "days": [
-                "WED"
-              ],
-              "start_time": "08:00",
-              "end_time": "09:50",
-              "building": "G Common Teaching",
-              "room": "G30",
-              "room_type": "Classroom - Active Learning",
-              "location_status": "known"
-            },
             {
               "meeting_id": "FPES0450-20:929b17be7d4b",
               "type": "LEC",
@@ -15632,13 +15618,13 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FPES0450-20:1ac290d53e25",
+              "meeting_id": "FPES0450-20:6e316d45bdeb",
               "type": "LEC",
               "days": [
-                "MON"
+                "WED"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "08:00",
+              "end_time": "09:50",
               "building": "G Common Teaching",
               "room": "G30",
               "room_type": "Classroom - Active Learning",
@@ -15649,6 +15635,19 @@
               "type": "LEC",
               "days": [
                 "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G30",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "FPES0450-20:1ac290d53e25",
+              "type": "LEC",
+              "days": [
+                "MON"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
@@ -15726,7 +15725,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -17077,7 +17076,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -17360,121 +17359,121 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPES0560-13:23f261187459",
+              "meeting_id": "FPES0560-13:18670c19ab17",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:7f45e9336994",
+              "meeting_id": "FPES0560-13:bb1be7211404",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:e681a74fad92",
+              "meeting_id": "FPES0560-13:6d2f15fb87b1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:6713801070f3",
+              "meeting_id": "FPES0560-13:87b6b22d7823",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:a6a299653b7b",
+              "meeting_id": "FPES0560-13:fb0940b1043f",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:56002a00c7c8",
+              "meeting_id": "FPES0560-13:1cc973de7b2b",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:0edc4b9c5a62",
+              "meeting_id": "FPES0560-13:68c5c6b75634",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:09a68446c6a2",
+              "meeting_id": "FPES0560-13:9c42f211f35a",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-13:be8d37e5da35",
+              "meeting_id": "FPES0560-13:c08014d64bf9",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -17492,121 +17491,121 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPES0560-14:b7e0f44e3c6a",
+              "meeting_id": "FPES0560-14:ac861cf5e0fa",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:8bb780d151b3",
+              "meeting_id": "FPES0560-14:005adfb77261",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:d02a0ef0bf4c",
+              "meeting_id": "FPES0560-14:449036037ea1",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:9008dc591dd8",
+              "meeting_id": "FPES0560-14:3d665e29ffaf",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:1974b5d57a4d",
+              "meeting_id": "FPES0560-14:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:1a92e567aa1c",
+              "meeting_id": "FPES0560-14:60c408164f38",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:0ba779eb67f0",
+              "meeting_id": "FPES0560-14:35a347392d6a",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:7bd971b98721",
+              "meeting_id": "FPES0560-14:5c3345575010",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0560-14:dc1e55c535a4",
+              "meeting_id": "FPES0560-14:ed1f44e7d5dc",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:50",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -18890,7 +18889,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "20",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -19207,8 +19206,7 @@
           "department": "English For Science Department(CPS)",
           "instructors": [
             "AARON EMMANUEL FERRANTE",
-            "ROSE MESCHI",
-            "MOHAMMED ATHAR KHAN"
+            "RAHMA ABDULLAH RASHID AL AAMRI"
           ],
           "meetings": [
             {
@@ -19431,7 +19429,7 @@
           "department": "English For Science Department(CPS)",
           "instructors": [
             "AHMED BRAHIM",
-            "HANI MOHAMED HUSSEIN HASSAN"
+            "RAHMA ABDULLAH RASHID AL AAMRI"
           ],
           "meetings": [
             {
@@ -19736,7 +19734,7 @@
           "section_code": "13",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "ROSE MESCHI",
+            "RAHMA ABDULLAH RASHID AL AAMRI",
             "MAYA RAJU NAIR"
           ],
           "meetings": [
@@ -19892,7 +19890,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -19974,56 +19972,56 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "FPES0603-16:cbdbf4b4da49",
+              "meeting_id": "FPES0603-16:4122a460355f",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F35",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0603-16:c4360dcac9e1",
+              "meeting_id": "FPES0603-16:c6e798481cd8",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "13:00",
               "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F35",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0603-16:a1b64fa2dad2",
+              "meeting_id": "FPES0603-16:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F35",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "FPES0603-16:f8d3193c8f60",
+              "meeting_id": "FPES0603-16:60c408164f38",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F35",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "0.0",
@@ -20307,7 +20305,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -20317,7 +20315,7 @@
           "section_code": "03",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Salim Al Wahaibi"
+            "Salim Said Humaid Al Wahaibi"
           ],
           "meetings": [
             {
@@ -20485,7 +20483,7 @@
           "section_code": "06",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Khalid Khalifa Saif Albahri"
+            "khalid Khalifa Saif Albahri"
           ],
           "meetings": [
             {
@@ -20541,7 +20539,7 @@
           "section_code": "07",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Salim Al Wahaibi"
+            "Salim Said Humaid Al Wahaibi"
           ],
           "meetings": [
             {
@@ -20587,7 +20585,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -20709,7 +20707,7 @@
           "section_code": "10",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Nasra Abdullah Karboosh Al Siyabi"
+            "Nasra Abdullah Kharboosh AlSiyabi"
           ],
           "meetings": [
             {
@@ -20877,7 +20875,7 @@
           "section_code": "13",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Nasra Abdullah Karboosh Al Siyabi"
+            "Nasra Abdullah Kharboosh AlSiyabi"
           ],
           "meetings": [
             {
@@ -20923,7 +20921,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "15",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -20933,7 +20931,7 @@
           "section_code": "14",
           "department": "Mathematics and Information Technologyâ€™s (CPS)",
           "instructors": [
-            "Obaid Ali Rashid Alhosni"
+            "Obaid Ali Rashid AL-Hosni"
           ],
           "meetings": [
             {
@@ -21097,7 +21095,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -22223,7 +22221,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -22279,7 +22277,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -22447,7 +22445,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -23007,7 +23005,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "20",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -23231,7 +23229,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -23511,7 +23509,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -23689,7 +23687,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "115",
+            "current": "114",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23749,7 +23747,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "117",
+            "current": "119",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23779,7 +23777,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "115",
+            "current": "116",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23809,7 +23807,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "113",
+            "current": "112",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23839,7 +23837,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "114",
+            "current": "112",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23959,7 +23957,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "112",
+            "current": "113",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -23989,7 +23987,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "118",
+            "current": "120",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -24049,7 +24047,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "118",
+            "current": "116",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -24079,7 +24077,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "110",
+            "current": "109",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -24141,7 +24139,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "12",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24195,7 +24193,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "1",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24251,7 +24249,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "14",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24467,7 +24465,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "3",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24521,7 +24519,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24707,7 +24705,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -24763,7 +24761,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "18",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -24875,7 +24873,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -24931,7 +24929,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -24987,7 +24985,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -25043,7 +25041,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "41"
           },
           "meeting_status": "scheduled"
@@ -25209,7 +25207,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -25503,7 +25501,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25559,7 +25557,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25568,7 +25566,9 @@
           "section_id": "LANC1102-03",
           "section_code": "03",
           "department": "English For Humanities Department(CPS)",
-          "instructors": [],
+          "instructors": [
+            "WAFAA KHAMIS HAMDAN AL-THIHLI"
+          ],
           "meetings": [
             {
               "meeting_id": "LANC1102-03:990bfa79dd78",
@@ -25613,7 +25613,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "14",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25729,7 +25729,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "20",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -25741,50 +25741,50 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "LANC1103-02:85da8e63a868",
+              "meeting_id": "LANC1103-02:7656a343f47c",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "F Common Teaching",
-              "room": "F05",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC1103-02:d1eb08440e05",
+              "meeting_id": "LANC1103-02:f1723ca19682",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "F Common Teaching",
-              "room": "F05",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC1103-02:bcac01c3f18e",
+              "meeting_id": "LANC1103-02:87b6b22d7823",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "F Common Teaching",
-              "room": "F05",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "65"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         },
@@ -25839,7 +25839,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -26011,7 +26011,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -26067,7 +26067,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "17",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -26123,7 +26123,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -26297,7 +26297,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26521,7 +26521,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26577,7 +26577,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "13",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26633,7 +26633,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26805,7 +26805,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26861,7 +26861,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26917,7 +26917,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26973,7 +26973,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27139,7 +27139,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27251,7 +27251,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27313,7 +27313,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -27369,7 +27369,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27425,7 +27425,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -27481,7 +27481,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -27537,7 +27537,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -27593,7 +27593,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27602,9 +27602,7 @@
           "section_id": "LANC1120-07",
           "section_code": "07",
           "department": "English For Humanities Department(CPS)",
-          "instructors": [
-            "WAFAA KHAMIS HAMDAN AL-THIHLI"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "LANC1120-07:072ad7313210",
@@ -27705,7 +27703,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -27715,7 +27713,7 @@
           "section_code": "09",
           "department": "English For Humanities Department(CPS)",
           "instructors": [
-            "SONA SARGSYAN"
+            "SERAP YILDIRIM"
           ],
           "meetings": [
             {
@@ -27761,7 +27759,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -28043,7 +28041,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28155,7 +28153,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28211,7 +28209,63 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
+            "maximum": "42"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "LANC2007-08",
+          "section_code": "08",
+          "department": "English For Humanities Department(CPS)",
+          "instructors": [
+            "SONA SARGSYAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "LANC2007-08:85da8e63a868",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "F Common Teaching",
+              "room": "F05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2007-08:d1eb08440e05",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "F Common Teaching",
+              "room": "F05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2007-08:bcac01c3f18e",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "F Common Teaching",
+              "room": "F05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "13",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28273,7 +28327,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "12",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28385,7 +28439,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28441,7 +28495,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28497,7 +28551,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "16",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28609,7 +28663,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "42"
           },
           "meeting_status": "scheduled"
@@ -28665,6 +28719,62 @@
           "enrollment": {
             "current": "0",
             "maximum": "42"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "LANC2008-09",
+          "section_code": "09",
+          "department": "English For Humanities Department(CPS)",
+          "instructors": [
+            "VERONIKA OZHERELYEVA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "LANC2008-09:0516a191bf9a",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G29",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2008-09:2cd41fdf5b21",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G29",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2008-09:ea9d6f7440f2",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "15",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -28725,7 +28835,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -28735,7 +28845,7 @@
           "section_code": "02",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "CATHARINE GEORGINA BALDOCK"
+            "KRISTINA BAYBURTSYAN"
           ],
           "meetings": [
             {
@@ -28790,9 +28900,7 @@
           "section_id": "LANC2033-03",
           "section_code": "03",
           "department": "English For Science Department(CPS)",
-          "instructors": [
-            "KRISTINA BAYBURTSYAN"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "LANC2033-03:92dfff8ed4c8",
@@ -28837,7 +28945,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "0",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -28847,7 +28955,7 @@
           "section_code": "04",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "CATHARINE GEORGINA BALDOCK"
+            "KRISTINA BAYBURTSYAN"
           ],
           "meetings": [
             {
@@ -28893,7 +29001,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -28955,7 +29063,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "10",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29129,7 +29237,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "8",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29247,7 +29355,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29303,7 +29411,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "14",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29359,7 +29467,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29415,7 +29523,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29471,7 +29579,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29527,7 +29635,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29583,7 +29691,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "13",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29639,7 +29747,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29695,7 +29803,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29807,7 +29915,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29919,7 +30027,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -29975,7 +30083,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "15",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30087,7 +30195,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30143,7 +30251,115 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "9",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "LANC2058-18",
+          "section_code": "18",
+          "department": "English For Science Department(CPS)",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "LANC2058-18:adf319fc7b4c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "E Common Teaching",
+              "room": "E28",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2058-18:e5affc14f439",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "E Common Teaching",
+              "room": "E28",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2058-18:3dafcbebc3a6",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "E Common Teaching",
+              "room": "E28",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "17",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "LANC2058-19",
+          "section_code": "19",
+          "department": "English For Science Department(CPS)",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "LANC2058-19:d3e1a778f1a1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "C Common Teaching",
+              "room": "C23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2058-19:d819f03ef557",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "C Common Teaching",
+              "room": "C23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "LANC2058-19:ec7a4fe5adfb",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "C Common Teaching",
+              "room": "C23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30261,7 +30477,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -30317,7 +30533,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "18",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -30429,7 +30645,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -30485,7 +30701,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -30541,7 +30757,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -30597,7 +30813,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30765,7 +30981,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30877,7 +31093,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30933,7 +31149,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -30989,7 +31205,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -31101,7 +31317,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -31273,7 +31489,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -31335,7 +31551,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "15",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31391,7 +31607,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "5",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31509,7 +31725,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "10",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31621,7 +31837,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31677,7 +31893,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31789,7 +32005,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31845,7 +32061,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -31901,7 +32117,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -32347,7 +32563,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "19",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -32403,7 +32619,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -32459,7 +32675,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -32581,50 +32797,50 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "LANC2146-09:d3e1a778f1a1",
+              "meeting_id": "LANC2146-09:ac861cf5e0fa",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "C Common Teaching",
-              "room": "C23",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC2146-09:d819f03ef557",
+              "meeting_id": "LANC2146-09:005adfb77261",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "C Common Teaching",
-              "room": "C23",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC2146-09:ec7a4fe5adfb",
+              "meeting_id": "LANC2146-09:bac1230e0d70",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "C Common Teaching",
-              "room": "C23",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "45"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -32685,7 +32901,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -32909,7 +33125,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -32965,7 +33181,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33021,7 +33237,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33189,7 +33405,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33301,7 +33517,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33471,7 +33687,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33527,7 +33743,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33583,7 +33799,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33639,7 +33855,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33695,7 +33911,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33751,7 +33967,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33761,7 +33977,7 @@
           "section_code": "07",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "HANI MOHAMED HUSSEIN HASSAN"
+            "AHMED ABDEL RADY ALY"
           ],
           "meetings": [
             {
@@ -33807,7 +34023,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -33863,7 +34079,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -33919,7 +34135,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "15",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -33975,7 +34191,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -34031,7 +34247,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -34199,7 +34415,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -34209,7 +34425,7 @@
           "section_code": "15",
           "department": "English For Science Department(CPS)",
           "instructors": [
-            "AHMED ABDEL RADY ALY"
+            "HANI MOHAMED HUSSEIN HASSAN"
           ],
           "meetings": [
             {
@@ -34255,7 +34471,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -34311,7 +34527,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -34379,50 +34595,50 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "LANC2161-18:adf319fc7b4c",
+              "meeting_id": "LANC2161-18:7656a343f47c",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "E Common Teaching",
-              "room": "E28",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC2161-18:e5affc14f439",
+              "meeting_id": "LANC2161-18:f1723ca19682",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "E Common Teaching",
-              "room": "E28",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "LANC2161-18:3dafcbebc3a6",
+              "meeting_id": "LANC2161-18:87b6b22d7823",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
-              "building": "E Common Teaching",
-              "room": "E28",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "65"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         },
@@ -34524,7 +34740,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "10",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -34573,7 +34789,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "1",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -34691,7 +34907,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "12",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -34747,7 +34963,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "13",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -34801,7 +35017,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "1",
             "maximum": "72"
           },
           "meeting_status": "scheduled"

@@ -8,7 +8,7 @@
 | URL | <https://sis.squ.edu.om/SQU_CoursesSchedule.aspx> |
 | Access | Public ASP.NET Web Forms page; no login observed during initial investigation |
 | Intended coverage | Course offerings and their timetable report for a selected academic year/semester/college |
-| Observed retrieval | 2026-09-12 UTC (initial interface investigation only; no dataset retained) |
+| Observed retrieval | 2026-09-14 10:33–10:40 UTC; a complete Fall 2026/2027 collection is retained with raw captures, checksums, and collector Git revision |
 | Terms / constraints | Must be reviewed before automated collection; scraper must use a polite, bounded request rate and must not bypass access controls |
 
 ## Observed interface

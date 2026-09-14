@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:44:00.850048Z",
+  "generated_at": "2026-09-14T10:36:13.925564Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,26 +11,26 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-arts-and-social-sciences-all-departments-english-standard\\preview-response.html",
-        "sha256": "a95dbcd2f1c72fe71b850d3a19a52b71ba9a3a7b08785e5a110f101814c1a7d6"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-arts-and-social-sciences-all-departments-english\\preview-response.html",
+        "sha256": "c670fcf21df486e64c964fa60882fac1874ac4305d40629bdd8da20910dd922f"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-arts-and-social-sciences-all-departments-english-standard\\report-viewer-page-001.html",
-        "sha256": "81ff86620a748de8dae4e818bd7196f7eb60a5d2f17de72fba65673db375c71d"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-arts-and-social-sciences-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "a0b797108eb46877f4145768f814bdfde6cba65559d72d149f40bdbd65b37f6e"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-arts-and-social-sciences-all-departments-english-standard\\report-viewer-page-002.html",
-        "sha256": "e57573fa5a1e8aec9e0e56b632f3b2cb006aab56ab48207c07e76cdb2ba4c4b8"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-arts-and-social-sciences-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "57266037ee15c227d96f0a16d9f8bbd4d057ccb1cc5aee15f4d329297a9191c4"
       }
     ]
   },
   "record_counts": {
-    "courses": 351,
-    "sections": 801,
-    "meetings": 1338,
+    "courses": 354,
+    "sections": 806,
+    "meetings": 1348,
     "unscheduled_sections": 6,
     "duplicate_source_rows": 0,
-    "collapsed_co_taught_rows": 5
+    "collapsed_co_taught_rows": 3
   },
   "courses": [
     {
@@ -73,8 +73,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
-            "maximum": "40"
+            "current": "38",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -116,8 +116,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
-            "maximum": "40"
+            "current": "40",
+            "maximum": "46"
           },
           "meeting_status": "scheduled"
         }
@@ -183,28 +183,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB1021-01:477597254f9d",
+              "meeting_id": "ARAB1021-01:39a6c4bfcf8c",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F43",
+              "building": "G Common Teaching",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB1021-01:f9f8de0924e9",
+              "meeting_id": "ARAB1021-01:57160b51b24b",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F43",
+              "building": "G Common Teaching",
+              "room": "G20",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -212,8 +212,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "44",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -255,7 +255,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
+            "current": "34",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -298,7 +298,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
+            "current": "34",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -318,28 +318,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB1022-01:8da4dc76451d",
+              "meeting_id": "ARAB1022-01:02d9f811f434",
               "type": "LEC",
               "days": [
-                "THU"
+                "SUN"
               ],
-              "start_time": "08:00",
-              "end_time": "09:20",
-              "building": "F Common Teaching",
-              "room": "F14",
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "A Common Teaching",
+              "room": "A18",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB1022-01:ba2d9dec90a8",
+              "meeting_id": "ARAB1022-01:a46421103d66",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
-              "start_time": "10:00",
-              "end_time": "11:20",
-              "building": "F Common Teaching",
-              "room": "F14",
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "A Common Teaching",
+              "room": "A18",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -396,7 +396,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "138",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -568,7 +568,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "131",
+            "current": "135",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -611,7 +611,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "136",
+            "current": "140",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -654,7 +654,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "137",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -697,7 +697,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "129",
+            "current": "140",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -740,7 +740,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "133",
+            "current": "130",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -869,7 +869,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "129",
+            "current": "138",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -918,8 +918,49 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "40"
+            "current": "47",
+            "maximum": "47"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ARAB1357-02",
+          "section_code": "02",
+          "department": "Department of Arabic Language and Literature",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ARAB1357-02:838e01839496",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARAB1357-02:8eda27b0c57b",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "39",
+            "maximum": "43"
           },
           "meeting_status": "scheduled"
         }
@@ -967,8 +1008,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "47",
-            "maximum": "49"
+            "current": "52",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         }
@@ -1016,7 +1057,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "43",
+            "current": "39",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -1036,28 +1077,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB2031-01:5d0ed98bc5d1",
+              "meeting_id": "ARAB2031-01:be9236d64839",
               "type": "LEC",
               "days": [
                 "MON"
               ],
-              "start_time": "14:15",
-              "end_time": "15:35",
-              "building": "F Common Teaching",
-              "room": "F26",
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E15",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB2031-01:f2bf4aa4ac7a",
+              "meeting_id": "ARAB2031-01:3c85ecb4e066",
               "type": "LEC",
               "days": [
                 "WED"
               ],
-              "start_time": "14:15",
-              "end_time": "15:35",
-              "building": "F Common Teaching",
-              "room": "F26",
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E15",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -1065,8 +1106,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "40"
+            "current": "35",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1075,8 +1116,7 @@
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
           "instructors": [
-            "HAMOOD MOHAMMED ABDULLAH AL-RUMHI",
-            "MAKTOUM ALI MASOUD AL BADI"
+            "HAMOOD MOHAMMED ABDULLAH AL-RUMHI"
           ],
           "meetings": [
             {
@@ -1109,8 +1149,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
-            "maximum": "40"
+            "current": "44",
+            "maximum": "47"
           },
           "meeting_status": "scheduled"
         },
@@ -1152,8 +1192,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "42",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1195,8 +1235,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "37",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1236,8 +1276,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "36",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1279,8 +1319,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "31",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1289,8 +1329,7 @@
           "section_code": "07",
           "department": "Department of Arabic Language and Literature",
           "instructors": [
-            "HAMOOD MOHAMMED ABDULLAH AL-RUMHI",
-            "SHAROUK AAMIR KHAMIS AL QUTAITI"
+            "HAMOOD MOHAMMED ABDULLAH AL-RUMHI"
           ],
           "meetings": [
             {
@@ -1323,8 +1362,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "37",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         }
@@ -1338,15 +1377,13 @@
           "section_id": "ARAB2032-01",
           "section_code": "01",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [
-            "Mostafa Bouanani"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "ARAB2032-01:8d03bafbf2bc",
+              "meeting_id": "ARAB2032-01:0a9ec720c797",
               "type": "LEC",
               "days": [
-                "WED"
+                "MON"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
@@ -1356,10 +1393,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB2032-01:0a9ec720c797",
+              "meeting_id": "ARAB2032-01:8d03bafbf2bc",
               "type": "LEC",
               "days": [
-                "MON"
+                "WED"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
@@ -1382,8 +1419,7 @@
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
           "instructors": [
-            "Mostafa Bouanani",
-            "RWAN SAID NASSER AL SHUHOMI"
+            "Mostafa Bouanani"
           ],
           "meetings": [
             {
@@ -1416,7 +1452,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "44",
+            "current": "46",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -1502,8 +1538,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "50",
-            "maximum": "50"
+            "current": "52",
+            "maximum": "52"
           },
           "meeting_status": "scheduled"
         },
@@ -1545,8 +1581,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "48",
-            "maximum": "49"
+            "current": "54",
+            "maximum": "54"
           },
           "meeting_status": "scheduled"
         }
@@ -1614,28 +1650,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB2240-01:b31563991fa9",
+              "meeting_id": "ARAB2240-01:eb0a632061f5",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "Arts",
-              "room": "0018",
+              "building": "F Common Teaching",
+              "room": "F27",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB2240-01:7a88b4873910",
+              "meeting_id": "ARAB2240-01:0e973683be12",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "Arts",
-              "room": "0018",
+              "building": "F Common Teaching",
+              "room": "F27",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -1643,8 +1679,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "44",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         }
@@ -1692,7 +1728,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "18",
+            "current": "20",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -1741,8 +1777,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
-            "maximum": "40"
+            "current": "41",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1750,7 +1786,9 @@
           "section_id": "ARAB2350-02",
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Haitham Mohammad Qasim Jdaitawi"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB2350-02:30f4f8358fc4",
@@ -1783,7 +1821,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "35",
-            "maximum": "40"
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1791,7 +1829,9 @@
           "section_id": "ARAB2350-03",
           "section_code": "03",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Haitham Mohammad Qasim Jdaitawi"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB2350-03:8f1bdd8f595c",
@@ -1824,7 +1864,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "35",
-            "maximum": "40"
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -1864,8 +1904,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
-            "maximum": "40"
+            "current": "17",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         }
@@ -1913,7 +1953,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "34",
+            "current": "33",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1999,8 +2039,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
-            "maximum": "40"
+            "current": "37",
+            "maximum": "42"
           },
           "meeting_status": "scheduled"
         },
@@ -2042,7 +2082,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
+            "current": "33",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2100,7 +2140,9 @@
           "section_id": "ARAB2475-02",
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Haitham Mohammad Qasim Jdaitawi"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB2475-02:dee5a7a14a77",
@@ -2207,10 +2249,12 @@
           "section_id": "ARAB2793-03",
           "section_code": "03",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Mohammad Mohammad Abdelhalim Al Shobary"
+          ],
           "meetings": [
             {
-              "meeting_id": "ARAB2793-03:6aea0b6c4cc6",
+              "meeting_id": "ARAB2793-03:6a9caeeb3a90",
               "type": "LEC",
               "days": [
                 "WED"
@@ -2218,7 +2262,7 @@
               "start_time": "12:00",
               "end_time": "13:50",
               "building": "F Common Teaching",
-              "room": "F36",
+              "room": "F12",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -2226,8 +2270,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "40",
+            "maximum": "47"
           },
           "meeting_status": "scheduled"
         },
@@ -2256,7 +2300,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "49",
+            "current": "47",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -2305,7 +2349,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "42",
+            "current": "39",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -2338,7 +2382,7 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB3117-01:6a9caeeb3a90",
+              "meeting_id": "ARAB3117-01:bf46509b6365",
               "type": "LEC",
               "days": [
                 "WED"
@@ -2346,7 +2390,7 @@
               "start_time": "12:00",
               "end_time": "13:50",
               "building": "F Common Teaching",
-              "room": "F12",
+              "room": "F23",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -2363,7 +2407,9 @@
           "section_id": "ARAB3117-02",
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Mohammad Mohammad Abdelhalim Al Shobary"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB3117-02:e53df793c5d5",
@@ -2444,8 +2490,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "36",
-            "maximum": "40"
+            "current": "44",
+            "maximum": "44"
           },
           "meeting_status": "scheduled"
         },
@@ -2453,7 +2499,9 @@
           "section_id": "ARAB3348-02",
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Haitham Mohammad Qasim Jdaitawi"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB3348-02:02be5ddc6479",
@@ -2485,7 +2533,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "17",
+            "current": "14",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2534,7 +2582,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
+            "current": "40",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2577,8 +2625,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
-            "maximum": "40"
+            "current": "36",
+            "maximum": "41"
           },
           "meeting_status": "scheduled"
         },
@@ -2618,7 +2666,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "5",
+            "current": "0",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2661,7 +2709,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "21",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2767,37 +2815,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB3476-03:7e7e101798aa",
+              "meeting_id": "ARAB3476-03:477597254f9d",
               "type": "LEC",
               "days": [
                 "MON"
               ],
-              "start_time": "10:00",
-              "end_time": "11:20",
-              "building": "No Room Available",
-              "room": "NOR",
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "F Common Teaching",
+              "room": "F43",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "ARAB3476-03:574d3810404d",
+              "meeting_id": "ARAB3476-03:f9f8de0924e9",
               "type": "LEC",
               "days": [
                 "WED"
               ],
-              "start_time": "10:00",
-              "end_time": "11:20",
-              "building": "No Room Available",
-              "room": "NOR",
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "F Common Teaching",
+              "room": "F43",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "2",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         },
@@ -2839,7 +2887,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
+            "current": "39",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2888,7 +2936,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "22",
+            "current": "23",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -2946,7 +2994,9 @@
           "section_id": "ARAB3565-01",
           "section_code": "01",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Haitham Mohammad Qasim Jdaitawi"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB3565-01:bbd6921d4524",
@@ -2978,7 +3028,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "23",
+            "current": "24",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3070,8 +3120,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         },
@@ -3079,7 +3129,9 @@
           "section_id": "ARAB3570-02",
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Mohammad Mohammad Abdelhalim Al Shobary"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB3570-02:e2d3fdaa54e3",
@@ -3111,7 +3163,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "18",
+            "current": "21",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -3160,7 +3212,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3207,7 +3259,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "23",
+            "current": "25",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3250,7 +3302,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "12",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3308,7 +3360,9 @@
           "section_id": "ARAB4119-01",
           "section_code": "01",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [],
+          "instructors": [
+            "Mohammad Mohammad Abdelhalim Al Shobary"
+          ],
           "meetings": [
             {
               "meeting_id": "ARAB4119-01:2f5a94aeae21",
@@ -3426,7 +3480,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "34",
+            "current": "33",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3469,7 +3523,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
+            "current": "40",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3518,7 +3572,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "6",
+            "current": "14",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -3567,7 +3621,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "34",
+            "current": "33",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3610,8 +3664,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
-            "maximum": "40"
+            "current": "45",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         },
@@ -3653,7 +3707,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
+            "current": "35",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3716,28 +3770,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ARAB4238-02:eb0a632061f5",
+              "meeting_id": "ARAB4238-02:b31563991fa9",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "F Common Teaching",
-              "room": "F27",
+              "building": "Arts",
+              "room": "0018",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ARAB4238-02:0e973683be12",
+              "meeting_id": "ARAB4238-02:7a88b4873910",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "F Common Teaching",
-              "room": "F27",
+              "building": "Arts",
+              "room": "0018",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -3745,8 +3799,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
-            "maximum": "40"
+            "current": "19",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -3794,7 +3848,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "32",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -3837,7 +3891,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "26",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -4123,7 +4177,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
+            "current": "30",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -4208,7 +4262,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "6",
+            "current": "8",
             "maximum": "8"
           },
           "meeting_status": "scheduled"
@@ -4218,7 +4272,7 @@
           "section_code": "02",
           "department": "Department of Arabic Language and Literature",
           "instructors": [
-            "SANA TAHER ALI AL-JAMALI"
+            "AbdalRahman Mohammad Teama"
           ],
           "meetings": [
             {
@@ -4238,7 +4292,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "8"
           },
           "meeting_status": "scheduled"
@@ -4268,7 +4322,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "2",
+            "current": "1",
             "maximum": "8"
           },
           "meeting_status": "scheduled"
@@ -4277,29 +4331,27 @@
           "section_id": "ARAB4794-04",
           "section_code": "04",
           "department": "Department of Arabic Language and Literature",
-          "instructors": [
-            "AbdalRahman Mohammad Teama"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "ARAB4794-04:13890ea044b7",
+              "meeting_id": "ARAB4794-04:8338f9fb82a1",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "10:50",
-              "building": "Arts",
-              "room": "0032",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
             "current": "0",
-            "maximum": "8"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         },
@@ -4330,6 +4382,55 @@
           "enrollment": {
             "current": "3",
             "maximum": "8"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ARCH1120",
+      "title": "Principles of Archaeology",
+      "sections": [
+        {
+          "section_id": "ARCH1120-01",
+          "section_code": "01",
+          "department": "Department of Archaeology",
+          "instructors": [
+            "KHALED AHMED MAHMOUD"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARCH1120-01:37d81dd4abdb",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Arts",
+              "room": "1169",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ARCH1120-01:0646f654f7b3",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Arts",
+              "room": "1169",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -4377,7 +4478,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4391,10 +4492,59 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "30"
           },
           "meeting_status": "unknown"
+        }
+      ]
+    },
+    {
+      "course_id": "ARCH1140",
+      "title": "Introduction to Archaeology",
+      "sections": [
+        {
+          "section_id": "ARCH1140-01",
+          "section_code": "01",
+          "department": "Department of Archaeology",
+          "instructors": [
+            "MOHAMED A. HAMAD HESEIN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ARCH1140-01:2ca2ca72deea",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "No Room Available",
+              "room": "NOR",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "ARCH1140-01:9de43e2f6bb5",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "No Room Available",
+              "room": "NOR",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
         }
       ]
     },
@@ -4440,7 +4590,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4489,7 +4639,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "13",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4587,7 +4737,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4636,7 +4786,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "9",
+            "current": "7",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4685,7 +4835,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "8",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4726,7 +4876,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "15",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4740,37 +4890,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ENGL2101-03:5c2e7094f569",
+              "meeting_id": "ENGL2101-03:ed64e59eb377",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "F Common Teaching",
+              "room": "F47",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "ENGL2101-03:75756940c4cf",
+              "meeting_id": "ENGL2101-03:605ff2f21182",
               "type": "Workshop",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "F Common Teaching",
+              "room": "F47",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "2",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         },
@@ -4810,8 +4960,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "6",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -5066,7 +5216,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "11",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -5287,7 +5437,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "8",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5377,8 +5527,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -5420,8 +5570,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "35",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -5434,7 +5584,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ENGL2134-03:097d4667299d",
+              "meeting_id": "ENGL2134-03:fa88ae049024",
               "type": "LEC",
               "days": [
                 "SUN"
@@ -5442,12 +5592,12 @@
               "start_time": "12:00",
               "end_time": "13:50",
               "building": "F Common Teaching",
-              "room": "F41",
+              "room": "F09",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ENGL2134-03:dee96532f9d7",
+              "meeting_id": "ENGL2134-03:d6753aba0b23",
               "type": "LEC",
               "days": [
                 "TUE"
@@ -5455,7 +5605,7 @@
               "start_time": "12:00",
               "end_time": "13:50",
               "building": "F Common Teaching",
-              "room": "F41",
+              "room": "F09",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -5463,8 +5613,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -5598,7 +5748,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5641,7 +5791,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "26",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5688,8 +5838,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "25",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         },
@@ -5731,7 +5881,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "27",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5774,7 +5924,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "15",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5823,7 +5973,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5907,7 +6057,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "28",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5997,7 +6147,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6040,7 +6190,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6081,8 +6231,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "18",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         },
@@ -6124,7 +6274,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6208,7 +6358,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6249,7 +6399,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6464,7 +6614,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6505,8 +6655,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "2",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -6789,7 +6939,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "8",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6892,8 +7042,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -6935,8 +7085,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -6978,8 +7128,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -7021,8 +7171,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
-            "maximum": "30"
+            "current": "20",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -7328,7 +7478,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "6",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -7377,7 +7527,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -7432,7 +7582,7 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "ENGL3328-03:7321c366fa66",
+              "meeting_id": "ENGL3328-03:b7f1b32822f1",
               "type": "LEC",
               "days": [
                 "SUN"
@@ -7440,12 +7590,12 @@
               "start_time": "12:00",
               "end_time": "13:20",
               "building": "F Common Teaching",
-              "room": "F09",
+              "room": "F41",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ENGL3328-03:d6ab21939cfe",
+              "meeting_id": "ENGL3328-03:f80b9ce5b4f6",
               "type": "LEC",
               "days": [
                 "TUE"
@@ -7453,7 +7603,7 @@
               "start_time": "12:00",
               "end_time": "13:20",
               "building": "F Common Teaching",
-              "room": "F09",
+              "room": "F41",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -7551,8 +7701,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -7593,7 +7743,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "0"
+            "maximum": "5"
           },
           "meeting_status": "scheduled"
         },
@@ -7635,8 +7785,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "33",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -7678,8 +7828,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "33",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -7721,8 +7871,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -7813,7 +7963,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "2",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -7903,8 +8053,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "27",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         },
@@ -7987,8 +8137,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "30"
+            "current": "23",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -8030,8 +8180,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "26",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -8079,7 +8229,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "26",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8206,7 +8356,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8296,7 +8446,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "23",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8380,7 +8530,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "23",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8470,7 +8620,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8601,8 +8751,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -8644,8 +8794,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "29",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -8688,7 +8838,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "22",
-            "maximum": "30"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -8863,7 +9013,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8955,7 +9105,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -9141,7 +9291,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "30",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9190,7 +9340,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9337,7 +9487,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9384,7 +9534,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "31",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9431,7 +9581,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "35",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9481,7 +9631,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "30",
-            "maximum": "35"
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -9523,8 +9673,51 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "35"
+            "current": "31",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "GEOG1150-03",
+          "section_code": "03",
+          "department": "Department of Geography",
+          "instructors": [
+            "ALI SAID SALIM AL-BALUSHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "GEOG1150-03:c06537b556fb",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "F Common Teaching",
+              "room": "F10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "GEOG1150-03:07b68c195555",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "F Common Teaching",
+              "room": "F10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "24",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -9617,8 +9810,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "40"
+            "current": "45",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         }
@@ -9666,8 +9859,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "35"
+            "current": "34",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -9715,8 +9908,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "35"
+            "current": "40",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -9764,7 +9957,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "27",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9807,7 +10000,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "15",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9856,7 +10049,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "40",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -9876,37 +10069,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "GEOG2356-01:3d471d85f583",
+              "meeting_id": "GEOG2356-01:36ad38ce4a11",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "10:50",
-              "building": "Field",
-              "room": "FLD",
-              "room_type": "Off Campus Educational Practicles",
+              "building": "No Room Available",
+              "room": "NOR",
+              "room_type": "Classroom",
               "location_status": "unknown"
             },
             {
-              "meeting_id": "GEOG2356-01:b44d448579f8",
+              "meeting_id": "GEOG2356-01:28e18b08ada1",
               "type": "Field Work",
               "days": [
                 "SUN"
               ],
               "start_time": "11:00",
               "end_time": "13:50",
-              "building": "Field",
-              "room": "FLD",
-              "room_type": "Off Campus Educational Practicles",
+              "building": "No Room Available",
+              "room": "NOR",
+              "room_type": "Classroom",
               "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "30",
-            "maximum": "35"
+            "current": "31",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         },
@@ -9949,7 +10142,7 @@
           "course_language": "Bilingual",
           "enrollment": {
             "current": "28",
-            "maximum": "35"
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -9997,7 +10190,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
+            "current": "36",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10132,7 +10325,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -10179,7 +10372,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "15",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -10226,7 +10419,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "15",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -10273,7 +10466,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -10371,7 +10564,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "15",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -10757,7 +10950,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "15",
+            "current": "24",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10798,7 +10991,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
+            "current": "39",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10845,7 +11038,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "34",
+            "current": "35",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10999,42 +11192,40 @@
           "section_id": "GEOG4764-01",
           "section_code": "01",
           "department": "Department of Geography",
-          "instructors": [
-            "ALI SAID SALIM AL-BALUSHI"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "GEOG4764-01:c06537b556fb",
+              "meeting_id": "GEOG4764-01:48b46c3663b3",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "10:00",
               "end_time": "11:20",
-              "building": "F Common Teaching",
-              "room": "F10",
+              "building": "No Room Available",
+              "room": "NOR",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "GEOG4764-01:07b68c195555",
+              "meeting_id": "GEOG4764-01:7db6108c714f",
               "type": "LEC",
               "days": [
                 "THU"
               ],
               "start_time": "10:00",
               "end_time": "11:20",
-              "building": "F Common Teaching",
-              "room": "F10",
+              "building": "No Room Available",
+              "room": "NOR",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "2",
-            "maximum": "20"
+            "current": "0",
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -11180,8 +11371,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "15",
-            "maximum": "20"
+            "current": "20",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         }
@@ -11325,8 +11516,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "15",
-            "maximum": "20"
+            "current": "16",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         }
@@ -11468,8 +11659,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
-            "maximum": "20"
+            "current": "13",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         }
@@ -11515,7 +11706,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "22",
+            "current": "23",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -11671,7 +11862,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "107",
+            "current": "125",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -11701,8 +11892,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "130",
-            "maximum": "130"
+            "current": "131",
+            "maximum": "135"
           },
           "meeting_status": "scheduled"
         },
@@ -11731,7 +11922,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "33",
+            "current": "49",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -11779,13 +11970,13 @@
           ],
           "meetings": [
             {
-              "meeting_id": "HIST1013-01:c5f88fd9d845",
+              "meeting_id": "HIST1013-01:6cf0a4290547",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "16:15",
-              "end_time": "18:05",
+              "start_time": "14:15",
+              "end_time": "15:35",
               "building": "Distance Learning",
               "room": "DLR",
               "room_type": "Distance Learning Room",
@@ -11795,7 +11986,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -11887,8 +12078,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "45"
+            "current": "37",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -11979,7 +12170,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "31",
+            "current": "38",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -11999,30 +12190,30 @@
           ],
           "meetings": [
             {
-              "meeting_id": "HIST2020-01:5b022018c076",
+              "meeting_id": "HIST2020-01:0b99b064a7a8",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "No Room Available",
+              "room": "NOR",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "HIST2020-01:d6b528aae0a3",
+              "meeting_id": "HIST2020-01:a492f9ad86a4",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E47",
+              "building": "No Room Available",
+              "room": "NOR",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
@@ -12077,8 +12268,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "23",
-            "maximum": "30"
+            "current": "34",
+            "maximum": "34"
           },
           "meeting_status": "scheduled"
         },
@@ -12120,7 +12311,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "33",
+            "current": "32",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -12169,8 +12360,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "44",
-            "maximum": "45"
+            "current": "52",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         }
@@ -12218,7 +12409,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "21",
+            "current": "19",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -12238,28 +12429,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "HIST3210-01:d888d2ec4fab",
+              "meeting_id": "HIST3210-01:27f54b4b0800",
               "type": "LEC",
               "days": [
-                "MON"
+                "THU"
               ],
-              "start_time": "12:00",
-              "end_time": "13:20",
+              "start_time": "08:00",
+              "end_time": "09:20",
               "building": "F Common Teaching",
-              "room": "F27",
+              "room": "F25",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "HIST3210-01:a3dadcd113fb",
+              "meeting_id": "HIST3210-01:2986e63b57bb",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
-              "start_time": "12:00",
-              "end_time": "13:20",
+              "start_time": "10:00",
+              "end_time": "11:20",
               "building": "F Common Teaching",
-              "room": "F27",
+              "room": "F25",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12267,8 +12458,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "45",
+            "maximum": "50"
           },
           "meeting_status": "scheduled"
         }
@@ -12316,8 +12507,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "47",
-            "maximum": "50"
+            "current": "55",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         }
@@ -12365,7 +12556,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "38",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -12408,8 +12599,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "29",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -12457,8 +12648,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "33",
-            "maximum": "35"
+            "current": "38",
+            "maximum": "50"
           },
           "meeting_status": "scheduled"
         }
@@ -12506,7 +12697,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "28",
+            "current": "29",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -12553,8 +12744,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "23",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -12569,7 +12760,7 @@
           "section_code": "01",
           "department": "Department of History",
           "instructors": [
-            "BADAR HILAL KHALIFA AL-ALAWI"
+            "ALI SAID SALIM AL-RIYAMI"
           ],
           "meetings": [
             {
@@ -12602,7 +12793,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "26",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -12669,28 +12860,28 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "HIST4450-01:26d16b775bed",
+              "meeting_id": "HIST4450-01:5b022018c076",
               "type": "LEC",
               "days": [
-                "MON"
+                "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F37",
+              "building": "E Common Teaching",
+              "room": "E47",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "HIST4450-01:5f093fcb7ab9",
+              "meeting_id": "HIST4450-01:d6b528aae0a3",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F37",
+              "building": "E Common Teaching",
+              "room": "E47",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12712,28 +12903,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "HIST4450-02:4a916c467540",
+              "meeting_id": "HIST4450-02:d888d2ec4fab",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "F Common Teaching",
+              "room": "F27",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "HIST4450-02:f5244d36b1c5",
+              "meeting_id": "HIST4450-02:a3dadcd113fb",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "F Common Teaching",
+              "room": "F27",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12777,8 +12968,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "6",
+            "maximum": "10"
           },
           "meeting_status": "scheduled"
         },
@@ -12807,8 +12998,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "4",
+            "maximum": "10"
           },
           "meeting_status": "scheduled"
         }
@@ -12970,7 +13161,8 @@
           "section_code": "01",
           "department": "Department of Information Studies",
           "instructors": [
-            "FATEN FATEHI MOH'D HAMAD"
+            "FATEN FATEHI MOH'D HAMAD",
+            "AHMED MAHER KHAFAGA SHEHATA"
           ],
           "meetings": [
             {
@@ -13003,7 +13195,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "15",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -13052,7 +13244,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -13067,21 +13259,10 @@
           "section_id": "INFO3120-01",
           "section_code": "01",
           "department": "Department of Information Studies",
-          "instructors": [],
+          "instructors": [
+            "NABAHAN HARITH NASSER AL-HARRASI"
+          ],
           "meetings": [
-            {
-              "meeting_id": "INFO3120-01:a5a040de5b37",
-              "type": "LEC",
-              "days": [
-                "SUN"
-              ],
-              "start_time": "10:00",
-              "end_time": "11:20",
-              "building": "F Common Teaching",
-              "room": "F25",
-              "room_type": "Classroom",
-              "location_status": "known"
-            },
             {
               "meeting_id": "INFO3120-01:1afef17e797b",
               "type": "LEC",
@@ -13094,13 +13275,73 @@
               "room": "F25",
               "room_type": "Classroom",
               "location_status": "known"
+            },
+            {
+              "meeting_id": "INFO3120-01:a5a040de5b37",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "F Common Teaching",
+              "room": "F25",
+              "room_type": "Classroom",
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "INFO3150",
+      "title": "Arabic Manuscripts",
+      "sections": [
+        {
+          "section_id": "INFO3150-01",
+          "section_code": "01",
+          "department": "Department of Information Studies",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "INFO3150-01:b8d1b775767e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Arts",
+              "room": "0021",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "INFO3150-01:c783cc097c60",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Arts",
+              "room": "0021",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "9",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -13115,7 +13356,8 @@
           "section_code": "01",
           "department": "Department of Information Studies",
           "instructors": [
-            "NOURA SAIF MOHAMED AL-HOSNI"
+            "NOURA SAIF MOHAMED AL-HOSNI",
+            "NOUR ELDIN MOHAMED ELSHAIEKH OSMAN"
           ],
           "meetings": [
             {
@@ -13261,34 +13503,32 @@
           "section_id": "INFO3460-01",
           "section_code": "01",
           "department": "Department of Information Studies",
-          "instructors": [
-            "NOUR ELDIN MOHAMED ELSHAIEKH OSMAN"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "INFO3460-01:516ce5f8b2ec",
+              "meeting_id": "INFO3460-01:73bd0fb4ba8c",
               "type": "LEC",
               "days": [
-                "SUN"
+                "MON"
               ],
-              "start_time": "08:00",
-              "end_time": "09:50",
-              "building": "Arts",
-              "room": "2432",
-              "room_type": "Lab Room",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "E Common Teaching",
+              "room": "E39",
+              "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "INFO3460-01:5c5bea00de64",
+              "meeting_id": "INFO3460-01:4c4f80111ac1",
               "type": "LAB",
               "days": [
-                "TUE"
+                "WED"
               ],
-              "start_time": "08:00",
-              "end_time": "09:50",
-              "building": "Arts",
-              "room": "2432",
-              "room_type": "Lab Room",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "E Common Teaching",
+              "room": "E39",
+              "room_type": "Classroom",
               "location_status": "known"
             }
           ],
@@ -13408,7 +13648,9 @@
           "section_id": "INFO3760-01",
           "section_code": "01",
           "department": "Department of Information Studies",
-          "instructors": [],
+          "instructors": [
+            "ABDERRAZAK BIN AMMAR MKADMI"
+          ],
           "meetings": [
             {
               "meeting_id": "INFO3760-01:7e496e5f75a4",
@@ -13440,7 +13682,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -13506,8 +13748,7 @@
           "section_code": "01",
           "department": "Department of Information Studies",
           "instructors": [
-            "NAIFA EID SABITI BAIT BIN SALEEM",
-            "NABAHAN HARITH NASSER AL-HARRASI"
+            "NAIFA EID SABITI BAIT BIN SALEEM"
           ],
           "meetings": [
             {
@@ -13587,7 +13828,7 @@
           "credit_hours": "3.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "4",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -13737,9 +13978,7 @@
           "section_id": "INFO4760-01",
           "section_code": "01",
           "department": "Department of Information Studies",
-          "instructors": [
-            "ABDERRAZAK BIN AMMAR MKADMI"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "INFO4760-01:071cb0d35e22",
@@ -13771,7 +14010,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "3",
+            "current": "2",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -13820,7 +14059,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "31",
+            "current": "32",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -13869,7 +14108,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
+            "current": "30",
             "maximum": "65"
           },
           "meeting_status": "scheduled"
@@ -13918,7 +14157,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "11",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -13997,7 +14236,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
+            "current": "36",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -14046,7 +14285,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "35",
+            "current": "39",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -14095,7 +14334,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -14187,7 +14426,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
+            "current": "41",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -14279,7 +14518,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "6",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -14328,7 +14567,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "19",
             "maximum": "22"
           },
           "meeting_status": "scheduled"
@@ -14371,7 +14610,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "17",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -14420,7 +14659,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -14469,7 +14708,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "49",
+            "current": "52",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -14489,28 +14728,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MASS3112-01:a44c2a943f4c",
+              "meeting_id": "MASS3112-01:8b56e4b9f2c9",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
-              "building": "F Common Teaching",
-              "room": "F23",
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Arts",
+              "room": "1169",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MASS3112-01:3f4f042c4366",
+              "meeting_id": "MASS3112-01:0db414e49d0b",
               "type": "LAB",
               "days": [
                 "TUE"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "16:15",
+              "end_time": "18:05",
               "building": "F Common Teaching",
-              "room": "F23",
+              "room": "F26",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -14518,7 +14757,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
+            "current": "27",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -14567,7 +14806,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -14616,7 +14855,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -14665,7 +14904,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -14714,7 +14953,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -14812,8 +15051,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
-            "maximum": "45"
+            "current": "48",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         }
@@ -14924,37 +15163,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MASS4031-01:2ca2ca72deea",
+              "meeting_id": "MASS4031-01:c44cd0e79faf",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "09:20",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "1222",
+              "room_type": "Lab Room",
+              "location_status": "known"
             },
             {
-              "meeting_id": "MASS4031-01:9de43e2f6bb5",
+              "meeting_id": "MASS4031-01:74f5c10f233f",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "08:00",
               "end_time": "09:20",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "1222",
+              "room_type": "Lab Room",
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "17",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -15002,7 +15241,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "15",
+            "current": "13",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -15051,7 +15290,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "10",
+            "current": "9",
             "maximum": "21"
           },
           "meeting_status": "scheduled"
@@ -16142,7 +16381,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "20",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16178,8 +16417,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
-            "maximum": "25"
+            "current": "20",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         }
@@ -16214,7 +16453,7 @@
           "credit_hours": "1.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "31",
+            "current": "33",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -16467,17 +16706,17 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MUSC2025-06:9322a0890cf9",
+              "meeting_id": "MUSC2025-06:d15d01ac5dc9",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
-              "start_time": "13:00",
-              "end_time": "13:50",
-              "building": "Arts",
-              "room": "2411",
-              "room_type": "Music Room",
-              "location_status": "known"
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "1.0",
@@ -16702,22 +16941,20 @@
           "section_id": "MUSC2025-14",
           "section_code": "14",
           "department": "Department of Music and Musicology",
-          "instructors": [
-            "SOAD MUHAMMED OTHMAN KHAN ABD ELSHAKOUR"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "MUSC2025-14:39bdf52efe14",
+              "meeting_id": "MUSC2025-14:010d356be7e1",
               "type": "LEC",
               "days": [
-                "THU"
+                "MON"
               ],
-              "start_time": "08:00",
-              "end_time": "08:50",
-              "building": "Arts",
-              "room": "2413",
-              "room_type": "Music Room",
-              "location_status": "known"
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "1.0",
@@ -17560,29 +17797,27 @@
           "section_id": "MUSC2031-01",
           "section_code": "01",
           "department": "Department of Music and Musicology",
-          "instructors": [
-            "SOAD MUHAMMED OTHMAN KHAN ABD ELSHAKOUR"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "MUSC2031-01:81cffa07b456",
+              "meeting_id": "MUSC2031-01:da53a2a1dfff",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "11:00",
               "end_time": "11:50",
-              "building": "Arts",
-              "room": "2413",
-              "room_type": "Music Room",
-              "location_status": "known"
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
             "current": "0",
-            "maximum": "1"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         },
@@ -17761,7 +17996,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -17791,7 +18026,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -18718,7 +18953,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -18767,7 +19002,7 @@
           "credit_hours": "3.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "5",
+            "current": "6",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -18803,7 +19038,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -18869,7 +19104,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -19051,7 +19286,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -19207,7 +19442,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "25",
+            "current": "27",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -19256,7 +19491,7 @@
           "credit_hours": "2.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "3",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -19305,7 +19540,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -19726,7 +19961,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -20320,7 +20555,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "10",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -20759,7 +20994,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -20806,7 +21041,7 @@
           "credit_hours": "1.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "21",
+            "current": "20",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -20963,7 +21198,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "8",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -21179,7 +21414,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -21434,7 +21669,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "1"
           },
           "meeting_status": "scheduled"
@@ -21857,7 +22092,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -21893,7 +22128,7 @@
           "credit_hours": "1.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -23305,7 +23540,7 @@
           "department": "Department of Music and Musicology",
           "instructors": [
             "AGNIESZKA SOKOLOWSKA",
-            "AYAT NASSER RASHID AL MATA'NI"
+            "MILENA BORISOVA BOZHIKOVA"
           ],
           "meetings": [
             {
@@ -23414,7 +23649,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "41",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -23457,7 +23692,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "44",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -23500,7 +23735,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "43",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -23586,7 +23821,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "37",
+            "current": "40",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -23629,7 +23864,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "40",
+            "current": "43",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -23905,7 +24140,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "143",
             "maximum": "160"
           },
           "meeting_status": "scheduled"
@@ -24029,7 +24264,7 @@
           "credit_hours": "2.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "45",
+            "current": "3",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -24078,7 +24313,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "32",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24121,7 +24356,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
+            "current": "34",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -24170,7 +24405,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -24366,7 +24601,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "3",
+            "current": "2",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24415,7 +24650,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "25",
+            "current": "27",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -24435,28 +24670,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOCY2120-01:0649962a8d30",
+              "meeting_id": "SOCY2120-01:8cdbf9cf15f8",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "F Common Teaching",
+              "room": "F22",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "SOCY2120-01:bbd5d51dfb4e",
+              "meeting_id": "SOCY2120-01:c9c6c1a023d5",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E38",
+              "building": "F Common Teaching",
+              "room": "F22",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -24464,8 +24699,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "43",
+            "maximum": "47"
           },
           "meeting_status": "scheduled"
         },
@@ -24478,36 +24713,36 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOCY2120-02:388aa64d5dae",
+              "meeting_id": "SOCY2120-02:05bfd9cd7180",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "Skills Lab, Department of Sociology and Social Work",
+              "room_type": "Lab Room",
+              "location_status": "known"
             },
             {
-              "meeting_id": "SOCY2120-02:ca3beba66e92",
+              "meeting_id": "SOCY2120-02:001fb99eda87",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "Skills Lab, Department of Sociology and Social Work",
+              "room_type": "Lab Room",
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "10",
+            "current": "32",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -24576,37 +24811,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOCY3120-01:2d3937382aa7",
+              "meeting_id": "SOCY3120-01:8d745809410a",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "Arts",
+              "room": "0021",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "SOCY3120-01:95e1f44e4582",
+              "meeting_id": "SOCY3120-01:f2e3a0b08de7",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "Arts",
+              "room": "0021",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "12",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -24654,7 +24889,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "3",
+            "current": "2",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -24703,7 +24938,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -24770,29 +25005,29 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOWK1110-01:51b488433a05",
+              "meeting_id": "SOWK1110-01:8f32971c6c01",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "Arts",
-              "room": "LET9",
-              "room_type": "Lecture Theatre",
+              "building": "E Common Teaching",
+              "room": "E48",
+              "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "SOWK1110-01:46453c511297",
+              "meeting_id": "SOWK1110-01:5c77f156e249",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "Arts",
-              "room": "LET9",
-              "room_type": "Lecture Theatre",
+              "building": "E Common Teaching",
+              "room": "E48",
+              "room_type": "Classroom",
               "location_status": "known"
             }
           ],
@@ -24800,7 +25035,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "21",
-            "maximum": "40"
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         },
@@ -24842,8 +25077,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "31",
-            "maximum": "40"
+            "current": "34",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -24885,8 +25120,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "34",
-            "maximum": "40"
+            "current": "35",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -24905,37 +25140,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOWK1210-01:2d3937382aa7",
+              "meeting_id": "SOWK1210-01:e0f504a1d6ed",
               "type": "LEC",
               "days": [
-                "MON"
+                "SUN"
               ],
-              "start_time": "14:15",
-              "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "F Common Teaching",
+              "room": "F19",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "SOWK1210-01:95e1f44e4582",
+              "meeting_id": "SOWK1210-01:3ce3a31a2faa",
               "type": "LEC",
               "days": [
-                "WED"
+                "THU"
               ],
-              "start_time": "14:15",
-              "end_time": "15:35",
-              "building": "No Room Available",
-              "room": "NOR",
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "F Common Teaching",
+              "room": "F19",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "16",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         },
@@ -24977,8 +25212,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "30",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -25026,7 +25261,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "28",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -25069,7 +25304,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "28",
+            "current": "30",
             "maximum": "33"
           },
           "meeting_status": "scheduled"
@@ -25118,7 +25353,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
+            "current": "40",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25167,7 +25402,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "39",
+            "current": "40",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25308,7 +25543,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
+            "current": "40",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -25357,8 +25592,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "36",
-            "maximum": "45"
+            "current": "44",
+            "maximum": "44"
           },
           "meeting_status": "scheduled"
         },
@@ -25400,8 +25635,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "30",
-            "maximum": "45"
+            "current": "34",
+            "maximum": "44"
           },
           "meeting_status": "scheduled"
         }
@@ -25420,37 +25655,37 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOWK3120-01:8f32971c6c01",
+              "meeting_id": "SOWK3120-01:51b488433a05",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E48",
-              "room_type": "Classroom",
+              "building": "Arts",
+              "room": "LET9",
+              "room_type": "Lecture Theatre",
               "location_status": "known"
             },
             {
-              "meeting_id": "SOWK3120-01:5c77f156e249",
+              "meeting_id": "SOWK3120-01:46453c511297",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E48",
-              "room_type": "Classroom",
+              "building": "Arts",
+              "room": "LET9",
+              "room_type": "Lecture Theatre",
               "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "36",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -25492,8 +25727,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "41",
-            "maximum": "45"
+            "current": "43",
+            "maximum": "43"
           },
           "meeting_status": "scheduled"
         }
@@ -25541,8 +25776,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "38",
-            "maximum": "45"
+            "current": "39",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -25584,8 +25819,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "25",
-            "maximum": "45"
+            "current": "24",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -25676,7 +25911,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "29",
+            "current": "26",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -25745,28 +25980,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "SOWK3240-01:8cdbf9cf15f8",
+              "meeting_id": "SOWK3240-01:0649962a8d30",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F22",
+              "building": "E Common Teaching",
+              "room": "E38",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "SOWK3240-01:c9c6c1a023d5",
+              "meeting_id": "SOWK3240-01:bbd5d51dfb4e",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "F Common Teaching",
-              "room": "F22",
+              "building": "E Common Teaching",
+              "room": "E38",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -25774,8 +26009,8 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "14",
-            "maximum": "45"
+            "current": "25",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -25823,7 +26058,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "10",
+            "current": "12",
             "maximum": "21"
           },
           "meeting_status": "scheduled"
@@ -25872,7 +26107,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "21",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -25913,7 +26148,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "19",
+            "current": "26",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -25962,7 +26197,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "19",
+            "current": "21",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26054,7 +26289,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "22",
+            "current": "21",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26097,7 +26332,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "36",
+            "current": "35",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26146,7 +26381,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "24",
+            "current": "22",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -26182,7 +26417,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "7",
+            "current": "11",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -26231,7 +26466,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "27",
+            "current": "34",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26281,7 +26516,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "40",
-            "maximum": "45"
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -26329,7 +26564,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
+            "current": "26",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26372,7 +26607,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
+            "current": "26",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -26415,7 +26650,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
+            "current": "28",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26458,7 +26693,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "20",
+            "current": "27",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -26607,7 +26842,7 @@
           "credit_hours": "2.0",
           "course_language": "Italy",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "21"
           },
           "meeting_status": "scheduled"
@@ -26635,7 +26870,7 @@
           "credit_hours": "2.0",
           "course_language": "Italy",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -26663,7 +26898,7 @@
           "credit_hours": "2.0",
           "course_language": "Italy",
           "enrollment": {
-            "current": "19",
+            "current": "21",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -26729,7 +26964,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -26759,7 +26994,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "25",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -26795,7 +27030,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "21"
           },
           "meeting_status": "scheduled"
@@ -26825,8 +27060,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "25",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         },
@@ -26921,7 +27156,7 @@
           "credit_hours": "2.0",
           "course_language": "Turkish",
           "enrollment": {
-            "current": "20",
+            "current": "23",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -26951,7 +27186,7 @@
           "credit_hours": "2.0",
           "course_language": "Turkish",
           "enrollment": {
-            "current": "20",
+            "current": "25",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -27000,7 +27235,7 @@
           "credit_hours": "3.0",
           "course_language": "French",
           "enrollment": {
-            "current": "4",
+            "current": "6",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -27098,7 +27333,7 @@
           "credit_hours": "3.0",
           "course_language": "French",
           "enrollment": {
-            "current": "3",
+            "current": "2",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -27147,7 +27382,7 @@
           "credit_hours": "3.0",
           "course_language": "German",
           "enrollment": {
-            "current": "8",
+            "current": "10",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -27216,36 +27451,36 @@
           ],
           "meetings": [
             {
-              "meeting_id": "TOUR1216-01:bdeb50113200",
+              "meeting_id": "TOUR1216-01:5e2b07af498d",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "LET7",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
             },
             {
-              "meeting_id": "TOUR1216-01:f3786d9f0092",
+              "meeting_id": "TOUR1216-01:7c1e160723ab",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "No Room Available",
-              "room": "NOR",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Arts",
+              "room": "LET7",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "German",
           "enrollment": {
-            "current": "1",
+            "current": "7",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -27281,7 +27516,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -27330,7 +27565,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27379,7 +27614,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "7",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -27399,28 +27634,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "TOUR3340-01:470fcc5024f8",
+              "meeting_id": "TOUR3340-01:26d16b775bed",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E37",
+              "building": "F Common Teaching",
+              "room": "F37",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "TOUR3340-01:d47c1570733a",
+              "meeting_id": "TOUR3340-01:5f093fcb7ab9",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "12:00",
               "end_time": "13:20",
-              "building": "E Common Teaching",
-              "room": "E37",
+              "building": "F Common Teaching",
+              "room": "F37",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -27428,7 +27663,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "7",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -27448,36 +27683,36 @@
           ],
           "meetings": [
             {
-              "meeting_id": "TOUR4010-01:7e7e101798aa",
+              "meeting_id": "TOUR4010-01:ff549d581b73",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "10:00",
               "end_time": "11:20",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "D Common Teaching",
+              "room": "D15",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "TOUR4010-01:574d3810404d",
+              "meeting_id": "TOUR4010-01:c73c6f535a27",
               "type": "LEC",
               "days": [
                 "WED"
               ],
               "start_time": "10:00",
               "end_time": "11:20",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "B Common Teaching",
+              "room": "B13",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "17",
             "maximum": "18"
           },
           "meeting_status": "scheduled"
@@ -27526,7 +27761,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "10",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27575,7 +27810,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "14",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27673,7 +27908,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27722,7 +27957,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "1",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -27740,7 +27975,7 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "TRAN2110-01:3233e09cb40e",
+              "meeting_id": "TRAN2110-01:aa29a797257c",
               "type": "LEC",
               "days": [
                 "MON"
@@ -27748,12 +27983,12 @@
               "start_time": "16:15",
               "end_time": "18:05",
               "building": "F Common Teaching",
-              "room": "F52",
+              "room": "F16",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "TRAN2110-01:83a11b8e1965",
+              "meeting_id": "TRAN2110-01:016c87a6d687",
               "type": "Workshop",
               "days": [
                 "WED"
@@ -27761,7 +27996,7 @@
               "start_time": "16:15",
               "end_time": "18:05",
               "building": "F Common Teaching",
-              "room": "F52",
+              "room": "F21",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -27769,7 +28004,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27810,7 +28045,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "26",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -27822,28 +28057,28 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "TRAN2110-03:cd7733c9fb57",
+              "meeting_id": "TRAN2110-03:a1b64fa2dad2",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
-              "building": "E Common Teaching",
-              "room": "E37",
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "F Common Teaching",
+              "room": "F35",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "TRAN2110-03:0ab645c0591c",
+              "meeting_id": "TRAN2110-03:175e1f1abea5",
               "type": "Workshop",
               "days": [
                 "TUE"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
-              "building": "E Common Teaching",
-              "room": "E37",
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "F Common Teaching",
+              "room": "F35",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -28080,8 +28315,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "22",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -28397,7 +28632,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "11",
+            "current": "12",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -28433,7 +28668,7 @@
           "credit_hours": "3.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "16",
+            "current": "15",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -28991,7 +29226,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "1",
+            "current": "2",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -29111,7 +29346,7 @@
           "credit_hours": "0.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -29675,7 +29910,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "2"
           },
           "meeting_status": "scheduled"
@@ -29879,7 +30114,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "4"
           },
           "meeting_status": "scheduled"
@@ -30987,7 +31222,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "7",
             "maximum": "16"
           },
           "meeting_status": "scheduled"
@@ -31197,7 +31432,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -31377,7 +31612,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -31449,7 +31684,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "1",
+            "current": "0",
             "maximum": "6"
           },
           "meeting_status": "scheduled"
@@ -31629,7 +31864,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "6"
           },
           "meeting_status": "scheduled"
@@ -32239,7 +32474,7 @@
           "credit_hours": "6.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -32371,7 +32606,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -32407,7 +32642,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -32710,7 +32945,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -32797,33 +33032,31 @@
           "section_id": "TRAN6221-01",
           "section_code": "01",
           "department": "Department of English and Translation",
-          "instructors": [
-            "ABDULGABBAR MOHAMED AL-SHARAFI"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "TRAN6221-01:76a3f3e7d8b7",
+              "meeting_id": "TRAN6221-01:d3ad0824bb48",
               "type": "LEC",
               "days": [
-                "TUE"
+                "MON"
               ],
               "start_time": "16:15",
               "end_time": "18:05",
               "building": "Arts",
-              "room": "0020",
+              "room": "0021",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "TRAN6221-01:5823bc65a531",
+              "meeting_id": "TRAN6221-01:4143079359f5",
               "type": "Seminar",
               "days": [
-                "TUE"
+                "MON"
               ],
               "start_time": "18:15",
               "end_time": "19:05",
               "building": "Arts",
-              "room": "0020",
+              "room": "0021",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -32880,7 +33113,7 @@
           "credit_hours": "3.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "6",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"

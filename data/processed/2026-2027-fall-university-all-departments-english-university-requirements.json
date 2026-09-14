@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:20:20.060386Z",
+  "generated_at": "2026-09-14T10:40:23.134279Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,12 +11,12 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-university-all-departments-english-university-requirements\\preview-response.html",
-        "sha256": "cbe15a562a82e27b512011e27ca359fc2ca3950a2c2672b237fb0cee8d2e1f9b"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\university-all-departments-english-university-requirements\\preview-response.html",
+        "sha256": "f9dad802387c7a094f8088118e9d76a02a1a90c9cc1c95c9e18aeb478b652502"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-university-all-departments-english-university-requirements\\report-viewer-page-001.html",
-        "sha256": "a60468d9a96fdbd91624e5d7df461b083ca8ee9a971be1abe752fba4326fed41"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\university-all-departments-english-university-requirements\\report-viewer-page-001.html",
+        "sha256": "ce6e3f60f8177a633c09d2f6724fdf09c43f35672912c9352ef7dfc58c7d5afe"
       }
     ]
   },
@@ -118,7 +118,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "137",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -290,7 +290,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "131",
+            "current": "135",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -333,7 +333,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "136",
+            "current": "140",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -376,7 +376,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "137",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -419,7 +419,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "130",
+            "current": "140",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -462,7 +462,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "133",
+            "current": "130",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -505,7 +505,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "98",
+            "current": "99",
             "maximum": "99"
           },
           "meeting_status": "scheduled"
@@ -591,7 +591,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "129",
+            "current": "138",
             "maximum": "140"
           },
           "meeting_status": "scheduled"
@@ -747,7 +747,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "107",
+            "current": "125",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -777,8 +777,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "130",
-            "maximum": "130"
+            "current": "131",
+            "maximum": "135"
           },
           "meeting_status": "scheduled"
         },
@@ -807,7 +807,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "33",
+            "current": "49",
             "maximum": "130"
           },
           "meeting_status": "scheduled"
@@ -871,8 +871,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "126",
+            "maximum": "135"
           },
           "meeting_status": "scheduled"
         },
@@ -901,8 +901,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "124",
+            "maximum": "131"
           },
           "meeting_status": "scheduled"
         },
@@ -931,8 +931,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "123",
+            "maximum": "137"
           },
           "meeting_status": "scheduled"
         },
@@ -961,8 +961,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "130",
+            "maximum": "130"
           },
           "meeting_status": "scheduled"
         },
@@ -992,7 +992,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "120",
-            "maximum": "120"
+            "maximum": "130"
           },
           "meeting_status": "scheduled"
         },
@@ -1021,8 +1021,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "122",
+            "maximum": "132"
           },
           "meeting_status": "scheduled"
         },
@@ -1051,8 +1051,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
-            "maximum": "120"
+            "current": "126",
+            "maximum": "132"
           },
           "meeting_status": "scheduled"
         },
@@ -1081,8 +1081,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "119",
-            "maximum": "120"
+            "current": "122",
+            "maximum": "130"
           },
           "meeting_status": "scheduled"
         }
@@ -1265,7 +1265,7 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "140",
+            "current": "143",
             "maximum": "160"
           },
           "meeting_status": "scheduled"
@@ -1389,7 +1389,7 @@
           "credit_hours": "2.0",
           "course_language": "Bilingual",
           "enrollment": {
-            "current": "45",
+            "current": "3",
             "maximum": "45"
           },
           "meeting_status": "scheduled"

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:12:52.306572Z",
+  "generated_at": "2026-09-14T10:35:24.815874Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,26 +11,26 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-agricultural-and-marine-sciences-all-departments-english\\preview-response.html",
-        "sha256": "f623db392a407b4a88b3e9e671507362b94f01cf9b95003c89a2374ee2631a8d"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-agricultural-and-marine-sciences-all-departments-english\\preview-response.html",
+        "sha256": "c9f667808bdb5c2b7083faed951c994127ce7b26fc97530ac818fe8adc513a3d"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-agricultural-and-marine-sciences-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "f802eeb300bf0511cc904e32f17a398129c68fffac13c08117026cd304e48875"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-agricultural-and-marine-sciences-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "e317d4d36dc32f70aa8ebf9f04cee941a4ddc074749164aaa5f5e9f08c5e935d"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-agricultural-and-marine-sciences-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "5a5cf8d41f3c21ca74bbf756be62cc916628534b88bc5f4776bb87324d91a470"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-agricultural-and-marine-sciences-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "292449863e285fef4ba6061a64d4941d17f97fb0d038e130fc61a69e757f8abf"
       }
     ]
   },
   "record_counts": {
-    "courses": 183,
-    "sections": 216,
-    "meetings": 374,
+    "courses": 185,
+    "sections": 223,
+    "meetings": 381,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 0,
-    "collapsed_co_taught_rows": 6
+    "collapsed_co_taught_rows": 5
   },
   "courses": [
     {
@@ -62,8 +62,8 @@
           "credit_hours": "2.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "150",
-            "maximum": "150"
+            "current": "250",
+            "maximum": "250"
           },
           "meeting_status": "scheduled"
         }
@@ -111,7 +111,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -160,7 +160,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "13",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -209,7 +209,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -225,7 +225,7 @@
           "section_code": "01",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "SALMA RASHID MUBARAK AL-ADWANI"
+            "Atique Ahmed Behan"
           ],
           "meetings": [
             {
@@ -258,7 +258,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "8",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -307,7 +307,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -356,7 +356,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "17",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -421,7 +421,7 @@
           "section_code": "01",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "SALMA RASHID MUBARAK AL-ADWANI"
+            "Muhammad Hammad Hussain"
           ],
           "meetings": [
             {
@@ -454,7 +454,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "11",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -503,7 +503,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "9",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -585,15 +585,15 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "ANVS4107-01:1096b73d0cc8",
+              "meeting_id": "ANVS4107-01:39baee4777e6",
               "type": "LAB",
               "days": [
                 "THU"
               ],
-              "start_time": "10:00",
-              "end_time": "11:50",
+              "start_time": "12:00",
+              "end_time": "13:50",
               "building": "Agriculture and Marine Sciences",
-              "room": "141-R",
+              "room": "0030",
               "room_type": "Lab Room",
               "location_status": "known"
             }
@@ -601,7 +601,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "19",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -650,7 +650,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "11",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -699,7 +699,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "13",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -719,26 +719,26 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ANVS4113-01:37c7714da47a",
+              "meeting_id": "ANVS4113-01:6642e4227845",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "10:00",
+              "end_time": "11:50",
               "building": "D Common Teaching",
-              "room": "D10",
+              "room": "D14",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "ANVS4113-01:cf4586a0123c",
+              "meeting_id": "ANVS4113-01:ae9932507dc5",
               "type": "LAB",
               "days": [
-                "TUE"
+                "THU"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "10:00",
+              "end_time": "11:50",
               "building": "Agriculture and Marine Sciences",
               "room": "0030",
               "room_type": "Lab Room",
@@ -748,7 +748,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "3",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -846,7 +846,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "21",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -862,7 +862,6 @@
           "section_code": "01",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "Muhammad Hammad Hussain",
             "Tarik NABIL AHMED MISK"
           ],
           "meetings": [
@@ -896,7 +895,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "10",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -976,7 +975,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "13",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1012,7 +1011,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "7",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1042,7 +1041,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1078,7 +1077,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "7",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1088,7 +1087,8 @@
           "section_code": "02",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "AHMED SALEH ALI AL ANSARI"
+            "AHMED SALEH ALI AL ANSARI",
+            "Muhammad Hammad Hussain"
           ],
           "meetings": [
             {
@@ -1108,7 +1108,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1144,7 +1144,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "3"
           },
           "meeting_status": "scheduled"
@@ -1174,7 +1174,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "3"
           },
           "meeting_status": "scheduled"
@@ -1450,6 +1450,42 @@
       ]
     },
     {
+      "course_id": "ANVS4905",
+      "title": "Research Project in Veterinary Technology I",
+      "sections": [
+        {
+          "section_id": "ANVS4905-01",
+          "section_code": "01",
+          "department": "Department of Animal and Veterinary Sciences",
+          "instructors": [
+            "Muhammad Hammad Hussain"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ANVS4905-01:db2a3ac12c05",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "15:15",
+              "end_time": "21:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
       "course_id": "ANVS4906",
       "title": "Research Project in Veterinary Technology II",
       "sections": [
@@ -1606,7 +1642,7 @@
           "credit_hours": "1.0",
           "course_language": "Arabic",
           "enrollment": {
-            "current": "120",
+            "current": "144",
             "maximum": "150"
           },
           "meeting_status": "scheduled"
@@ -1655,7 +1691,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1741,7 +1777,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "34",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1784,7 +1820,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1833,7 +1869,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "28",
+            "current": "30",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1876,7 +1912,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "49",
+            "current": "55",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1919,7 +1955,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "42",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -1968,7 +2004,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "28",
+            "current": "39",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2011,7 +2047,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "49",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2060,7 +2096,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "43",
+            "current": "45",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2146,7 +2182,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "51",
+            "current": "53",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -2195,7 +2231,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2238,8 +2274,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "25"
+            "current": "30",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -2285,7 +2321,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "36",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -2321,7 +2357,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "42",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -2370,7 +2406,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2462,7 +2498,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2689,7 +2725,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2738,7 +2774,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "29",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2787,7 +2823,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "11",
+            "current": "12",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2821,7 +2857,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "65",
+            "current": "69",
             "maximum": "150"
           },
           "meeting_status": "scheduled"
@@ -2913,7 +2949,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "9",
+            "current": "8",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -2962,7 +2998,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "30",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3011,8 +3047,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "33",
+            "maximum": "33"
           },
           "meeting_status": "scheduled"
         },
@@ -3038,15 +3074,15 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "FSHN3305-02:6dfe2a362222",
+              "meeting_id": "FSHN3305-02:c3a1201b4555",
               "type": "LAB",
               "days": [
                 "WED"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "10:00",
+              "end_time": "11:50",
               "building": "Agriculture and Marine Sciences",
-              "room": "127R",
+              "room": "133R",
               "room_type": "Lab Room",
               "location_status": "known"
             }
@@ -3054,7 +3090,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "7",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3070,8 +3106,7 @@
           "section_code": "01",
           "department": "Department of Food Science and Nutrition",
           "instructors": [
-            "MAYMONA HAMED SALEM AL HINAI",
-            "LYUTHA KHALFAN RASHID AL-SUBHI"
+            "MAYMONA HAMED SALEM AL HINAI"
           ],
           "meetings": [
             {
@@ -3104,8 +3139,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "34",
+            "maximum": "50"
           },
           "meeting_status": "scheduled"
         }
@@ -3261,7 +3296,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "19",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3310,7 +3345,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3402,7 +3437,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3438,7 +3473,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "12",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3487,7 +3522,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "24",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3536,7 +3571,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "10",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3610,6 +3645,146 @@
           "enrollment": {
             "current": "3",
             "maximum": "8"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "FSHN4902-02",
+          "section_code": "02",
+          "department": "Department of Food Science and Nutrition",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "FSHN4902-02:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "FSHN4902-03",
+          "section_code": "03",
+          "department": "Department of Food Science and Nutrition",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "FSHN4902-03:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "FSHN4902-04",
+          "section_code": "04",
+          "department": "Department of Food Science and Nutrition",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "FSHN4902-04:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "FSHN4902-05",
+          "section_code": "05",
+          "department": "Department of Food Science and Nutrition",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "FSHN4902-05:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "FSHN4902-06",
+          "section_code": "06",
+          "department": "Department of Food Science and Nutrition",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "FSHN4902-06:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -3730,7 +3905,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "24",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -3822,7 +3997,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "18",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -3871,7 +4046,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "1",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3920,7 +4095,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3969,7 +4144,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4067,7 +4242,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4116,7 +4291,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "29",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -4165,7 +4340,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "12",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -4214,7 +4389,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "18",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -4312,7 +4487,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "15",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -4361,7 +4536,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "9",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -4410,7 +4585,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "27",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -4459,7 +4634,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -4479,26 +4654,26 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MASF4110-01:cf6da64243d4",
-              "type": "LAB",
+              "meeting_id": "MASF4110-01:cadcc57ac598",
+              "type": "LEC",
               "days": [
                 "MON"
               ],
-              "start_time": "10:00",
-              "end_time": "11:50",
+              "start_time": "16:15",
+              "end_time": "18:05",
               "building": "Agriculture and Marine Sciences",
               "room": "0010",
               "room_type": "Lab Room",
               "location_status": "known"
             },
             {
-              "meeting_id": "MASF4110-01:b64596ef4d1f",
+              "meeting_id": "MASF4110-01:ad565cd2c821",
               "type": "LEC",
               "days": [
                 "WED"
               ],
-              "start_time": "10:00",
-              "end_time": "11:50",
+              "start_time": "16:15",
+              "end_time": "18:05",
               "building": "Agriculture and Marine Sciences",
               "room": "0010",
               "room_type": "Lab Room",
@@ -4508,7 +4683,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "6",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4557,7 +4732,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -4606,7 +4781,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "3",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -4655,7 +4830,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "7",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4727,7 +4902,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "7",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -4825,7 +5000,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "34",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -4858,16 +5033,16 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "NREC3100-01:25808f67e790",
+              "meeting_id": "NREC3100-01:62c66e3157b4",
               "type": "LAB",
               "days": [
                 "WED"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "D Common Teaching",
-              "room": "D06",
-              "room_type": "Classroom",
+              "building": "E Common Teaching",
+              "room": "E03",
+              "room_type": "Computer Room",
               "location_status": "known"
             }
           ],
@@ -4923,7 +5098,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "53",
+            "current": "54",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5021,7 +5196,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5168,7 +5343,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "9",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5217,7 +5392,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -5266,7 +5441,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "22",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5315,7 +5490,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "30",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5351,7 +5526,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "8",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -5400,7 +5575,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5498,7 +5673,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5639,7 +5814,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5829,7 +6004,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "7",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -5976,7 +6151,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "7",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -6025,7 +6200,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "1",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -6074,7 +6249,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "13",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -6172,7 +6347,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "22",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -6270,7 +6445,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "11",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6319,8 +6494,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "31"
           },
           "meeting_status": "scheduled"
         }
@@ -6355,7 +6530,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "6",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -6391,7 +6566,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -6476,7 +6651,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "36",
             "maximum": "54"
           },
           "meeting_status": "scheduled"
@@ -6591,7 +6766,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "25",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -6634,8 +6809,44 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "20",
             "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "SWAE2307",
+      "title": "Workshop Practice (1)",
+      "sections": [
+        {
+          "section_id": "SWAE2307-01",
+          "section_code": "01",
+          "department": "Department of Soils, Water and Agricultural Engineering",
+          "instructors": [
+            "TALAL YASIR SULAIYAM AL SHUKAILI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SWAE2307-01:46882497d579",
+              "type": "Practical",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Agriculture and Marine Sciences",
+              "room": "0060",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -6734,7 +6945,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "37",
-            "maximum": "50"
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -6978,7 +7189,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "28",
+            "current": "26",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -7076,7 +7287,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "21",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -7125,7 +7336,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "21",
             "maximum": "38"
           },
           "meeting_status": "scheduled"
@@ -7174,7 +7385,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -7238,42 +7449,40 @@
           "section_id": "SWAE4300-01",
           "section_code": "01",
           "department": "Department of Soils, Water and Agricultural Engineering",
-          "instructors": [
-            "TALAL YASIR SULAIYAM AL SHUKAILI"
-          ],
+          "instructors": [],
           "meetings": [
             {
-              "meeting_id": "SWAE4300-01:e46b233e73c6",
+              "meeting_id": "SWAE4300-01:fb0940b1043f",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "Agriculture and Marine Sciences",
-              "room": "0060",
-              "room_type": "Lab Room",
-              "location_status": "known"
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "SWAE4300-01:c2be0f852031",
+              "meeting_id": "SWAE4300-01:e4a19e6bc0bf",
               "type": "LAB",
               "days": [
                 "TUE"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "Agriculture and Marine Sciences",
-              "room": "0060",
-              "room_type": "Lab Room",
-              "location_status": "known"
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "30"
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -7321,7 +7530,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "25",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -7370,7 +7579,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "38",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -7468,7 +7677,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "34",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -7517,7 +7726,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "27",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -7589,7 +7798,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "5",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -7736,7 +7945,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "14",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -7899,7 +8108,7 @@
           "section_code": "01",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "SALMA RASHID MUBARAK AL-ADWANI"
+            "Muhammad Hammad Hussain"
           ],
           "meetings": [
             {
@@ -8197,26 +8406,26 @@
           ],
           "meetings": [
             {
-              "meeting_id": "ANVS6011-01:1606e50641a8",
+              "meeting_id": "ANVS6011-01:818093433a65",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "15:15",
-              "end_time": "17:05",
+              "start_time": "18:15",
+              "end_time": "20:05",
               "building": "Agriculture and Marine Sciences",
               "room": "140R",
               "room_type": "Lab Room",
               "location_status": "known"
             },
             {
-              "meeting_id": "ANVS6011-01:e3909910a37d",
-              "type": "LEC",
+              "meeting_id": "ANVS6011-01:4061008511d8",
+              "type": "Seminar",
               "days": [
                 "TUE"
               ],
-              "start_time": "15:15",
-              "end_time": "17:05",
+              "start_time": "18:15",
+              "end_time": "20:05",
               "building": "Agriculture and Marine Sciences",
               "room": "140R",
               "room_type": "Lab Room",
@@ -8226,7 +8435,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "2",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8325,7 +8534,7 @@
           "section_code": "01",
           "department": "Department of Animal and Veterinary Sciences",
           "instructors": [
-            "SALMA RASHID MUBARAK AL-ADWANI"
+            "WALEED SAID MOHAMMED AL MARZOOQI"
           ],
           "meetings": [
             {
@@ -8394,7 +8603,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "10",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8443,7 +8652,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -8542,7 +8751,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "10",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8614,7 +8823,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "10",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8988,7 +9197,7 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9024,7 +9233,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9122,7 +9331,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "13",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -9171,7 +9380,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9279,7 +9488,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "6",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -9364,7 +9573,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9400,7 +9609,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9498,7 +9707,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "6",
             "maximum": "10"
           },
           "meeting_status": "scheduled"

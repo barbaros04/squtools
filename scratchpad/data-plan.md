@@ -1,6 +1,6 @@
 # Data gaps and risks plan
 
-Status: items 1–5 complete. Item 2 collector and documentation are complete; a clean Fall release still requires the explicitly approved full recapture. Item 6 requires explicit approval.
+Status: all items complete. The Fall 2026/2027 snapshot was fully recaptured after the initial commit, so it now has complete collector-version provenance.
 
 1. **Make combination deterministic and bounded**
    - Select exactly the ten expected college/CPS artifacts plus the documented university-check artifacts.
@@ -25,9 +25,9 @@ Status: items 1–5 complete. Item 2 collector and documentation are complete; a
    - `docs/data-pipeline.md` defines weekly/daily refresh windows, manual SIS-change triggers, and the source-retrieval-completed timestamp as the sole freshness authority.
    - The data contract requires future consumers to show that timestamp and a display-time age, without representing snapshot data as live SIS availability.
 
-6. **Commit a verified baseline**
-   - Commit documentation, collector/tests, raw captures, generated artifacts, and validation evidence after the gates pass.
-   - Record the combined artifact checksum in a tag or release note.
+6. **Commit a verified baseline** — complete
+   - The initial verified baseline is committed. The 2026-09-14 full recapture has raw captures, generated artifacts, validation evidence, and a collector Git revision.
+   - Tag the finalized fresh-snapshot commit with the combined artifact checksum in its annotation.
 
 ## Domain note
 

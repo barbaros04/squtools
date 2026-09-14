@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-12T11:14:59.164046Z",
+  "generated_at": "2026-09-14T10:38:07.739351Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,23 +11,23 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-engineering-all-departments-english\\preview-response.html",
-        "sha256": "d679216b5d4af39e201ba9a6d0cfc28fca70a46920d5d17ac076be65eb4eadd7"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-engineering-all-departments-english\\preview-response.html",
+        "sha256": "eac38763c7dcccc84b4e6a584e323f119560271c47213e98c925b14b34406ed6"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-engineering-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "3592d7917b1f0e5b016654df09e931c9c4efc72ae4bb6d0ad6debada2858c2cf"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-engineering-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "5d09844acaeec3bf8fbcf4c94a9530229d817b6760c582e20c4b9a5a36df93f1"
       },
       {
-        "path": "data\\raw\\sis\\2026-2027-fall-college-of-engineering-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "93f95cee4318a2cc30db48053a50eb0202901a69ca777be4fc967915f27522b7"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-engineering-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "79c747963cf6814b909be3cd24572708bf87effd259c84d46880aa995c6726b1"
       }
     ]
   },
   "record_counts": {
-    "courses": 232,
-    "sections": 421,
-    "meetings": 691,
+    "courses": 235,
+    "sections": 446,
+    "meetings": 729,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 3,
     "collapsed_co_taught_rows": 12
@@ -73,8 +73,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "35"
+            "current": "36",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -437,7 +437,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -473,7 +473,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -978,8 +978,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "29",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -1022,7 +1022,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "23",
-            "maximum": "30"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -1057,8 +1057,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "34",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -1088,7 +1088,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "26",
-            "maximum": "30"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -1234,7 +1234,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -1431,7 +1431,9 @@
           "section_id": "CHPE4206-01",
           "section_code": "01",
           "department": "Department of Petroleum and Chemical Engineering",
-          "instructors": [],
+          "instructors": [
+            "Hussein Abdelazeem Younus Hassan"
+          ],
           "meetings": [
             {
               "meeting_id": "CHPE4206-01:3cb837b96f08",
@@ -1463,8 +1465,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "30"
+            "current": "30",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -1770,7 +1772,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "1",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -2423,7 +2425,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "22",
-            "maximum": "30"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -2465,8 +2467,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "30"
+            "current": "31",
+            "maximum": "34"
           },
           "meeting_status": "scheduled"
         }
@@ -2606,7 +2608,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "23",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -2655,7 +2657,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "17",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -2790,7 +2792,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
+            "current": "17",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -2848,7 +2850,9 @@
           "section_id": "CIVL3056-02",
           "section_code": "02",
           "department": "Department of Civil & Architectural Engineering",
-          "instructors": [],
+          "instructors": [
+            "Mohamed Barakat A. Gibril"
+          ],
           "meetings": [
             {
               "meeting_id": "CIVL3056-02:f881c01f16ce",
@@ -2880,7 +2884,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3021,7 +3025,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -3064,7 +3068,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "22",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -3113,7 +3117,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "11",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3162,7 +3166,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "28",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3211,7 +3215,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -3303,7 +3307,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "16",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3352,8 +3356,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "21",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         },
@@ -3442,7 +3446,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "36",
             "maximum": "37"
           },
           "meeting_status": "scheduled"
@@ -3491,7 +3495,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -3626,7 +3630,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "25",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -3711,7 +3715,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "32",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -3726,7 +3730,9 @@
           "section_id": "CIVL5001-01",
           "section_code": "01",
           "department": "Department of Civil & Architectural Engineering",
-          "instructors": [],
+          "instructors": [
+            "Mohamed Barakat A. Gibril"
+          ],
           "meetings": [
             {
               "meeting_id": "CIVL5001-01:8909647f000c",
@@ -3794,7 +3800,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "13",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3858,7 +3864,9 @@
           "section_id": "CIVL5150-01",
           "section_code": "01",
           "department": "Department of Civil & Architectural Engineering",
-          "instructors": [],
+          "instructors": [
+            "Mohamed Barakat A. Gibril"
+          ],
           "meetings": [
             {
               "meeting_id": "CIVL5150-01:5a11043b7bce",
@@ -3890,8 +3898,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "24",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         }
@@ -3908,30 +3916,30 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "CIVL5204-01:4cdc8e3096d7",
+              "meeting_id": "CIVL5204-01:128d78d95dbc",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "D Common Teaching",
-              "room": "D09",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             },
             {
-              "meeting_id": "CIVL5204-01:e88fa1a47521",
+              "meeting_id": "CIVL5204-01:ee66024c8331",
               "type": "Tutorial",
               "days": [
                 "WED"
               ],
               "start_time": "12:00",
               "end_time": "13:50",
-              "building": "D Common Teaching",
-              "room": "D14",
+              "building": "Closed section",
+              "room": "CLO",
               "room_type": "Classroom",
-              "location_status": "known"
+              "location_status": "unknown"
             }
           ],
           "credit_hours": "3.0",
@@ -3986,7 +3994,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "21",
             "maximum": "22"
           },
           "meeting_status": "scheduled"
@@ -4080,8 +4088,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
-            "maximum": "23"
+            "current": "25",
+            "maximum": "25"
           },
           "meeting_status": "scheduled"
         }
@@ -4172,7 +4180,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4271,7 +4279,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "30",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4314,7 +4322,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "18",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4330,7 +4338,7 @@
           "section_code": "01",
           "department": "Department of Civil & Architectural Engineering",
           "instructors": [
-            "MOHAMMED KANDIL EL-DIASTY"
+            "MOHAMMAD REZA MAHMOUD NIKOO"
           ],
           "meetings": [
             {
@@ -4350,8 +4358,264 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "15",
             "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-02",
+          "section_code": "02",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [
+            "YAHIA ELHAG AHMED ZEIN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-02:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-03",
+          "section_code": "03",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [
+            "RONALD EKYALIMPA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-03:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-04",
+          "section_code": "04",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-04:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-05",
+          "section_code": "05",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-05:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-06",
+          "section_code": "06",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-06:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-07",
+          "section_code": "07",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-07:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-08",
+          "section_code": "08",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-08:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-09",
+          "section_code": "09",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-09:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "CIVL5993-10",
+          "section_code": "10",
+          "department": "Department of Civil & Architectural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "CIVL5993-10:40ec104f593e",
+              "type": "Project",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
           },
           "meeting_status": "scheduled"
         }
@@ -4387,7 +4651,7 @@
           "course_language": "Arabic",
           "enrollment": {
             "current": "41",
-            "maximum": "42"
+            "maximum": "43"
           },
           "meeting_status": "scheduled"
         }
@@ -4504,8 +4768,8 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "30"
+            "current": "33",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -4560,7 +4824,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -4616,7 +4880,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4719,8 +4983,51 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE3015-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [
+            "HASSAN ABDEL HALEM HASSAN YOUSEF"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ECCE3015-02:92a99e80aa53",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "C Common Teaching",
+              "room": "C10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE3015-02:d18bc72ed758",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "C Common Teaching",
+              "room": "C10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "20",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -4768,7 +5075,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "28",
+            "current": "23",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -4811,7 +5118,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "29",
+            "current": "26",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4854,7 +5161,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "29",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4903,7 +5210,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "20",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4946,7 +5253,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "27",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4995,7 +5302,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "29",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5038,7 +5345,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "27",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -5130,7 +5437,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "26",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5173,7 +5480,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "25",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5216,7 +5523,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "29",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5259,7 +5566,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "31",
             "maximum": "48"
           },
           "meeting_status": "scheduled"
@@ -5300,7 +5607,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "3",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5349,7 +5656,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "16",
+            "current": "26",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -5358,9 +5665,7 @@
           "section_id": "ECCE3352-02",
           "section_code": "02",
           "department": "Department of Electrical and Computer Engineering",
-          "instructors": [
-            "HASSAN ABDEL HALEM HASSAN YOUSEF"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "ECCE3352-02:0d4c7a62f401",
@@ -5392,8 +5697,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "30"
+            "current": "6",
+            "maximum": "12"
           },
           "meeting_status": "scheduled"
         },
@@ -5482,7 +5787,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "15",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -5525,7 +5830,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "10",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -5574,8 +5879,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
-            "maximum": "35"
+            "current": "38",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -5617,8 +5922,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
-            "maximum": "32"
+            "current": "32",
+            "maximum": "37"
           },
           "meeting_status": "scheduled"
         }
@@ -5683,7 +5988,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "22",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -5775,7 +6080,50 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE4122-03",
+          "section_code": "03",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [
+            "NASER GUMA FARAJ TARHUNI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ECCE4122-03:37c7714da47a",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D10",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE4122-03:72160aef5ba6",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D14",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -5824,7 +6172,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -5867,7 +6215,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "31",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -5916,8 +6264,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "30"
+            "current": "29",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         },
@@ -5960,7 +6308,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "0",
-            "maximum": "20"
+            "maximum": "2"
           },
           "meeting_status": "scheduled"
         }
@@ -6008,8 +6356,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "30"
+            "current": "21",
+            "maximum": "50"
           },
           "meeting_status": "scheduled"
         },
@@ -6100,7 +6448,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "23",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -6143,7 +6491,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "27",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -6186,6 +6534,47 @@
           "enrollment": {
             "current": "0",
             "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE4227-04",
+          "section_code": "04",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE4227-04:a44c2a943f4c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "F Common Teaching",
+              "room": "F23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE4227-04:2409a5fbb618",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "F Common Teaching",
+              "room": "F23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "27",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -6282,7 +6671,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "24",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -6325,7 +6714,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "19",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -6374,8 +6763,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
-            "maximum": "30"
+            "current": "36",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -6417,7 +6806,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "0",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -6466,7 +6855,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "31",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -6509,7 +6898,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "24",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -6518,9 +6907,7 @@
           "section_id": "ECCE4416-03",
           "section_code": "03",
           "department": "Department of Electrical and Computer Engineering",
-          "instructors": [
-            "SAID SALIM HAMDAN AL- ABRI"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "ECCE4416-03:a222c63c876c",
@@ -6601,7 +6988,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "17",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -6680,7 +7067,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "4"
           },
           "meeting_status": "scheduled"
@@ -6978,7 +7365,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "2",
             "maximum": "4"
           },
           "meeting_status": "scheduled"
@@ -7218,7 +7605,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "4"
           },
           "meeting_status": "scheduled"
@@ -7788,7 +8175,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8107,8 +8494,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
-            "maximum": "20"
+            "current": "22",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -8150,8 +8537,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "20"
+            "current": "20",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -8193,8 +8580,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "20"
+            "current": "25",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -8242,7 +8629,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "25",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -8291,7 +8678,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "19",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -8340,7 +8727,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -8438,8 +8825,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "18",
-            "maximum": "20"
+            "current": "30",
+            "maximum": "80"
           },
           "meeting_status": "scheduled"
         }
@@ -8487,8 +8874,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "30"
+            "current": "40",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5232-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5232-02:bc3333b40abc",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5232-02:0acf117d4505",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Engineering",
+              "room": "0055",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
           },
           "meeting_status": "scheduled"
         }
@@ -8585,7 +9013,48 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "36",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5293-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5293-02:cc96dc8ccb28",
+              "type": "LAB",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Engineering",
+              "room": "0007",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5293-02:d30b62d2d978",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "B Common Teaching",
+              "room": "B04",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8634,8 +9103,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "42",
             "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5302-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5302-02:20d201f5fd54",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "C Common Teaching",
+              "room": "C07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5302-02:9eba10419ba3",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Engineering",
+              "room": "0007",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -8683,8 +9193,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "37",
             "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5303-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5303-02:a11f94a9dc30",
+              "type": "Tutorial",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Engineering",
+              "room": "0053",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5303-02:6884557fda37",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "C Common Teaching",
+              "room": "C12",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -8732,8 +9283,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "41",
             "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5332-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5332-02:62d1433160d3",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "C Common Teaching",
+              "room": "C06",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5332-02:35b59e1b44b2",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Engineering",
+              "room": "0007",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -8781,7 +9373,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8830,8 +9422,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "39",
             "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECCE5432-02",
+          "section_code": "02",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ECCE5432-02:4cdc8e3096d7",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D09",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "ECCE5432-02:1969af7dab88",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "D Common Teaching",
+              "room": "D03",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "4",
+            "maximum": "6"
           },
           "meeting_status": "scheduled"
         }
@@ -8928,7 +9561,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "12",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -8964,7 +9597,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9124,7 +9757,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9154,7 +9787,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9304,7 +9937,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "24",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -9349,7 +9982,9 @@
           "section_id": "ENGR2217-01",
           "section_code": "01",
           "department": "College of Engineering",
-          "instructors": [],
+          "instructors": [
+            "SAID SALIM HAMDAN AL- ABRI"
+          ],
           "meetings": [
             {
               "meeting_id": "ENGR2217-01:b6c0a2157d47",
@@ -9522,7 +10157,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "32",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -9537,9 +10172,7 @@
           "section_id": "MCTE3250-01",
           "section_code": "01",
           "department": "College of Engineering",
-          "instructors": [
-            "RIADH ZAIER"
-          ],
+          "instructors": [],
           "meetings": [
             {
               "meeting_id": "MCTE3250-01:5e7ea4cf35a6",
@@ -9571,8 +10204,51 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "8",
             "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MCTE3250-02",
+          "section_code": "02",
+          "department": "College of Engineering",
+          "instructors": [
+            "RIADH ZAIER"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MCTE3250-02:2e1f4894d9e6",
+              "type": "Tutorial",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "D Common Teaching",
+              "room": "D18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MCTE3250-02:79b1b2698788",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "D Common Teaching",
+              "room": "D18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "20",
+            "maximum": "45"
           },
           "meeting_status": "scheduled"
         }
@@ -9754,7 +10430,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -9803,7 +10479,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "15",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10116,7 +10792,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -10232,7 +10908,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "8",
+            "current": "9",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -10274,17 +10950,17 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "MCTE5191-11:7352000dc74b",
+              "meeting_id": "MCTE5191-11:192fe1a09149",
               "type": "Project",
               "days": [
                 "THU"
               ],
               "start_time": "12:00",
               "end_time": "16:05",
-              "building": "Closed section",
-              "room": "CLO",
-              "room_type": "Classroom",
-              "location_status": "unknown"
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
             }
           ],
           "credit_hours": "2.0",
@@ -10292,6 +10968,62 @@
           "enrollment": {
             "current": "0",
             "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MCTE5191-12",
+          "section_code": "12",
+          "department": "College of Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MCTE5191-12:687f01fcf547",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MCTE5191-13",
+          "section_code": "13",
+          "department": "College of Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MCTE5191-13:687f01fcf547",
+              "type": "Project",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Project",
+              "room": "PRO",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "20"
           },
           "meeting_status": "scheduled"
         }
@@ -10397,7 +11129,9 @@
           "section_id": "MEIE3100-02",
           "section_code": "02",
           "department": "Department of Mechanical and Industrial Engineering",
-          "instructors": [],
+          "instructors": [
+            "KHURSHID ALAM"
+          ],
           "meetings": [
             {
               "meeting_id": "MEIE3100-02:ad302844de0b",
@@ -10430,7 +11164,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "25",
-            "maximum": "55"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -10478,8 +11212,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "32",
-            "maximum": "32"
+            "current": "34",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -10534,7 +11268,9 @@
           "section_id": "MEIE3103-01",
           "section_code": "01",
           "department": "Department of Mechanical and Industrial Engineering",
-          "instructors": [],
+          "instructors": [
+            "KHURSHID ALAM"
+          ],
           "meetings": [
             {
               "meeting_id": "MEIE3103-01:e8eac76c2ead",
@@ -10566,7 +11302,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "23",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -10575,7 +11311,9 @@
           "section_id": "MEIE3103-02",
           "section_code": "02",
           "department": "Department of Mechanical and Industrial Engineering",
-          "instructors": [],
+          "instructors": [
+            "KHURSHID ALAM"
+          ],
           "meetings": [
             {
               "meeting_id": "MEIE3103-02:88b3620a6562",
@@ -10607,7 +11345,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "35",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -10656,8 +11394,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
-            "maximum": "55"
+            "current": "36",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -10753,7 +11491,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "34",
-            "maximum": "55"
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         },
@@ -10795,7 +11533,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "32",
+            "current": "38",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -10844,7 +11582,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "34",
+            "current": "32",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -10887,7 +11625,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
+            "current": "27",
             "maximum": "31"
           },
           "meeting_status": "scheduled"
@@ -10897,31 +11635,30 @@
           "section_code": "03",
           "department": "Department of Mechanical and Industrial Engineering",
           "instructors": [
-            "ABDULLAH AL JANABI",
-            "SULAIMAN KHALFAN SAID AL-OBAIDANI"
+            "ABDULLAH AL JANABI"
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE3141-03:9157a156fe81",
+              "meeting_id": "MEIE3141-03:0b5f3e343041",
               "type": "LEC",
               "days": [
                 "MON"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
-              "building": "C Common Teaching",
-              "room": "C07",
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "F Common Teaching",
+              "room": "F47",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE3141-03:a840c501177a",
-              "type": "Tutorial",
+              "meeting_id": "MEIE3141-03:2c0820148814",
+              "type": "LEC",
               "days": [
                 "WED"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "14:15",
+              "end_time": "16:05",
               "building": "C Common Teaching",
               "room": "C17",
               "room_type": "Classroom",
@@ -10931,8 +11668,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "35"
+            "current": "12",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -10951,28 +11688,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE3142-01:bf83b5d08e1b",
+              "meeting_id": "MEIE3142-01:e9fefe173364",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "08:00",
-              "end_time": "09:50",
+              "start_time": "12:00",
+              "end_time": "13:50",
               "building": "D Common Teaching",
-              "room": "D13",
+              "room": "D12",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE3142-01:def584794c0e",
+              "meeting_id": "MEIE3142-01:331e577f40b7",
               "type": "Tutorial",
               "days": [
                 "TUE"
               ],
-              "start_time": "08:00",
-              "end_time": "09:50",
+              "start_time": "12:00",
+              "end_time": "13:50",
               "building": "D Common Teaching",
-              "room": "D03",
+              "room": "D13",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -10980,7 +11717,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "24",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -11076,7 +11813,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "27",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -11125,7 +11862,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
+            "current": "32",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -11183,7 +11920,9 @@
           "section_id": "MEIE3203-01",
           "section_code": "01",
           "department": "Department of Mechanical and Industrial Engineering",
-          "instructors": [],
+          "instructors": [
+            "MOOSA SALIM MOOSA AL KHARUSI"
+          ],
           "meetings": [
             {
               "meeting_id": "MEIE3203-01:b1029a4d8607",
@@ -11215,8 +11954,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "28",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -11401,7 +12140,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "18",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -11499,7 +12238,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "7",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -11542,7 +12281,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -11591,8 +12330,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
-            "maximum": "20"
+            "current": "23",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         },
@@ -11634,8 +12373,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
-            "maximum": "20"
+            "current": "19",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -11684,7 +12423,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "29",
-            "maximum": "55"
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -11794,7 +12533,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "31",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -11843,7 +12582,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "29",
             "maximum": "37"
           },
           "meeting_status": "scheduled"
@@ -11886,7 +12625,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "28",
             "maximum": "36"
           },
           "meeting_status": "scheduled"
@@ -11906,26 +12645,26 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE4144-01:90f0fb2a77b3",
+              "meeting_id": "MEIE4144-01:8c5990745d6f",
               "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "12:00",
+              "end_time": "13:50",
               "building": "Engineering",
               "room": "MIE Computer Lab 1017",
               "room_type": "Computer Room",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE4144-01:d87d0627cf29",
-              "type": "LAB",
+              "meeting_id": "MEIE4144-01:fcf6dc841b98",
+              "type": "LEC",
               "days": [
                 "TUE"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "12:00",
+              "end_time": "13:50",
               "building": "Engineering",
               "room": "MIE Computer Lab 1017",
               "room_type": "Computer Room",
@@ -11935,7 +12674,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "20",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -12002,7 +12741,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE4162-01:9b2a44c9e1cf",
+              "meeting_id": "MEIE4162-01:cbf95435686f",
               "type": "LEC",
               "days": [
                 "MON"
@@ -12010,12 +12749,12 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "D Common Teaching",
-              "room": "D15",
+              "room": "D18",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE4162-01:282fb21dca70",
+              "meeting_id": "MEIE4162-01:f30649b126be",
               "type": "Tutorial",
               "days": [
                 "WED"
@@ -12023,7 +12762,7 @@
               "start_time": "10:00",
               "end_time": "11:50",
               "building": "D Common Teaching",
-              "room": "D15",
+              "room": "D18",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12031,8 +12770,49 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "19",
             "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "MEIE4162-02",
+          "section_code": "02",
+          "department": "Department of Mechanical and Industrial Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MEIE4162-02:d7f33fc155ac",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "C Common Teaching",
+              "room": "C17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEIE4162-02:37d8e279f856",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "C Common Teaching",
+              "room": "C07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "10"
           },
           "meeting_status": "scheduled"
         }
@@ -12080,7 +12860,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "35",
             "maximum": "36"
           },
           "meeting_status": "scheduled"
@@ -12123,8 +12903,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
-            "maximum": "33"
+            "current": "35",
+            "maximum": "36"
           },
           "meeting_status": "scheduled"
         }
@@ -12143,28 +12923,28 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE4188-01:0733485d5e7e",
-              "type": "LAB",
+              "meeting_id": "MEIE4188-01:bf83b5d08e1b",
+              "type": "LEC",
               "days": [
                 "SUN"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "08:00",
+              "end_time": "09:50",
               "building": "D Common Teaching",
-              "room": "D12",
+              "room": "D13",
               "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE4188-01:b193bdae6b9e",
-              "type": "LEC",
+              "meeting_id": "MEIE4188-01:ff6ab728dbb6",
+              "type": "LAB",
               "days": [
                 "TUE"
               ],
-              "start_time": "12:00",
-              "end_time": "13:50",
+              "start_time": "08:00",
+              "end_time": "09:50",
               "building": "D Common Teaching",
-              "room": "D13",
+              "room": "D03",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12172,7 +12952,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "1",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -12206,7 +12986,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "9",
             "maximum": "62"
           },
           "meeting_status": "scheduled"
@@ -12255,7 +13035,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "24",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -12302,7 +13082,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "7",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -12349,7 +13129,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "18",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -12363,7 +13143,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE4262-02:d7f33fc155ac",
+              "meeting_id": "MEIE4262-02:9157a156fe81",
               "type": "LEC",
               "days": [
                 "MON"
@@ -12371,7 +13151,7 @@
               "start_time": "12:00",
               "end_time": "13:50",
               "building": "C Common Teaching",
-              "room": "C17",
+              "room": "C07",
               "room_type": "Classroom",
               "location_status": "known"
             },
@@ -12392,7 +13172,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "32",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -12441,8 +13221,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
-            "maximum": "35"
+            "current": "36",
+            "maximum": "37"
           },
           "meeting_status": "scheduled"
         }
@@ -12490,8 +13270,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
-            "maximum": "20"
+            "current": "15",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -12510,49 +13290,49 @@
           ],
           "meetings": [
             {
-              "meeting_id": "MEIE4288-01:e581f6deab36",
+              "meeting_id": "MEIE4288-01:7633ed14c3ad",
               "type": "LAB",
               "days": [
                 "SUN"
               ],
               "start_time": "08:00",
               "end_time": "09:50",
-              "building": "Engineering",
-              "room": "MIE Computer Lab 1017",
-              "room_type": "Computer Room",
+              "building": "D Common Teaching",
+              "room": "D13",
+              "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE4288-01:59b87eb828e3",
+              "meeting_id": "MEIE4288-01:ac2d31650ac7",
               "type": "LAB",
               "days": [
                 "TUE"
               ],
               "start_time": "08:00",
               "end_time": "08:50",
-              "building": "Engineering",
-              "room": "MIE Computer Lab 1017",
-              "room_type": "Computer Room",
+              "building": "D Common Teaching",
+              "room": "D03",
+              "room_type": "Classroom",
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE4288-01:1b1de9eed887",
+              "meeting_id": "MEIE4288-01:1b85a628d1e0",
               "type": "LEC",
               "days": [
                 "TUE"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
-              "building": "Engineering",
-              "room": "MIE Computer Lab 1017",
-              "room_type": "Computer Room",
+              "building": "D Common Teaching",
+              "room": "D03",
+              "room_type": "Classroom",
               "location_status": "known"
             }
           ],
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "4",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -12684,17 +13464,19 @@
       ]
     },
     {
-      "course_id": "MEIE5130",
-      "title": "Mechatronics Systems and Applications",
+      "course_id": "MEIE5121",
+      "title": "Modelling and Simulation of Engineering Systems",
       "sections": [
         {
-          "section_id": "MEIE5130-01",
+          "section_id": "MEIE5121-01",
           "section_code": "01",
           "department": "Department of Mechanical and Industrial Engineering",
-          "instructors": [],
+          "instructors": [
+            "AMUR SALIM MOHAMED AL-YAHMEDI"
+          ],
           "meetings": [
             {
-              "meeting_id": "MEIE5130-01:d97af6ccc88d",
+              "meeting_id": "MEIE5121-01:d97af6ccc88d",
               "type": "LEC",
               "days": [
                 "MON"
@@ -12707,7 +13489,7 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEIE5130-01:7a780e24ce97",
+              "meeting_id": "MEIE5121-01:7a780e24ce97",
               "type": "Tutorial",
               "days": [
                 "WED"
@@ -12716,6 +13498,53 @@
               "end_time": "09:50",
               "building": "F Common Teaching",
               "room": "F16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "35"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEIE5130",
+      "title": "Mechatronics Systems and Applications",
+      "sections": [
+        {
+          "section_id": "MEIE5130-01",
+          "section_code": "01",
+          "department": "Department of Mechanical and Industrial Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MEIE5130-01:7b16b3b2ef54",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "B Common Teaching",
+              "room": "B05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEIE5130-01:e82475a41a9d",
+              "type": "Tutorial",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "B Common Teaching",
+              "room": "B05",
               "room_type": "Classroom",
               "location_status": "known"
             }
@@ -12772,7 +13601,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "27",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -12868,8 +13697,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "31",
-            "maximum": "35"
+            "current": "36",
+            "maximum": "37"
           },
           "meeting_status": "scheduled"
         }
@@ -12886,37 +13715,37 @@
           "instructors": [],
           "meetings": [
             {
-              "meeting_id": "MEIE5151-01:7456b29b9759",
+              "meeting_id": "MEIE5151-01:2a57bfa8f80b",
               "type": "LEC",
               "days": [
                 "MON"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "F Common Teaching",
+              "room": "F35",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             },
             {
-              "meeting_id": "MEIE5151-01:5aa540535b01",
+              "meeting_id": "MEIE5151-01:cba0289da457",
               "type": "Tutorial",
               "days": [
                 "WED"
               ],
               "start_time": "14:15",
               "end_time": "16:05",
-              "building": "No Room Available",
-              "room": "NOR",
+              "building": "D Common Teaching",
+              "room": "D13",
               "room_type": "Classroom",
-              "location_status": "unknown"
+              "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "25",
+            "maximum": "32"
           },
           "meeting_status": "scheduled"
         }
@@ -13009,8 +13838,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
-            "maximum": "20"
+            "current": "20",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -13111,6 +13940,55 @@
       ]
     },
     {
+      "course_id": "MEIE5169",
+      "title": "Fundamentals of Sustainable Engineering",
+      "sections": [
+        {
+          "section_id": "MEIE5169-01",
+          "section_code": "01",
+          "department": "Department of Mechanical and Industrial Engineering",
+          "instructors": [
+            "SAYYAD ZAHID QAMAR"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MEIE5169-01:fc73dace154d",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Engineering",
+              "room": "MIE Computer Lab 1017",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "MEIE5169-01:a411d9107d64",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Engineering",
+              "room": "MIE Computer Lab 1017",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "35"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
       "course_id": "MEIE5193",
       "title": "Project (1)",
       "sections": [
@@ -13196,7 +14074,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "1",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13284,7 +14162,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13346,7 +14224,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13420,7 +14298,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "7",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13552,7 +14430,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "3",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13640,7 +14518,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "2",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13854,7 +14732,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "2",
+            "current": "4",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -13995,7 +14873,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "2",
             "maximum": "999"
           },
           "meeting_status": "scheduled"
@@ -14108,7 +14986,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "28",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -14255,7 +15133,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "32"
           },
           "meeting_status": "scheduled"
@@ -14304,7 +15182,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "25",
+            "current": "30",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -14353,8 +15231,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "28",
-            "maximum": "55"
+            "current": "33",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         },
@@ -14396,8 +15274,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
-            "maximum": "55"
+            "current": "35",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -14691,7 +15569,9 @@
           "section_id": "PNGE3111-01",
           "section_code": "01",
           "department": "Department of Petroleum and Chemical Engineering",
-          "instructors": [],
+          "instructors": [
+            "Hussein Abdelazeem Younus Hassan"
+          ],
           "meetings": [
             {
               "meeting_id": "PNGE3111-01:8ba5eb94de7d",
@@ -14821,7 +15701,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "36",
+            "current": "38",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -14870,8 +15750,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "38",
-            "maximum": "40"
+            "current": "48",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         }
@@ -15034,7 +15914,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "45",
+            "current": "50",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -15119,7 +15999,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "34",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -15162,7 +16042,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "29",
+            "current": "28",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -15212,7 +16092,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "19",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -15261,7 +16141,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "43",
+            "current": "42",
             "maximum": "45"
           },
           "meeting_status": "scheduled"
@@ -15374,7 +16254,9 @@
           "section_id": "PNGE5203-01",
           "section_code": "01",
           "department": "Department of Petroleum and Chemical Engineering",
-          "instructors": [],
+          "instructors": [
+            "Alireza Jalali"
+          ],
           "meetings": [
             {
               "meeting_id": "PNGE5203-01:6228f5aba5e7",
@@ -15406,7 +16288,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "47",
+            "current": "46",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -15626,7 +16508,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "2",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -15662,7 +16544,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "9",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -15768,7 +16650,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "16",
             "maximum": "25"
           },
           "meeting_status": "scheduled"
@@ -15804,8 +16686,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
-            "maximum": "20"
+            "current": "23",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -15840,7 +16722,7 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "11",
             "maximum": "100"
           },
           "meeting_status": "scheduled"
@@ -15984,7 +16866,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "13",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -16092,7 +16974,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -16128,7 +17010,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "3",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16518,7 +17400,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "12",
+            "current": "13",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16756,7 +17638,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "3",
+            "current": "5",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16864,7 +17746,7 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "10",
+            "current": "11",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16900,7 +17782,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "15",
+            "current": "16",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -16944,6 +17826,42 @@
       ]
     },
     {
+      "course_id": "ENGR6910",
+      "title": "Advanced Engineering Statistics",
+      "sections": [
+        {
+          "section_id": "ENGR6910-01",
+          "section_code": "01",
+          "department": "College of Engineering",
+          "instructors": [
+            "Tahir Mehmood"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ENGR6910-01:56a2f6c175af",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "D Common Teaching",
+              "room": "D07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "5",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
       "course_id": "ENGR6913",
       "title": "Advanced Engineering Mathematics",
       "sections": [
@@ -16972,7 +17890,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "22",
+            "current": "21",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -17000,7 +17918,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "3",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -17153,7 +18071,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "8",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -17225,7 +18143,7 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "12",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -17261,7 +18179,7 @@
           "credit_hours": "0.0",
           "course_language": "English",
           "enrollment": {
-            "current": "13",
+            "current": "14",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -17405,7 +18323,7 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "4",
+            "current": "5",
             "maximum": "100"
           },
           "meeting_status": "scheduled"
