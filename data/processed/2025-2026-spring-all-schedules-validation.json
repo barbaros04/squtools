@@ -1,0 +1,166 @@
+{
+  "generator": "scripts/combine_schedules.py",
+  "generated_at": "2026-09-18T09:21:04.077292Z",
+  "term": {
+    "term_id": "2025/2026-SPRING",
+    "label": "Spring 2025/2026",
+    "timezone": "Asia/Muscat"
+  },
+  "max_unknown_location_rate": 0.17,
+  "artifacts": [
+    {
+      "artifact": "2025-2026-spring-center-for-preparatory-studies-all-departments-english-standard.json",
+      "courses": 46,
+      "sections": 432,
+      "meetings": 1578,
+      "unscheduled_sections": 0,
+      "known_locations": 1409,
+      "unknown_locations": 169,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 260,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-agricultural-and-marine-sciences-all-departments-english-standard.json",
+      "courses": 179,
+      "sections": 256,
+      "meetings": 412,
+      "unscheduled_sections": 1,
+      "known_locations": 336,
+      "unknown_locations": 76,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 86,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-arts-and-social-sciences-all-departments-english-standard.json",
+      "courses": 362,
+      "sections": 837,
+      "meetings": 1372,
+      "unscheduled_sections": 0,
+      "known_locations": 1201,
+      "unknown_locations": 171,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 278,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-economics-and-political-science-all-departments-english-standard.json",
+      "courses": 215,
+      "sections": 405,
+      "meetings": 736,
+      "unscheduled_sections": 0,
+      "known_locations": 659,
+      "unknown_locations": 77,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 94,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-education-all-departments-english-standard.json",
+      "courses": 256,
+      "sections": 662,
+      "meetings": 1340,
+      "unscheduled_sections": 0,
+      "known_locations": 784,
+      "unknown_locations": 556,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 171,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-engineering-all-departments-english-standard.json",
+      "courses": 229,
+      "sections": 428,
+      "meetings": 681,
+      "unscheduled_sections": 3,
+      "known_locations": 634,
+      "unknown_locations": 47,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 155,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-law-all-departments-english-standard.json",
+      "courses": 48,
+      "sections": 126,
+      "meetings": 232,
+      "unscheduled_sections": 0,
+      "known_locations": 224,
+      "unknown_locations": 8,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 113,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-medicine-and-health-sciences-all-departments-english-standard.json",
+      "courses": 62,
+      "sections": 90,
+      "meetings": 225,
+      "unscheduled_sections": 0,
+      "known_locations": 180,
+      "unknown_locations": 45,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 157,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-nursing-all-departments-english-standard.json",
+      "courses": 51,
+      "sections": 70,
+      "meetings": 120,
+      "unscheduled_sections": 0,
+      "known_locations": 71,
+      "unknown_locations": 49,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 251,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-college-of-science-all-departments-english-standard.json",
+      "courses": 294,
+      "sections": 841,
+      "meetings": 1451,
+      "unscheduled_sections": 2,
+      "known_locations": 1285,
+      "unknown_locations": 166,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 603,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-university-all-departments-english-university-electives.json",
+      "courses": 38,
+      "sections": 64,
+      "meetings": 64,
+      "unscheduled_sections": 0,
+      "known_locations": 46,
+      "unknown_locations": 18,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 3,
+      "conflicts": 0
+    },
+    {
+      "artifact": "2025-2026-spring-university-all-departments-english-university-requirements.json",
+      "courses": 4,
+      "sections": 42,
+      "meetings": 52,
+      "unscheduled_sections": 0,
+      "known_locations": 51,
+      "unknown_locations": 1,
+      "duplicate_source_rows": 0,
+      "collapsed_co_taught_rows": 163,
+      "conflicts": 0
+    }
+  ],
+  "combined": {
+    "courses": 1742,
+    "sections": 4147,
+    "meetings": 8147,
+    "known_locations": 6783,
+    "unknown_locations": 1364,
+    "unknown_location_rate": 0.16742359150607586,
+    "conflicts": 0
+  },
+  "errors": []
+}

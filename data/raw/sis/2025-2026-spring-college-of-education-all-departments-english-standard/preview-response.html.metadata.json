@@ -1,0 +1,11 @@
+{
+  "byte_count": 97095,
+  "content_sha256": "db7037f48057b0c2d329a65d66cef238d78df794edba9fd3537fa198fbff83e5",
+  "content_type": "text/html; charset=utf-8",
+  "generator": "scripts/scrape_schedule.py",
+  "pipeline_version": "15c0ae9ba79ecb3038adfee2e3d991566a993e76",
+  "retrieved_at": "2026-09-18T08:21:22.182363Z",
+  "source_url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+  "stage": "preview",
+  "term": "2025/2026 Spring"
+}

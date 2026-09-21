@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/combine_schedules.py",
+  "term": {
+    "term_id": "2025/2026-SPRING",
+    "label": "Spring 2025/2026",
+    "timezone": "Asia/Muscat"
+  },
+  "snapshot": {
+    "snapshot_id": "33b186226b61f201e256b6a48abec35a70d324119d312366f71222d552865228",
+    "source_retrieval_completed_at": "2026-09-18T08:25:43.541860Z"
+  },
+  "record_counts": {
+    "courses": 1742,
+    "sections": 4147,
+    "meetings": 8147
+  }
+}

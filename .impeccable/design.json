@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T18:23:35Z",
+  "title": "Design System: SQU Tools",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Night Ink", "canonical": "#15171b", "tonalRamp": ["#15171b", "#25282d", "#3b3f45", "#555a60", "#72767c", "#9b9fa3", "#c9ccce", "#f4f1ea"] },
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#f4f1ea", "tonalRamp": ["#2a2928", "#494744", "#67635e", "#858078", "#a49e95", "#c4bdb3", "#dfd8cd", "#f4f1ea"] },
+      "lavender": { "role": "primary", "displayName": "Schedule Lavender", "canonical": "#c7b7ff", "tonalRamp": ["#271d57", "#44348a", "#624cb5", "#8168d5", "#9d85ed", "#c7b7ff", "#dcd4ff", "#f0edff"] },
+      "lime": { "role": "secondary", "displayName": "Room Lime", "canonical": "#d9f05b", "tonalRamp": ["#253000", "#455b00", "#668400", "#89ad13", "#add333", "#d9f05b", "#e8f894", "#f6ffd2"] },
+      "coral": { "role": "tertiary", "displayName": "Plan Coral", "canonical": "#f0a57c", "tonalRamp": ["#4c1f0d", "#783719", "#a85229", "#cf7048", "#e98d64", "#f0a57c", "#f8c4a9", "#ffe8dc"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "System Display", "purpose": "Directory and tool-page headings." },
+      "body": { "displayName": "System Body", "purpose": "Tool descriptions and metadata." }
+    },
+    "motion": [
+      { "name": "language-settle", "value": "240ms cubic-bezier(.2, .8, .2, 1)", "purpose": "Language changes fade and settle without moving the interface dramatically." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "650px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Tool directory row",
+      "kind": "custom",
+      "refersTo": "tool-row",
+      "description": "A full-width destination band for one tool.",
+      "html": "<a class=\"ds-tool-row\" href=\"#\"><span><strong>Schedule Builder</strong><small>Choose sections and compare timetable combinations.</small></span><em>Open</em></a>",
+      "css": ".ds-tool-row { min-height: 164px; padding: 24px 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; background: #c7b7ff; color: #15171b; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; text-decoration: none; } .ds-tool-row strong { display: block; font-size: 32px; letter-spacing: -0.04em; } .ds-tool-row small { display: block; margin-top: 8px; font-size: 16px; } .ds-tool-row em { font-style: normal; font-weight: 700; } .ds-tool-row:hover { filter: brightness(1.06); } .ds-tool-row:focus-visible { outline: 3px solid #f4f1ea; outline-offset: 4px; }"
+    },
+    {
+      "name": "Language switch",
+      "kind": "button",
+      "refersTo": "language-switch",
+      "description": "A text-only locale control in the utility header.",
+      "html": "<button class=\"ds-language-switch\" type=\"button\">العربية</button>",
+      "css": ".ds-language-switch { min-height: 44px; padding: 0 12px; background: #22262b; border: 0; color: #f4f1ea; cursor: pointer; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 650; } .ds-language-switch:hover { background: #2e343c; } .ds-language-switch:focus-visible { outline: 3px solid #f4f1ea; outline-offset: 4px; }"
+    },
+    {
+      "name": "Utility navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact wordmark and utility actions for a small static tool set.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">SQU Tools</a><a href=\"#\">All tools</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; color: #f4f1ea; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; } .ds-nav a { color: inherit; font-size: 14px; font-weight: 700; text-decoration: none; } .ds-nav a + a { color: #b9bcb8; font-weight: 600; } .ds-nav a:hover { color: #f4f1ea; } .ds-nav a:focus-visible { outline: 3px solid #f4f1ea; outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Noticeboard",
+    "overview": "SQU Tools is a dark, direct utility surface: a small set of high-contrast choices arranged like notices that can be recognized at a glance. It is not a dashboard, a marketing page, or a collection of floating cards. Color carries tool identity; typography supplies the hierarchy.",
+    "keyCharacteristics": ["Near-black field with three distinct, opaque tool colors.", "Oversized, compact system typography.", "Full-width tool bands rather than card grids.", "Almost no decoration: no gradients, blur, borders, or shadows."],
+    "rules": [
+      { "name": "The One-Band Rule", "body": "A tool gets one solid color band. Do not scatter its color across unrelated controls or sections.", "section": "colors" },
+      { "name": "The Big Name Rule", "body": "Tool names carry the visual weight; do not add icons, kicker labels, or slogan copy above them.", "section": "typography" },
+      { "name": "The Flat Field Rule", "body": "Do not add shadows, glass effects, gradients, or hairline borders as visual substitutes for hierarchy.", "section": "elevation" }
+    ],
+    "dos": ["Do keep a single-column tool menu with large, readable type.", "Do reserve lavender, lime, and coral for their assigned tools.", "Do keep English and Arabic copy concise and let RTL control the layout direction.", "Do preserve the flat ink-and-band contrast at every breakpoint."],
+    "donts": ["Don't bring back card grids, glass panels, gradients, borders, or shadow stacks.", "Don't use underlines, bouncy transforms, or novelty motion for tool-row hover states.", "Don't add promotional headlines, institutional-affiliation claims, or generic dashboard metrics.", "Don't make a tablet layout a scaled desktop screenshot; preserve touch targets and readable metadata."]
+  }
+}

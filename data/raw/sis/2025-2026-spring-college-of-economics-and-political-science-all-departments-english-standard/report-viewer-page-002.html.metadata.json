@@ -1,0 +1,12 @@
+{
+  "byte_count": 564654,
+  "content_sha256": "09c1a05ae13b3904185f85a502a015a68918aa63ec188f1c5b9c3c46c47954ac",
+  "content_type": "text/html; charset=utf-8",
+  "generator": "scripts/scrape_schedule.py",
+  "page": 2,
+  "pipeline_version": "15c0ae9ba79ecb3038adfee2e3d991566a993e76",
+  "retrieved_at": "2026-09-18T08:21:16.415208Z",
+  "source_url": "https://sis.squ.edu.om/umisreports/viewers/localreportviewer.aspx",
+  "stage": "report_viewer",
+  "term": "2025/2026 Spring"
+}

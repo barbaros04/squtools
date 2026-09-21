@@ -1,0 +1,5475 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/scrape_schedule.py",
+  "generated_at": "2026-09-18T08:23:08.871627Z",
+  "term": {
+    "term_id": "2025/2026-SPRING",
+    "label": "Spring 2025/2026",
+    "timezone": "Asia/Muscat"
+  },
+  "source": {
+    "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+    "captures": [
+      {
+        "path": "data\\raw\\sis\\2025-2026-spring-college-of-law-all-departments-english-standard\\preview-response.html",
+        "sha256": "b06be05befe4cc6152cbd59be20942cdf37de09d71b17a29c4f8b1d05bf075de"
+      },
+      {
+        "path": "data\\raw\\sis\\2025-2026-spring-college-of-law-all-departments-english-standard\\report-viewer-page-001.html",
+        "sha256": "afe950d78dca2bf5163e2ad06773b0686d5b9875095ebfed2c3132cc437307e4"
+      },
+      {
+        "path": "data\\raw\\sis\\2025-2026-spring-college-of-law-all-departments-english-standard\\report-viewer-page-002.html",
+        "sha256": "0a3622039932471db00eab191a845d10f2a1486eed9b17e3a74e90802db84647"
+      }
+    ]
+  },
+  "record_counts": {
+    "courses": 48,
+    "sections": 126,
+    "meetings": 232,
+    "unscheduled_sections": 0,
+    "duplicate_source_rows": 0,
+    "collapsed_co_taught_rows": 113
+  },
+  "courses": [
+    {
+      "course_id": "COLW6701",
+      "title": "Profound Study of Commercial Law",
+      "sections": [
+        {
+          "section_id": "COLW6701-01",
+          "section_code": "01",
+          "department": "Department of Commercial Law",
+          "instructors": [
+            "MOHAMMAD KAMAL SALEM ABDELHAMEED ABOZEID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COLW6701-01:e7ff99d76031",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "10",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "COLW6703",
+      "title": "Air and Marine Transportation Contracts",
+      "sections": [
+        {
+          "section_id": "COLW6703-01",
+          "section_code": "01",
+          "department": "Department of Commercial Law",
+          "instructors": [
+            "MOHAMMAD KAMAL SALEM ABDELHAMEED ABOZEID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COLW6703-01:6d2a9a5d6532",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "7",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "COLW6720",
+      "title": "International Commercial Contracts",
+      "sections": [
+        {
+          "section_id": "COLW6720-01",
+          "section_code": "01",
+          "department": "Department of Commercial Law",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "COLW6720-01:cad14dcfe395",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "COLW7001",
+      "title": "Masters Thesis",
+      "sections": [
+        {
+          "section_id": "COLW7001-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MAEN (MOHAMMAD ALI) S"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COLW7001-01:eb5b743a01b0",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "3",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CRLW6702",
+      "title": "Profound Study of Criminology Theory",
+      "sections": [
+        {
+          "section_id": "CRLW6702-01",
+          "section_code": "01",
+          "department": "Department of Criminal Law",
+          "instructors": [
+            "RASHID HAMED HUMAID AL-BULUSHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CRLW6702-01:fdf80c1df3f2",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "12",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CRLW6704",
+      "title": "Profound Study of Criminal Case",
+      "sections": [
+        {
+          "section_id": "CRLW6704-01",
+          "section_code": "01",
+          "department": "Department of Criminal Law",
+          "instructors": [
+            "SAHER I S ALWALID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CRLW6704-01:f3a59426067d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "11",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CRLW6706",
+      "title": "Criminal Judgements Execution",
+      "sections": [
+        {
+          "section_id": "CRLW6706-01",
+          "section_code": "01",
+          "department": "Department of Criminal Law",
+          "instructors": [
+            "Saif Ahmed Mohammed Alrawahi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CRLW6706-01:086040176fb1",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "7",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CRLW6723",
+      "title": "Accusation and Investigation Systems in Criminal Cases",
+      "sections": [
+        {
+          "section_id": "CRLW6723-01",
+          "section_code": "01",
+          "department": "Department of Criminal Law",
+          "instructors": [
+            "OMAR ABDEL MAJID ABDEL HAMID MUSBIH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CRLW6723-01:31e68e2d5cdf",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "3",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CRLW7001",
+      "title": "Masters Thesis",
+      "sections": [
+        {
+          "section_id": "CRLW7001-01",
+          "section_code": "01",
+          "department": "Department of Criminal Law",
+          "instructors": [
+            "SAHER I S ALWALID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CRLW7001-01:eb5b743a01b0",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "2",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLLW6701",
+      "title": "Profound Study of Civil Law",
+      "sections": [
+        {
+          "section_id": "PLLW6701-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUSTAFA ABOU MANDOUR MOUSA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLLW6701-01:6b7c478e8e08",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "8",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLLW6703",
+      "title": "Profound Study of Civil Contracts",
+      "sections": [
+        {
+          "section_id": "PLLW6703-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMED IBRAHIM BENDARI EL-SAYED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLLW6703-01:fb8d18f70e1c",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "7",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLLW6705",
+      "title": "Profound Study of International Laws Dispute and Juridical Speciality",
+      "sections": [
+        {
+          "section_id": "PLLW6705-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "BADAR JUMA RASHID AL MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLLW6705-01:6ca1e6097ae1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "10",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLLW6722",
+      "title": "Civil Protection of Electronic Commerce",
+      "sections": [
+        {
+          "section_id": "PLLW6722-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "KHALED ABDELFATTAH MOHAMED KHALIL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLLW6722-01:e7bb6f4b09ac",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "13",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLLW7001",
+      "title": "Masters Thesis",
+      "sections": [
+        {
+          "section_id": "PLLW7001-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED KHAIR MAHMOOD ALADWAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLLW7001-01:eb5b743a01b0",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "3",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW6701",
+      "title": "Profound Study of Administrative Law",
+      "sections": [
+        {
+          "section_id": "PULW6701-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED AHMED SALAMA MOHAMED MASHAAL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW6701-01:e3bc1683c93c",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "8",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW6703",
+      "title": "Profound Study of Administrative Judiciary",
+      "sections": [
+        {
+          "section_id": "PULW6703-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AYMAN IEED ELSAYED ELSADANY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW6703-01:1a4c2c2c73f7",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "11",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW6706",
+      "title": "International Economic Law",
+      "sections": [
+        {
+          "section_id": "PULW6706-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SUFIAN ELTAYEB MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW6706-01:2ca669e186fc",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "18",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW6723",
+      "title": "International Diplomatic Relations",
+      "sections": [
+        {
+          "section_id": "PULW6723-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "ABDULLAH ALHABEEB AMMAR ALMAHJOUB"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW6723-01:23895880d5b5",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "19:05",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "4",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW7001",
+      "title": "Masters Thesis",
+      "sections": [
+        {
+          "section_id": "PULW7001-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AHAD ABDULLAH MOHAMED AL YAHYAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW7001-01:eb5b743a01b0",
+              "type": "Thesis",
+              "days": [
+                "THU"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:05",
+              "building": "Thesis",
+              "room": "THES",
+              "room_type": "project",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "6.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "2",
+            "maximum": "20"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "LAWS1013",
+      "title": "Research methods and logical thinking",
+      "sections": [
+        {
+          "section_id": "LAWS1013-01",
+          "section_code": "01",
+          "department": "College of Law",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "LAWS1013-01:e7a3056f1d06",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "LAWS1013-01:414438b2e9b6",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "LAWS1013-02",
+          "section_code": "02",
+          "department": "College of Law",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "LAWS1013-02:064fde0f697a",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "LAWS1013-02:153c86227543",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "1.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "LAWS4100",
+      "title": "Eidaad Program 2",
+      "sections": [
+        {
+          "section_id": "LAWS4100-01",
+          "section_code": "01",
+          "department": "College of Law",
+          "instructors": [
+            "SAIF NASSER ABDULLAH AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "LAWS4100-01:886dc1f292a1",
+              "type": "Internship",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "Field",
+              "room": "FLD",
+              "room_type": "Off Campus Educational Practicles",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "0.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "2"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW1007",
+      "title": "Introduction to Law",
+      "sections": [
+        {
+          "section_id": "PRLW1007-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "BADAR JUMA RASHID AL MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1007-01:2ecf363a7b28",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1007-01:0afb38cecaf9",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "35",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1007-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "BADAR JUMA RASHID AL MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1007-02:3860afb9ad2d",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1007-02:53791306ef97",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "39",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1007-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "BADAR JUMA RASHID AL MASKARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1007-03:fd5252712a5a",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1007-03:02689913e0c8",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW1008",
+      "title": "Sources of Obligations",
+      "sections": [
+        {
+          "section_id": "PRLW1008-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMED IBRAHIM BENDARI EL-SAYED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-01:0b10631ca9e4",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-01:072415e02e69",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1008-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMED IBRAHIM BENDARI EL-SAYED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-02:30bcf9869647",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-02:7352d5dd988e",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1008-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED KHAIR MAHMOOD ALADWAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-03:3c7242f718b0",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-03:489101ad431b",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "26",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1008-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED KHAIR MAHMOOD ALADWAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-04:de322dafe080",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-04:d767fbc61584",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1008-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SAIF NASSER ABDULLAH AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-05:e7d71bca57b9",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-05:2e6911349b76",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "20",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW1008-06",
+          "section_code": "06",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SAIF NASSER ABDULLAH AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW1008-06:a3cba0367650",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW1008-06:2140a98a8090",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "35",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW2004",
+      "title": "Civil and Commercial Procedures",
+      "sections": [
+        {
+          "section_id": "PRLW2004-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "AMAL SALIM SAID AL MAHRIZI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-01:632346940ddf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-01:a12ecd8d4010",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "8",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2004-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "AMAL SALIM SAID AL MAHRIZI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-02:b6c60c5258fc",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-02:13bc28823ea2",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "32",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2004-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Heba Badr Ahmed Sadek"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-03:f3e300d9d9df",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-03:791c5730fefb",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2004-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Heba Badr Ahmed Sadek"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-04:38f94b0ad7cc",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-04:eb794e0eef42",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2004-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Heba Badr Ahmed Sadek"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-05:5bab0f8f9858",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-05:abf3f67ae41b",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "39",
+            "maximum": "46"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2004-06",
+          "section_code": "06",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED KHAIR MAHMOOD ALADWAN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2004-06:a207d3039011",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2004-06:643b8554e0ad",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "51",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW2006",
+      "title": "Personal Status (1)",
+      "sections": [
+        {
+          "section_id": "PRLW2006-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "ABDUL RAHMAN MOHAMMED NABAHAN AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-01:262d97c48e64",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-01:f51310f86fcc",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2006-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "ABDUL RAHMAN MOHAMMED NABAHAN AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-02:ae4461815e14",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-02:6627bcfa63b7",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2006-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RASHID HAMOOD AHMED AL-NADHAIRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-03:37d5cdd238e8",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-03:91d11974d716",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "34",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2006-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RASHID HAMOOD AHMED AL-NADHAIRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-04:7e982bb5c55e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-04:6c0f7e6f45b9",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "29",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2006-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RASHID HAMOOD AHMED AL-NADHAIRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-05:2f549257bf0f",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-05:9b175d12fe5a",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "17",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2006-06",
+          "section_code": "06",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SULAIMAN ABDULLAH MOHAMMED AL-ABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2006-06:129cc6e863cd",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2006-06:3a65b15580a4",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "60",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW2106",
+      "title": "Nationality and Foreigners Status",
+      "sections": [
+        {
+          "section_id": "PRLW2106-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "KHALED ABDELFATTAH MOHAMED KHALIL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2106-01:87a24f7dd762",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2106-01:4447524350b9",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "61",
+            "maximum": "65"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2106-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "KHALED ABDELFATTAH MOHAMED KHALIL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2106-02:d8a110f61704",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2106-02:741eec0dc5a1",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "57",
+            "maximum": "57"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2106-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "KHALED ABDELFATTAH MOHAMED KHALIL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2106-03:264859bfa7d7",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2106-03:1cbcb5351515",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "42"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW2113",
+      "title": "Agency and contracting contracts",
+      "sections": [
+        {
+          "section_id": "PRLW2113-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Maryam Rashid Said Alsaidi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2113-01:ea2e09480891",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2113-01:513ea214b260",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "53",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW2113-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Miaad Issa Mohammed Alfarsi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW2113-02:7dd676e636ea",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW2113-02:bb12f5b57570",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "23",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW3004",
+      "title": "Labor and Social Insurance Law",
+      "sections": [
+        {
+          "section_id": "PRLW3004-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUSTAFA ABOU MANDOUR MOUSA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3004-01:e56d01450316",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3004-01:20f192c0c8a2",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "45",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3004-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUSTAFA ABOU MANDOUR MOUSA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3004-02:487c042dbc58",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3004-02:68295ef32c33",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "46",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3004-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RAHIMA HAMED SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3004-03:5ceeef13eaa0",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3004-03:93312d44be57",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "49",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3004-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RAHIMA HAMED SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3004-04:72a676bf72bf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3004-04:0051a6c7abee",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "55",
+            "maximum": "64"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3004-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "HAFIZ GAFFAR IBRAHIM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3004-05:822f446539e7",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3004-05:6f950395934a",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "29",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW3006",
+      "title": "Commercial Companies",
+      "sections": [
+        {
+          "section_id": "PRLW3006-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MAEN (MOHAMMAD ALI) S"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3006-01:743b5efcae25",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3006-01:10383d6319c7",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "50",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3006-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MAEN (MOHAMMAD ALI) S"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3006-02:78088030e28c",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3006-02:1e1dc1db0c32",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "44",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3006-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED JUMA SALEH AL-MAQIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3006-03:a7c4549577a3",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3006-03:78ab1249b339",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "48",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3006-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED JUMA SALEH AL-MAQIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3006-04:a079aaac4bd8",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3006-04:5a896b2c427f",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "58",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3006-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUFID EL KHOURY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3006-05:87ff75303be6",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3006-05:64cd014a01ce",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "24",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW3108",
+      "title": "Insurance Contract",
+      "sections": [
+        {
+          "section_id": "PRLW3108-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Maryam Rashid Said Alsaidi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3108-01:d8f19cf49c8e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3108-01:5bd748b2bd26",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "60"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW3108-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Miaad Issa Mohammed Alfarsi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3108-02:6722f39508f2",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3108-02:6001c847b936",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "33",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW3110",
+      "title": "Consumer Protection Law",
+      "sections": [
+        {
+          "section_id": "PRLW3110-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "HAFIZ GAFFAR IBRAHIM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW3110-01:190023e1706e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Common Teaching",
+              "room": "LET10",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW3110-01:1086fa8100b7",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Common Teaching",
+              "room": "LET10",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "101",
+            "maximum": "105"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW4004",
+      "title": "Fundamentals of Islamic Doctrine",
+      "sections": [
+        {
+          "section_id": "PRLW4004-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SULAIMAN ABDULLAH MOHAMMED AL-ABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4004-01:6ff56ebecb05",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4004-01:7718fb678621",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "56",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4004-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SULAIMAN ABDULLAH MOHAMMED AL-ABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4004-02:fa05ed00a13e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4004-02:31e4c00b236a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "64",
+            "maximum": "65"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4004-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SULAIMAN ABDULLAH MOHAMMED AL-ABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4004-03:593c7624abea",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4004-03:c2a4d57cdf91",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "60",
+            "maximum": "65"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4004-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "RASHID HAMOOD AHMED AL-NADHAIRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4004-04:e2f6ec2611fe",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4004-04:99655f328704",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "17",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4004-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "SALAH BOUCHELAGHEM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4004-05:0785feca6110",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4004-05:3ddcea0f1daa",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "29",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW4006",
+      "title": "Banking Law-Trade Bills-Bankruptcy",
+      "sections": [
+        {
+          "section_id": "PRLW4006-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED JUMA SALEH AL-MAQIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4006-01:b5eecb3d97cd",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4006-01:7793649026a5",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "58",
+            "maximum": "56"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4006-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMED JUMA SALEH AL-MAQIMI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4006-02:adbf45451bc0",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4006-02:8a8f6e8956c1",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "63",
+            "maximum": "70"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4006-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUFID EL KHOURY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4006-03:ce16730e4de8",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4006-03:6c26e6f63da7",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "29",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4006-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOUFID EL KHOURY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4006-04:4ac5e00453cc",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4006-04:d7c927d745b8",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G23",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "23",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4006-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MAEN (MOHAMMAD ALI) S"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4006-05:f5b1f5a6ba32",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4006-05:f9f670f41858",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "37",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW4104",
+      "title": "Air Law",
+      "sections": [
+        {
+          "section_id": "PRLW4104-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MOHAMMAD KAMAL SALEM ABDELHAMEED ABOZEID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4104-01:c0dbe7bdd44a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G30",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4104-01:def7484e6fb7",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G30",
+              "room_type": "Classroom - Active Learning",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "17",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW4118",
+      "title": "Final Project",
+      "sections": [
+        {
+          "section_id": "PRLW4118-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "HAFIZ GAFFAR IBRAHIM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4118-01:c52be63310a2",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4118-01:69500813c4e7",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "19",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4118-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "HAFIZ GAFFAR IBRAHIM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4118-02:2021eff71fb0",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4118-02:46f6129bdeb7",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "20",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PRLW4181",
+      "title": "Business Law",
+      "sections": [
+        {
+          "section_id": "PRLW4181-01",
+          "section_code": "01",
+          "department": "Department of Private Law",
+          "instructors": [
+            "WADHAH TALIB YAHYA AL HINAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4181-01:c826cf25259e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "E Common Teaching",
+              "room": "E08",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4181-01:2a9651dad905",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "E Common Teaching",
+              "room": "E08",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "11",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4181-02",
+          "section_code": "02",
+          "department": "Department of Private Law",
+          "instructors": [
+            "WADHAH TALIB YAHYA AL HINAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4181-02:3c7d6b7a492f",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "E Common Teaching",
+              "room": "E07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4181-02:85d27a95e108",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "E Common Teaching",
+              "room": "E07",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "12",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4181-03",
+          "section_code": "03",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Mohamed Ibrahim Juma Al-Maimani"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4181-03:defe7b149388",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4181-03:2fecb5fe8415",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "10",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4181-04",
+          "section_code": "04",
+          "department": "Department of Private Law",
+          "instructors": [
+            "MAEN (MOHAMMAD ALI) S"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4181-04:c81883b50a61",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E06",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4181-04:71881c5ab3c8",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E06",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "10",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PRLW4181-05",
+          "section_code": "05",
+          "department": "Department of Private Law",
+          "instructors": [
+            "Fahad Yousef Saif Al-Aghbari"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PRLW4181-05:55fec8e7281d",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PRLW4181-05:bbb6fce3bf3a",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "E Common Teaching",
+              "room": "E05",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "13",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW1006",
+      "title": "Oman's Constitution",
+      "sections": [
+        {
+          "section_id": "PULW1006-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SALIM YAHYA SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-01:a87142e83ff1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-01:dc29624213c8",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "37",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1006-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AHAD ABDULLAH MOHAMED AL YAHYAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-02:777b09dc55f2",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-02:721b8f3abe4d",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "28",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1006-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AHAD ABDULLAH MOHAMED AL YAHYAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-03:eda4e2841de7",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-03:56bc9397958c",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "19",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1006-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AHAD ABDULLAH MOHAMED AL YAHYAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-04:459845c0f4d9",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-04:9c8d868bbfa8",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1006-05",
+          "section_code": "05",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Shereen Abdullah Hassan Albalushi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-05:f84ab87de6a9",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-05:a3934ad066d1",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1006-06",
+          "section_code": "06",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Shereen Abdullah Hassan Albalushi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1006-06:fadfb3ae3515",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1006-06:3c6bed5e8e99",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "39",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW1009",
+      "title": "Theory of State and Governance Institutions",
+      "sections": [
+        {
+          "section_id": "PULW1009-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SALIM YAHYA SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1009-01:9ebbe7e912a6",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1009-01:a03b84bbf396",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "24",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1009-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SALIM YAHYA SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1009-02:8a79bca67191",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1009-02:5c1dbf0c9242",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1009-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SALIM YAHYA SALIM AL KHARUSI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1009-03:9a59050c09d2",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1009-03:74f7aff59c8a",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "47",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW1010",
+      "title": "Principles of Economy",
+      "sections": [
+        {
+          "section_id": "PULW1010-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SUFIAN ELTAYEB MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1010-01:ee32187ebbf1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1010-01:0a0a27d7838f",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "39",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1010-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SUFIAN ELTAYEB MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1010-02:2ca6faf00971",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1010-02:20c4b0297c59",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1010-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "HUSSEIN AHMED MOHAMED ELKAMEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1010-03:144481bb1e1c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1010-03:41ed2a6302c3",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "30",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1010-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "HUSSEIN AHMED MOHAMED ELKAMEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1010-04:ae6ae6c4d98c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1010-04:d073ace19eeb",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "14",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW1012",
+      "title": "Principles of International Public Law",
+      "sections": [
+        {
+          "section_id": "PULW1012-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED ABDEL SALAM BABIKER"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-01:0b1c90fe4e1c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1012-01:4e32b87d037c",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "39",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1012-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED ABDEL SALAM BABIKER"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-02:dd11f4190d46",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1012-02:14dacce11455",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G16",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "35",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1012-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-03:f75051dc3d35",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "PULW1012-03:acc36400ee70",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1012-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "ABDULLAH ALHABEEB AMMAR ALMAHJOUB"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-04:42d5eb1464ab",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1012-04:4b210e30bce6",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "54",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1012-05",
+          "section_code": "05",
+          "department": "Department of Public Law",
+          "instructors": [
+            "ABDULLAH ALHABEEB AMMAR ALMAHJOUB"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-05:4f12c968cad5",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1012-05:08cbe3726a1c",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "56",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW1012-06",
+          "section_code": "06",
+          "department": "Department of Public Law",
+          "instructors": [
+            "ABDULLAH ALHABEEB AMMAR ALMAHJOUB"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW1012-06:7aa98c1165a4",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW1012-06:8f5ddb92e877",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "54",
+            "maximum": "58"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW2002",
+      "title": "Criminal Law (General Part)",
+      "sections": [
+        {
+          "section_id": "PULW2002-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MASAUD HUMAID MASAUD AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-01:a03dd8db8440",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-01:a01b26debd26",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "10",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2002-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MASAUD HUMAID MASAUD AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-02:11486b5055f2",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-02:bfc1d4ce145b",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "36",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2002-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MASAUD HUMAID MASAUD AL MAMARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-03:56b6551d371c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-03:7eb51aa06f6f",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2002-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "OMAR ABDEL MAJID ABDEL HAMID MUSBIH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-04:b65b916f7cc2",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-04:d541ec71750f",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2002-05",
+          "section_code": "05",
+          "department": "Department of Public Law",
+          "instructors": [
+            "OMAR ABDEL MAJID ABDEL HAMID MUSBIH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-05:06e191a33c36",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-05:923cb7c1ce4a",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "42",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2002-06",
+          "section_code": "06",
+          "department": "Department of Public Law",
+          "instructors": [
+            "OMAR ABDEL MAJID ABDEL HAMID MUSBIH"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2002-06:156a46bb772b",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2002-06:c9aec6e7d3bc",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "40",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW2103",
+      "title": "Money and Banking",
+      "sections": [
+        {
+          "section_id": "PULW2103-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "YAQOOB MOHAMED SHAIKHAN AL-WAILY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2103-01:a46db337bb0b",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2103-01:5883062c9b05",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "15",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW2103-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "YAQOOB MOHAMED SHAIKHAN AL-WAILY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW2103-02:acebd610b966",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW2103-02:7a270406f185",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "21",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW3002",
+      "title": "Administrative Judicature",
+      "sections": [
+        {
+          "section_id": "PULW3002-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED AHMED SALAMA MOHAMED MASHAAL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-01:762f352fb88f",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-01:91e7ed7be4e6",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "45",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3002-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED AHMED SALAMA MOHAMED MASHAAL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-02:9185388e75c1",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-02:81c856f3d639",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "48",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3002-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "MOHAMED AHMED SALAMA MOHAMED MASHAAL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-03:f21220e52254",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-03:c7c0cf6e3e87",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "44",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3002-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AYMAN IEED ELSAYED ELSADANY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-04:c748e082f5c2",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-04:3199a336b1ed",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "30",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3002-05",
+          "section_code": "05",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AYMAN IEED ELSAYED ELSADANY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-05:cfd5adf95114",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-05:dec3b5e5240b",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "38",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3002-06",
+          "section_code": "06",
+          "department": "Department of Public Law",
+          "instructors": [
+            "AYMAN IEED ELSAYED ELSADANY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3002-06:ed6b4e1ba02a",
+              "type": "LAB",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3002-06:7453a5f73843",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "G Common Teaching",
+              "room": "G19",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "12",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW3100",
+      "title": "Digital Economy and innovation",
+      "sections": [
+        {
+          "section_id": "PULW3100-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "HUSSEIN AHMED MOHAMED ELKAMEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3100-01:56cb65d09f84",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3100-01:e3e02ac4485d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G17",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "38",
+            "maximum": "53"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3100-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "HUSSEIN AHMED MOHAMED ELKAMEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3100-02:1f207990a7d9",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3100-02:f7dfa7249850",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "42",
+            "maximum": "53"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW3100-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "HUSSEIN AHMED MOHAMED ELKAMEL"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3100-03:02d17a40e310",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3100-03:09ba02fb3f61",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "48",
+            "maximum": "53"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW3101",
+      "title": "Human Rights",
+      "sections": [
+        {
+          "section_id": "PULW3101-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Fahad Yousef Saif Al-Aghbari"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW3101-01:80602720284f",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW3101-01:b96fdab6beb3",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G24",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "40",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW4002",
+      "title": "Law of Penal Procedures",
+      "sections": [
+        {
+          "section_id": "PULW4002-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Juma'a Musallam Jandab Al Azri"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-01:770b8958684a",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-01:7cadfe9054c0",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "47",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4002-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Bayan Ali Mohamed Al Mahri"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-02:f403d661091e",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-02:f774da2d62bc",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "51",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4002-03",
+          "section_code": "03",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Bayan Ali Mohamed Al Mahri"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-03:82c5d032136c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-03:ebe8e59d6a02",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "51",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4002-04",
+          "section_code": "04",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SAHER I S ALWALID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-04:62eb6229fdfe",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-04:16e6b955e8ea",
+              "type": "LAB",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G15",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "45",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4002-05",
+          "section_code": "05",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SAHER I S ALWALID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-05:361179cd0cfc",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-05:598ee6bfa291",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "G Common Teaching",
+              "room": "G26",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "44",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4002-06",
+          "section_code": "06",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SAHER I S ALWALID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4002-06:a62c46c69f5c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4002-06:f485d35228a8",
+              "type": "LAB",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "48",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW4107",
+      "title": "International Economy",
+      "sections": [
+        {
+          "section_id": "PULW4107-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SUFIAN ELTAYEB MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4107-01:622290ac7b69",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4107-01:f22b087f8b16",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "38",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4107-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "SUFIAN ELTAYEB MOHAMED"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4107-02:47df04d48e68",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4107-02:ea288c2e3ade",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:20",
+              "building": "G Common Teaching",
+              "room": "G21",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "40",
+            "maximum": "50"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PULW4109",
+      "title": "Criminology",
+      "sections": [
+        {
+          "section_id": "PULW4109-01",
+          "section_code": "01",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Khalid Ahmed Alsaibi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4109-01:e213d978f4de",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4109-01:0ec04746f700",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "17:35",
+              "building": "G Common Teaching",
+              "room": "G18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "26",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "PULW4109-02",
+          "section_code": "02",
+          "department": "Department of Public Law",
+          "instructors": [
+            "Khalid Ahmed Alsaibi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PULW4109-02:1aa1eed3d879",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "PULW4109-02:f3fafff2f850",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "15:35",
+              "building": "G Common Teaching",
+              "room": "G20",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "53",
+            "maximum": "55"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    }
+  ]
+}

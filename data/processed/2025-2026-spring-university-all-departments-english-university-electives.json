@@ -1,0 +1,2148 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/scrape_schedule.py",
+  "generated_at": "2026-09-18T08:25:30.757472Z",
+  "term": {
+    "term_id": "2025/2026-SPRING",
+    "label": "Spring 2025/2026",
+    "timezone": "Asia/Muscat"
+  },
+  "source": {
+    "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
+    "captures": [
+      {
+        "path": "data\\raw\\sis\\2025-2026-spring-university-all-departments-english-university-electives\\preview-response.html",
+        "sha256": "ce546e2c55d424be1e4b9df9b47555dddae66c8aa1571e702f42cc025d7b1b75"
+      },
+      {
+        "path": "data\\raw\\sis\\2025-2026-spring-university-all-departments-english-university-electives\\report-viewer-page-001.html",
+        "sha256": "9b55686a25fc1ac6d83b4e21eeeae25e232d86081e39ddbd03e9c144a5fb56a0"
+      }
+    ]
+  },
+  "record_counts": {
+    "courses": 38,
+    "sections": 64,
+    "meetings": 64,
+    "unscheduled_sections": 0,
+    "duplicate_source_rows": 0,
+    "collapsed_co_taught_rows": 3
+  },
+  "courses": [
+    {
+      "course_id": "ANVS2000",
+      "title": "Omani Wildlife Wonders (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "ANVS2000-01",
+          "section_code": "01",
+          "department": "Department of Animal and Veterinary Sciences",
+          "instructors": [
+            "AHMED SALEH ALI AL ANSARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ANVS2000-01:61d99e20378d",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "245",
+            "maximum": "300"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CHEM1200",
+      "title": "Chemistry for a Better Life (UE)",
+      "sections": [
+        {
+          "section_id": "CHEM1200-01",
+          "section_code": "01",
+          "department": "Department of Chemistry",
+          "instructors": [
+            "SULTAN MOHAMED HILAL AL SAADI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CHEM1200-01:927aeaf6d502",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "106",
+            "maximum": "155"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CHEM1300",
+      "title": "Introduction to Health, Safety, and Environment Practices (UE)",
+      "sections": [
+        {
+          "section_id": "CHEM1300-01",
+          "section_code": "01",
+          "department": "Department of Chemistry",
+          "instructors": [
+            "SULTAN MOHAMED HILAL AL SAADI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CHEM1300-01:da09ff306778",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "73",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "COMP1003",
+      "title": "Python Programming for Everyone (U.E)",
+      "sections": [
+        {
+          "section_id": "COMP1003-01",
+          "section_code": "01",
+          "department": "Department of Computer Science",
+          "instructors": [
+            "AMAAL SALEH HASAN AL-HASHIMY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COMP1003-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "344",
+            "maximum": "350"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "COMP1003-02",
+          "section_code": "02",
+          "department": "Department of Computer Science",
+          "instructors": [
+            "AMAAL SALEH HASAN AL-HASHIMY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COMP1003-02:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "343",
+            "maximum": "350"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "COMP1007",
+      "title": "Amazing Applications of AI (U.E.)",
+      "sections": [
+        {
+          "section_id": "COMP1007-01",
+          "section_code": "01",
+          "department": "Department of Computer Science",
+          "instructors": [
+            "ABDEREZAK TOUZENE"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COMP1007-01:651b5ac414d0",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "347",
+            "maximum": "350"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "COMP1007-02",
+          "section_code": "02",
+          "department": "Department of Computer Science",
+          "instructors": [
+            "ABDEREZAK TOUZENE"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "COMP1007-02:9d7e272d34d4",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "339",
+            "maximum": "350"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CSAI1007",
+      "title": "The GPT Revolution (UE)",
+      "sections": [
+        {
+          "section_id": "CSAI1007-01",
+          "section_code": "01",
+          "department": "Department of Computer Science",
+          "instructors": [
+            "FATMA TALIB MIRAN AL RAISI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CSAI1007-01:9d7e272d34d4",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "132",
+            "maximum": "300"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "CUTM1003",
+      "title": "Principles of Teaching (UE)",
+      "sections": [
+        {
+          "section_id": "CUTM1003-01",
+          "section_code": "01",
+          "department": "Department of Curriculum and Instructions",
+          "instructors": [
+            "ASMAA ABDELSABOUR MOHAMED HUSSEIN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "CUTM1003-01:dd9a9a1e4221",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "69",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "DEFE1504",
+      "title": "Analysis of internationa conflicts (UE)",
+      "sections": [
+        {
+          "section_id": "DEFE1504-01",
+          "section_code": "01",
+          "department": "College of Arts and Social Sciences",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "DEFE1504-01:449036037ea1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ECCE2000",
+      "title": "Introduction to Artificial Intelligence",
+      "sections": [
+        {
+          "section_id": "ECCE2000-01",
+          "section_code": "01",
+          "department": "Department of Electrical and Computer Engineering",
+          "instructors": [
+            "ABDULNASIR YAHYA HOSSEN"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ECCE2000-01:96019e7ffff3",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "C Common Teaching",
+              "room": "C13",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "36",
+            "maximum": "45"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ECED1020",
+      "title": "Child's Upbringing, Health and Safety(U.E.)",
+      "sections": [
+        {
+          "section_id": "ECED1020-01",
+          "section_code": "01",
+          "department": "Department of Early Education",
+          "instructors": [
+            "IBRAHIM AMIN IBRAHIM AZEM"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ECED1020-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Bilingual",
+          "enrollment": {
+            "current": "77",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ECED1020-02",
+          "section_code": "02",
+          "department": "Department of Early Education",
+          "instructors": [
+            "AMUR MOHAMED AMUR ALAISARI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ECED1020-02:b7ec72897d92",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Bilingual",
+          "enrollment": {
+            "current": "106",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EDUC2010",
+      "title": "Professional Ethics (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "EDUC2010-01",
+          "section_code": "01",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "Sheikha Musabah Hashil Almakhmari"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2010-01:2217df3d748e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "96",
+            "maximum": "102"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "EDUC2010-02",
+          "section_code": "02",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "Fatma Hilal Khalfan Alyaarubi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2010-02:0a421c533a03",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "90",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "EDUC2010-03",
+          "section_code": "03",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "RASHID SULAIMAN HAMDAN AL-FAHADI",
+            "Mona Abdeltawab abdrabo EL DALLY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2010-03:e850d0f0db96",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "75",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "EDUC2023",
+      "title": "Education for Global Citizenship (UE)",
+      "sections": [
+        {
+          "section_id": "EDUC2023-01",
+          "section_code": "01",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "Rashid Moosa Rashid alswafi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2023-01:0a421c533a03",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "97",
+            "maximum": "102"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "EDUC2023-02",
+          "section_code": "02",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "DALAL HAMDAN ALI AL-HINAI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2023-02:2217df3d748e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "EDUC2023-03",
+          "section_code": "03",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "KHALAF MARHOUN KHALAF ALABRI",
+            "Muna Mohammed Hamed Al Salmi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2023-03:8063e754ebea",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "101"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "EDUC2023-04",
+          "section_code": "04",
+          "department": "Department Of Educational Foundations and Administration",
+          "instructors": [
+            "KHALAF MARHOUN KHALAF ALABRI",
+            "Karima Said Mohammed Alsaidi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "EDUC2023-04:520f5e8d485d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "100",
+            "maximum": "100"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ERSC1005",
+      "title": "Water Resources in Oman : Present and Future (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "ERSC1005-01",
+          "section_code": "01",
+          "department": "Department of Earth Sciences",
+          "instructors": [
+            "OSMAN ABDALKHALIG ABDALLA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ERSC1005-01:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "205",
+            "maximum": "300"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM1140",
+      "title": "Quran Recitation (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM1140-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "ABDULLA SALIM HAMED AL-HINAEI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1140-01:80e737e3366f",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "34",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM1140-02",
+          "section_code": "02",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "ABDULLA SALIM HAMED AL-HINAEI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM1140-02:2217df3d748e",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "31",
+            "maximum": "40"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2010",
+      "title": "Prophet's Biography (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2010-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "ZIAD AWWAD A. ABU HAMMAD"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2010-01:b7ec72897d92",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "99",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM2010-02",
+          "section_code": "02",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "IMAN MOHAMMED 'AMUR AL-RUJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2010-02:dd9a9a1e4221",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "109",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2030",
+      "title": "The Miracle Of the Holy Quran (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2030-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SAID RASHID SAID AL-SAWAFI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2030-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "89",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2040",
+      "title": "Islamic Economy (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2040-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2040-01:68c5c6b75634",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "120"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM2040-02",
+          "section_code": "02",
+          "department": "Department of Islamic Sciences",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2040-02:35a347392d6a",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2060",
+      "title": "Family Systems in Islam (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2060-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "ANKE SANDRA BOUZENITA"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2060-01:26f9caf9e9f3",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "106",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2070",
+      "title": "Stories (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2070-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SULAIMAN ALI AMUR AL-SHUEILY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2070-01:0a421c533a03",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "55",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "ISLM2070-02",
+          "section_code": "02",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "SULAIMAN ALI AMUR AL-SHUEILY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2070-02:e44765bfc086",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "65",
+            "maximum": "125"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "ISLM2190",
+      "title": "Woman in Islam (UE)",
+      "sections": [
+        {
+          "section_id": "ISLM2190-01",
+          "section_code": "01",
+          "department": "Department of Islamic Sciences",
+          "instructors": [
+            "IMAN MOHAMMED 'AMUR AL-RUJAIBI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "ISLM2190-01:f486c69b904d",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "98",
+            "maximum": "140"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MEDI2003",
+      "title": "Evolution of Modern Day Medicine (UE)",
+      "sections": [
+        {
+          "section_id": "MEDI2003-01",
+          "section_code": "01",
+          "department": "College of Medicine and Health Sciences",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "MEDI2003-01:3d665e29ffaf",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "MNGT2501",
+      "title": "Entrepreneurship: Innovation and Creativity (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "MNGT2501-01",
+          "section_code": "01",
+          "department": "Department of Management",
+          "instructors": [
+            "Issa Salim Saoud Al Shabibi"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "MNGT2501-01:8063e754ebea",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "47",
+            "maximum": "249"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHED1260",
+      "title": "Health Education and Physique (UE)",
+      "sections": [
+        {
+          "section_id": "PHED1260-01",
+          "section_code": "01",
+          "department": "Department of Physical Education and Sport Sciences",
+          "instructors": [
+            "KHALIFA MUBARAK MASAAOD AL JADIDI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHED1260-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "75",
+            "maximum": "200"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHIL2030",
+      "title": "Philosophy and Society (UE)",
+      "sections": [
+        {
+          "section_id": "PHIL2030-01",
+          "section_code": "01",
+          "department": "Department of Sociology and Social Work",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "PHIL2030-01:449036037ea1",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHYS2801",
+      "title": "Astronomy (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "PHYS2801-01",
+          "section_code": "01",
+          "department": "Department of Physics",
+          "instructors": [
+            "Mohamed Elzain"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHYS2801-01:9d7e272d34d4",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "128",
+            "maximum": "249"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHYS2802",
+      "title": "Exploring the Universe (Arabic) (UE)",
+      "sections": [
+        {
+          "section_id": "PHYS2802-01",
+          "section_code": "01",
+          "department": "Department of Physics",
+          "instructors": [
+            "ZAMZAM AHMED HILAL AL-KHALILI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHYS2802-01:da09ff306778",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "131",
+            "maximum": "249"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PHYS2830",
+      "title": "Nuclear Energy and Radiation (UE)",
+      "sections": [
+        {
+          "section_id": "PHYS2830-01",
+          "section_code": "01",
+          "department": "Department of Physics",
+          "instructors": [
+            "RAHMA SULAIMAN ABDULLAH AL-HARTHY"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PHYS2830-01:a40e6c4fe8d7",
+              "type": "Audios",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "68",
+            "maximum": "249"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "PLNT2020",
+      "title": "LABORATORY SAFETY: PRINCIPLES AND PRACTICES (UE)",
+      "sections": [
+        {
+          "section_id": "PLNT2020-01",
+          "section_code": "01",
+          "department": "Department of Plant Sciences",
+          "instructors": [
+            "MUHAMMAD SHAFIQ SHAHID"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "PLNT2020-01:da09ff306778",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "98",
+            "maximum": "150"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "STAT2100",
+      "title": "Discovering Statistics Using R (UE)",
+      "sections": [
+        {
+          "section_id": "STAT2100-01",
+          "section_code": "01",
+          "department": "Department of Statistics",
+          "instructors": [
+            "Ahmed Yahya Salim Al-hadhrami"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "STAT2100-01:4e53a35d6ebf",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "40",
+            "maximum": "200"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "SWAE2003",
+      "title": "Water in Arid Environments (UE)",
+      "sections": [
+        {
+          "section_id": "SWAE2003-01",
+          "section_code": "01",
+          "department": "Department of Soils, Water and Agricultural Engineering",
+          "instructors": [
+            "USAMA AHMED SAUD AL-DUGHAISHI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "SWAE2003-01:927aeaf6d502",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Distance Learning",
+              "room": "DLR",
+              "room_type": "Distance Learning Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "72",
+            "maximum": "130"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "SWAE2003-02",
+          "section_code": "02",
+          "department": "Department of Soils, Water and Agricultural Engineering",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "SWAE2003-02:3d665e29ffaf",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "THAR1011",
+      "title": "Theatrical Appreciation (UE)",
+      "sections": [
+        {
+          "section_id": "THAR1011-01",
+          "section_code": "01",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1011-01:35a347392d6a",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "THAR1011-02",
+          "section_code": "02",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1011-02:7656a343f47c",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "THAR1011-03",
+          "section_code": "03",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1011-03:5c3345575010",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "THAR1016",
+      "title": "Child's Theatre (UE)",
+      "sections": [
+        {
+          "section_id": "THAR1016-01",
+          "section_code": "01",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1016-01:18670c19ab17",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "THAR1016-02",
+          "section_code": "02",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1016-02:128d78d95dbc",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "THAR1016-03",
+          "section_code": "03",
+          "department": "Department of Theatre Arts",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "THAR1016-03:bb1be7211404",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Arabic",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR1051",
+      "title": "French for Beginners (UE)",
+      "sections": [
+        {
+          "section_id": "TOUR1051-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1051-01:ac861cf5e0fa",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "French",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1051-02",
+          "section_code": "02",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1051-02:005adfb77261",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "French",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1051-03",
+          "section_code": "03",
+          "department": "Department of Tourism",
+          "instructors": [
+            "AGNES SIMONE RAYMONDE BOURGEOIS"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1051-03:58d949694bba",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "F Common Teaching",
+              "room": "F25",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "French",
+          "enrollment": {
+            "current": "15",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1051-04",
+          "section_code": "04",
+          "department": "Department of Tourism",
+          "instructors": [
+            "AGNES SIMONE RAYMONDE BOURGEOIS"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1051-04:dca8d6a61ce8",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Arts",
+              "room": "0032",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "French",
+          "enrollment": {
+            "current": "15",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1051-05",
+          "section_code": "05",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1051-05:8227eec4da70",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "French",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR1055",
+      "title": "Italian for Beginners (UE)",
+      "sections": [
+        {
+          "section_id": "TOUR1055-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1055-01:bac1230e0d70",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Italy",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1055-02",
+          "section_code": "02",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1055-02:60c408164f38",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Italy",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR1058",
+      "title": "Chinese Language for Beginners (UE)",
+      "sections": [
+        {
+          "section_id": "TOUR1058-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [
+            "ESHAQ YAQOOB SAUD AL - AZRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1058-01:fa1be3687739",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Arts",
+              "room": "0033",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "18",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1058-02",
+          "section_code": "02",
+          "department": "Department of Tourism",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1058-02:f1723ca19682",
+              "type": "LEC",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "Closed section",
+              "room": "CLO",
+              "room_type": "Classroom",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "0",
+            "maximum": "0"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR1061",
+      "title": "Spanish for Beginners 1(UE)",
+      "sections": [
+        {
+          "section_id": "TOUR1061-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [
+            "Laura Sanchez Mesas"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1061-01:6e2d7ff92dd9",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Arts",
+              "room": "1169",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "15",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1061-02",
+          "section_code": "02",
+          "department": "Department of Tourism",
+          "instructors": [
+            "Laura Sanchez Mesas"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1061-02:eeee3cd31d47",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Arts",
+              "room": "1167",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "13",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1061-03",
+          "section_code": "03",
+          "department": "Department of Tourism",
+          "instructors": [
+            "Laura Sanchez Mesas"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1061-03:3efc2c58df71",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Arts",
+              "room": "1167",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "18",
+            "maximum": "25"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR1062",
+      "title": "Turkish for Beginners 1 (UE)",
+      "sections": [
+        {
+          "section_id": "TOUR1062-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [
+            "Muhammed Asar"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1062-01:f7c586b92afa",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "F Common Teaching",
+              "room": "F47",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Turkish",
+          "enrollment": {
+            "current": "17",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "TOUR1062-02",
+          "section_code": "02",
+          "department": "Department of Tourism",
+          "instructors": [
+            "Muhammed Asar"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR1062-02:04221df69d15",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "F Common Teaching",
+              "room": "F18",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "Turkish",
+          "enrollment": {
+            "current": "6",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    },
+    {
+      "course_id": "TOUR2051",
+      "title": "French for Beginners 2 (UE)",
+      "sections": [
+        {
+          "section_id": "TOUR2051-01",
+          "section_code": "01",
+          "department": "Department of Tourism",
+          "instructors": [
+            "AGNES SIMONE RAYMONDE BOURGEOIS"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "TOUR2051-01:2d43282b410c",
+              "type": "LEC",
+              "days": [
+                "MON"
+              ],
+              "start_time": "14:15",
+              "end_time": "16:05",
+              "building": "Arts",
+              "room": "0032",
+              "room_type": "Classroom",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "6",
+            "maximum": "30"
+          },
+          "meeting_status": "scheduled"
+        }
+      ]
+    }
+  ]
+}
