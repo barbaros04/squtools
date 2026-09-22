@@ -1,4 +1,4 @@
-import { createEffect, createSignal } from "solid-js";
+import { createEffect, createSignal, onCleanup, onMount } from "solid-js";
 import { render } from "solid-js/web";
 import { formatSnapshotAge, formatSnapshotTime, publishedSnapshot } from "./data/snapshot";
 import { TowerArt } from "./components/TowerArt";
@@ -14,9 +14,9 @@ type Tool = {
 };
 
 const tools: Tool[] = [
-  { id: "schedule-builder", path: "/schedule-builder" },
-  { id: "empty-rooms", path: "/empty-rooms" },
-  { id: "academic-plan", path: "/academic-plan" },
+  { id: "schedule-builder", path: "#/schedule-builder" },
+  { id: "empty-rooms", path: "#/empty-rooms" },
+  { id: "academic-plan", path: "#/academic-plan" },
 ];
 
 const copy = {
@@ -95,12 +95,12 @@ function Header(props: { language: Language; onLanguageChange: () => void; back?
   const text = () => copy[props.language];
   return (
     <header class="site-header">
-      <a class="wordmark" href="/">
+      <a class="wordmark" href="./#/">
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14v14H5zM9 9h6v6H9z" /></svg></span>
         <span>{text().brand}</span>
       </a>
       <nav class="header-actions" aria-label={text().brand}>
-        {props.back && <a class="back-link" href="/">{text().allTools}</a>}
+        {props.back && <a class="back-link" href="./#/">{text().allTools}</a>}
         <button class="language-switch" type="button" onClick={props.onLanguageChange} aria-label={props.language === "en" ? "Switch to Arabic" : "التبديل إلى الإنجليزية"}>
           <span class="language-label">{props.language === "en" ? "العربية" : "English"}</span>
         </button>
@@ -186,7 +186,8 @@ function savedLanguage(): Language {
 function App() {
   const [language, setLanguage] = createSignal<Language>(savedLanguage());
   const [isLanguageChanging, setIsLanguageChanging] = createSignal(false);
-  const tool = tools.find(({ path }) => path === window.location.pathname);
+  const [route, setRoute] = createSignal(window.location.hash);
+  const tool = () => tools.find(({ path }) => path === route());
   const toggleLanguage = () => {
     if (isLanguageChanging()) return;
     setIsLanguageChanging(true);
@@ -195,6 +196,12 @@ function App() {
       setIsLanguageChanging(false);
     }, 150);
   }; 
+
+  onMount(() => {
+    const syncRoute = () => setRoute(window.location.hash);
+    window.addEventListener("hashchange", syncRoute);
+    onCleanup(() => window.removeEventListener("hashchange", syncRoute));
+  });
 
   createEffect(() => {
     const current = language();
@@ -208,10 +215,10 @@ function App() {
   });
 
 
-  const page = () => tool?.id === "empty-rooms"
+  const page = () => tool()?.id === "empty-rooms"
     ? <EmptyRoomPage language={language()} onLanguageChange={toggleLanguage} />
-    : tool
-      ? <ToolPage tool={tool} language={language()} onLanguageChange={toggleLanguage} />
+    : tool()
+      ? <ToolPage tool={tool()!} language={language()} onLanguageChange={toggleLanguage} />
       : <HomePage language={language()} onLanguageChange={toggleLanguage} />;
 
   return <div classList={{ "app-shell": true, "language-changing": isLanguageChanging() }}>{page()}</div>;

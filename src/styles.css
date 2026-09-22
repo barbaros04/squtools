@@ -56,19 +56,24 @@ a { color: inherit; }
 .app-shell { min-height: 100vh; transition: opacity var(--motion-fast) var(--ease), transform var(--motion-fast) var(--ease); }
 .app-shell.language-changing { opacity: 0.42; transform: translateY(2px); pointer-events: none; }
 .home-page, .tool-page { width: min(100% - var(--space-12), 1120px); min-height: 100vh; margin: 0 auto; padding-block: var(--space-5) var(--space-12); }
-.home-page { position: relative; isolation: isolate; overflow: hidden; }
-.home-page > :not(.home-background-art) { position: relative; z-index: 1; }
+.home-page {
+  display: grid;
+  grid-template-columns: clamp(170px, 20vw, 230px) minmax(0, 1fr);
+  column-gap: clamp(var(--space-8), 6vw, var(--space-16));
+  align-content: start;
+}
 .home-background-art {
-  position: absolute;
-  z-index: 0;
-  inline-size: clamp(230px, 25vw, 285px);
-  block-size: clamp(430px, 46vw, 570px);
-  inset-block-start: clamp(5.5rem, 9vw, 7.5rem);
-  inset-inline-end: clamp(-1rem, 3vw, 3rem);
-  opacity: 0.36;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  align-self: center;
+  inline-size: 100%;
+  block-size: clamp(430px, 46vw, 545px);
+  opacity: 0.62;
   pointer-events: none;
   animation: tower-breathe 7s var(--ease) infinite alternate;
 }
+.home-page > .site-header, .home-page > .site-footer { grid-column: 1 / -1; }
+.home-page > .home-intro, .home-page > .tool-directory { grid-column: 2; }
 
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: 44px; padding-block-end: var(--space-4); border-block-end: 1px solid var(--border); }
 .wordmark { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--text); font-size: var(--text-ui); font-weight: 600; letter-spacing: -0.015em; text-decoration: none; }
@@ -164,8 +169,9 @@ a { color: inherit; }
 
 @media (max-width: 650px) {
   .home-page, .tool-page { width: min(100% - var(--space-8), 1120px); padding-block-start: var(--space-4); }
+  .home-page { display: block; }
   .home-intro { margin-block-start: var(--space-16); }
-  .home-background-art { inline-size: 195px; block-size: 370px; inset-block-start: 7rem; inset-inline-end: -8rem; opacity: 0.13; }
+  .home-background-art { display: none; }
   .home-intro h1, .room-finder-intro h1 { font-size: clamp(2rem, 11vw, 2.75rem); }
   .tool-row { min-block-size: 0; padding: var(--space-5) var(--space-4); gap: var(--space-3); }
   .tool-row:hover { padding-inline: var(--space-4); }
