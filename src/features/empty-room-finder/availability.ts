@@ -33,11 +33,6 @@ export type RoomFreeRun = {
   durationMinutes: number | null;
 };
 
-export type InferredRoom = {
-  building: string;
-  room: string;
-};
-
 function roomKey(building: string, room: string): string {
   return `${building.trim().toLocaleUpperCase()}::${room.trim().toLocaleUpperCase()}`;
 }
@@ -113,33 +108,6 @@ export function findAvailableRooms(rooms: KnownRoom[], query: AvailabilityQuery)
         : start >= toMinutes(meeting.startTime) && start < toMinutes(meeting.endTime);
     });
   });
-}
-
-export function inferNumberedRoomGaps(rooms: KnownRoom[], building: string): InferredRoom[] {
-  const roomNames = new Set(rooms.filter((room) => room.building === building).map((room) => room.room));
-  const sequences = new Map<string, { prefix: string; width: number; numbers: Set<number> }>();
-
-  for (const room of roomNames) {
-    const match = /^(.*?)(\d+)$/.exec(room);
-    if (!match) continue;
-    const [, prefix, digits] = match;
-    const key = `${prefix}::${digits.length}`;
-    const sequence = sequences.get(key) ?? { prefix, width: digits.length, numbers: new Set<number>() };
-    sequence.numbers.add(Number(digits));
-    sequences.set(key, sequence);
-  }
-
-  const inferred: InferredRoom[] = [];
-  for (const { prefix, width, numbers } of sequences.values()) {
-    for (const number of numbers) {
-      const missing = number + 1;
-      if (!numbers.has(missing) && numbers.has(missing + 1)) {
-        inferred.push({ building, room: `${prefix}${String(missing).padStart(width, "0")}` });
-      }
-    }
-  }
-
-  return inferred.sort((left, right) => left.room.localeCompare(right.room));
 }
 
 export function findRoomFreeRuns(rooms: KnownRoom[], query: FreeRunQuery): RoomFreeRun[] {

@@ -120,11 +120,6 @@ a { color: inherit; }
 .room-list span { color: var(--text-3); font-size: var(--text-sm); }
 .room-list .room-duration { flex: 0 0 auto; color: var(--text-3); font-size: var(--text-xs); text-align: end; }
 .room-empty { margin-block-start: var(--space-5); }
-.inferred-rooms { margin-block-start: var(--space-8); padding-block-start: var(--space-4); border-block-start: 1px solid var(--border); }
-.inferred-rooms h3 { margin: 0; color: var(--text-2); font-size: var(--text-ui); font-weight: 600; letter-spacing: -0.015em; }
-.inferred-rooms p { max-width: 60ch; margin: var(--space-2) 0 0; color: var(--text-3); font-size: var(--text-sm); line-height: 1.5; }
-.inferred-rooms ul { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-3) 0 0; padding: 0; list-style: none; }
-.inferred-rooms li { min-block-size: 28px; padding: var(--space-1) var(--space-2); color: var(--text-2); background: var(--surface-subtle); font-size: var(--text-sm); font-weight: 600; }
 .room-source-note { max-width: 60ch; margin-block-start: var(--space-5); font-size: var(--text-xs); }
 
 .when-modal-backdrop { position: fixed; z-index: 10; inset: 0; display: grid; place-items: center; padding: var(--space-6); background: color-mix(in srgb, var(--text) 32%, transparent); animation: modal-backdrop-in var(--motion-normal) var(--ease) both; }

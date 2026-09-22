@@ -1,6 +1,6 @@
 import { createMemo, createSignal } from "solid-js";
 import { publishedTimetable, type MeetingDay } from "../../data/timetable";
-import { buildKnownRooms, findRoomFreeRuns, inferNumberedRoomGaps, listBuildings } from "./availability";
+import { buildKnownRooms, findRoomFreeRuns, listBuildings } from "./availability";
 
 type Language = "en" | "ar";
 
@@ -42,8 +42,6 @@ const copy = {
     freeFor: (duration: string) => `Free for ${duration}`,
     noLaterClass: "No later class scheduled",
     noResults: "No known rooms are available in this building at that time.",
-    inferredResults: "Possible rooms not listed in the timetable",
-    inferredDescription: "These labels sit between two scheduled room numbers. SIS does not list them this term, so they are not confirmed rooms or confirmed free.",
     room: "Room",
     source: "Results use the published timetable snapshot, not live availability.",
     days: { SUN: "Sunday", MON: "Monday", TUE: "Tuesday", WED: "Wednesday", THU: "Thursday", FRI: "Friday", SAT: "Saturday" },
@@ -72,8 +70,6 @@ const copy = {
     freeFor: (duration: string) => `متاحة لمدة ${duration}`,
     noLaterClass: "لا توجد محاضرة مجدولة لاحقاً",
     noResults: "لا توجد قاعات معروفة متاحة في هذا المبنى في ذلك الوقت.",
-    inferredResults: "قاعات محتملة غير واردة في الجدول",
-    inferredDescription: "تقع هذه الرموز بين رقمَي قاعتين مجدولتين. لا يعرضها نظام SIS هذا الفصل، لذا فهي ليست قاعات مؤكدة ولا يُؤكَّد أنها شاغرة.",
     room: "القاعة",
     source: "تعتمد النتائج على لقطة الجدول المنشور وليست حالة إشغال مباشرة.",
     days: { SUN: "الأحد", MON: "الاثنين", TUE: "الثلاثاء", WED: "الأربعاء", THU: "الخميس", FRI: "الجمعة", SAT: "السبت" },
@@ -143,10 +139,6 @@ export function EmptyRoomFinder(props: { language: Language }) {
   const rooms = createMemo(() => {
     const query = submittedQuery();
     return query ? findRoomFreeRuns(knownRooms, { day: query.day, startTime: query.time, building: query.building }) : [];
-  });
-  const inferredRooms = createMemo(() => {
-    const query = submittedQuery();
-    return query ? inferNumberedRoomGaps(knownRooms, query.building) : [];
   });
 
   const chooseBuilding = (value: string) => {
@@ -255,11 +247,6 @@ export function EmptyRoomFinder(props: { language: Language }) {
             </ul>
           </>
         ) : <p class="room-empty">{text().noResults}</p>}
-        {inferredRooms().length > 0 && <section class="inferred-rooms" aria-labelledby="inferred-rooms-title">
-          <h3 id="inferred-rooms-title">{text().inferredResults}</h3>
-          <p>{text().inferredDescription}</p>
-          <ul>{inferredRooms().map((room) => <li>{room.room}</li>)}</ul>
-        </section>}
         <p class="room-source-note">{text().source}</p>
       </section>}
     </section>
