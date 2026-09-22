@@ -7,12 +7,12 @@
     "timezone": "Asia/Muscat"
   },
   "snapshot": {
-    "snapshot_id": "7b0035f4dbffd9a87cfeb9350266b7b19f5a7160d13fb2a6caf1eb0fb05b39f2",
-    "source_retrieval_completed_at": "2026-09-14T10:40:21.753608Z"
+    "snapshot_id": "a82069d9ef5a48d85f636a1c09534f82e9fdc614dd01f3fe1309ab25d97c5aa4",
+    "source_retrieval_completed_at": "2026-09-22T10:30:43.685422Z"
   },
   "record_counts": {
-    "courses": 1755,
-    "sections": 3976,
-    "meetings": 8006
+    "courses": 1769,
+    "sections": 4031,
+    "meetings": 8097
   }
 }

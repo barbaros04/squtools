@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-14T10:38:43.940868Z",
+  "generated_at": "2026-09-22T10:27:31.444093Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,16 +11,16 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\preview-response.html",
-        "sha256": "95c0fb08c3f51c65298b4f8f99de54cca60b37d3a78d6d72b91377fa765afb46"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-medicine-and-health-sciences-all-departments-english\\preview-response.html",
+        "sha256": "fe0ea9dd0569119913d2e17b4d3b1fdf94812f2d3f55db1186c6594495678915"
       },
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "f2e0a29351d36900dd483977b3cdcec2f5e4e38d9fb66588346773d224866bbc"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "e67b7e738f082e59e38a42e74b1e54a00fa98129178f9785d8c2e76b8c7dc1d1"
       },
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "22f5a977e8fa09d2264d0e7210e8831d17def928fa90303b86a358fe176522c1"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-medicine-and-health-sciences-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "bddfbdc672663ed403cf87844e14fd9d12525893f6a58c32694c9ad133c0f5b5"
       }
     ]
   },
@@ -30,7 +30,7 @@
     "meetings": 194,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 0,
-    "collapsed_co_taught_rows": 33
+    "collapsed_co_taught_rows": 42
   },
   "courses": [
     {
@@ -162,7 +162,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "4",
             "maximum": "6"
           },
           "meeting_status": "scheduled"
@@ -381,8 +381,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
-            "maximum": "30"
+            "current": "32",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -430,7 +430,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "11",
             "maximum": "35"
           },
           "meeting_status": "scheduled"
@@ -780,7 +780,8 @@
           "section_code": "01",
           "department": "Department of Clinical Pharmacology and Clinical Pharmacy",
           "instructors": [
-            "ALY MOHAMED OMAR ABDELRAHMAN"
+            "ALY MOHAMED OMAR ABDELRAHMAN",
+            "Juhaina Salim Mohammed"
           ],
           "meetings": [
             {
@@ -985,7 +986,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "22",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1034,7 +1035,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "8",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1083,7 +1084,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -1132,7 +1133,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1279,7 +1280,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -1328,7 +1329,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "6",
+            "current": "7",
             "maximum": "10"
           },
           "meeting_status": "scheduled"
@@ -1424,7 +1425,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
+            "current": "2",
             "maximum": "5"
           },
           "meeting_status": "scheduled"
@@ -1571,7 +1572,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "24",
+            "current": "25",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1620,7 +1621,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "19",
+            "current": "20",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1637,6 +1638,7 @@
           "department": "College of Medicine and Health Sciences",
           "instructors": [
             "Syaheerah Binti Lebai Lutfi",
+            "MOUSA YASSER ABEID AL-RAWAHI",
             "KENNETH ANDREW MASTERS"
           ],
           "meetings": [
@@ -1680,8 +1682,9 @@
           "section_code": "02",
           "department": "College of Medicine and Health Sciences",
           "instructors": [
-            "KENNETH ANDREW MASTERS",
-            "Syaheerah Binti Lebai Lutfi"
+            "Syaheerah Binti Lebai Lutfi",
+            "MOUSA YASSER ABEID AL-RAWAHI",
+            "KENNETH ANDREW MASTERS"
           ],
           "meetings": [
             {
@@ -1714,8 +1717,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "70",
-            "maximum": "70"
+            "current": "79",
+            "maximum": "75"
           },
           "meeting_status": "scheduled"
         },
@@ -1724,8 +1727,9 @@
           "section_code": "03",
           "department": "College of Medicine and Health Sciences",
           "instructors": [
-            "KENNETH ANDREW MASTERS",
-            "Syaheerah Binti Lebai Lutfi"
+            "Syaheerah Binti Lebai Lutfi",
+            "MOUSA YASSER ABEID AL-RAWAHI",
+            "KENNETH ANDREW MASTERS"
           ],
           "meetings": [
             {
@@ -1758,8 +1762,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "70",
-            "maximum": "70"
+            "current": "76",
+            "maximum": "75"
           },
           "meeting_status": "scheduled"
         }
@@ -1834,7 +1838,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "43",
+            "current": "42",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1904,7 +1908,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "45",
+            "current": "44",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -1974,7 +1978,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "45",
+            "current": "52",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2044,7 +2048,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "40",
+            "current": "39",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2107,7 +2111,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "31",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -2270,8 +2274,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "160",
-            "maximum": "161"
+            "current": "161",
+            "maximum": "166"
           },
           "meeting_status": "scheduled"
         }
@@ -2332,7 +2336,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "55",
+            "current": "52",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2388,8 +2392,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "53",
-            "maximum": "55"
+            "current": "61",
+            "maximum": "61"
           },
           "meeting_status": "scheduled"
         },
@@ -2444,8 +2448,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "55",
-            "maximum": "55"
+            "current": "60",
+            "maximum": "60"
           },
           "meeting_status": "scheduled"
         }
@@ -2460,7 +2464,8 @@
           "section_code": "01",
           "department": "Department of Human and Clinical Anatomy",
           "instructors": [
-            "HUSSEIN FAROUK HAMED SAKR"
+            "HUSSEIN FAROUK HAMED SAKR",
+            "MOHAMED SALIM MOHAMED AL MUSHAIQRI"
           ],
           "meetings": [
             {
@@ -2490,10 +2495,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-01:e82380912c9f",
+              "meeting_id": "MEDI3102-01:3f33692a758e",
               "type": "LEC",
               "days": [
-                "TUE"
+                "WED"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2503,10 +2508,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-01:3f33692a758e",
+              "meeting_id": "MEDI3102-01:e82380912c9f",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2532,8 +2537,8 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "50",
-            "maximum": "50"
+            "current": "53",
+            "maximum": "55"
           },
           "meeting_status": "scheduled"
         },
@@ -2542,7 +2547,8 @@
           "section_code": "02",
           "department": "Department of Human and Clinical Anatomy",
           "instructors": [
-            "HUSSEIN FAROUK HAMED SAKR"
+            "HUSSEIN FAROUK HAMED SAKR",
+            "MOHAMED SALIM MOHAMED AL MUSHAIQRI"
           ],
           "meetings": [
             {
@@ -2559,10 +2565,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-02:e82380912c9f",
+              "meeting_id": "MEDI3102-02:3f33692a758e",
               "type": "LEC",
               "days": [
-                "TUE"
+                "WED"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2572,10 +2578,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-02:3f33692a758e",
+              "meeting_id": "MEDI3102-02:e82380912c9f",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2614,7 +2620,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "48",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -2624,7 +2630,8 @@
           "section_code": "03",
           "department": "Department of Human and Clinical Anatomy",
           "instructors": [
-            "HUSSEIN FAROUK HAMED SAKR"
+            "HUSSEIN FAROUK HAMED SAKR",
+            "MOHAMED SALIM MOHAMED AL MUSHAIQRI"
           ],
           "meetings": [
             {
@@ -2641,10 +2648,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-03:e82380912c9f",
+              "meeting_id": "MEDI3102-03:3f33692a758e",
               "type": "LEC",
               "days": [
-                "TUE"
+                "WED"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2654,10 +2661,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "MEDI3102-03:3f33692a758e",
+              "meeting_id": "MEDI3102-03:e82380912c9f",
               "type": "LEC",
               "days": [
-                "WED"
+                "TUE"
               ],
               "start_time": "09:00",
               "end_time": "09:50",
@@ -2732,7 +2739,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "130",
+            "current": "136",
             "maximum": "250"
           },
           "meeting_status": "scheduled"
@@ -2820,7 +2827,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "55",
+            "current": "52",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -2902,7 +2909,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "34",
+            "current": "45",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3059,7 +3066,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "131",
+            "current": "137",
             "maximum": "150"
           },
           "meeting_status": "scheduled"
@@ -3108,7 +3115,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "6",
             "maximum": "9999"
           },
           "meeting_status": "scheduled"
@@ -3170,7 +3177,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "142",
+            "current": "141",
             "maximum": "150"
           },
           "meeting_status": "scheduled"
@@ -3258,7 +3265,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "47",
+            "current": "46",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -3340,8 +3347,8 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "50",
-            "maximum": "50"
+            "current": "51",
+            "maximum": "51"
           },
           "meeting_status": "scheduled"
         },
@@ -3422,7 +3429,7 @@
           "credit_hours": "5.0",
           "course_language": "English",
           "enrollment": {
-            "current": "50",
+            "current": "51",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3497,7 +3504,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "42",
+            "current": "43",
             "maximum": "55"
           },
           "meeting_status": "scheduled"
@@ -3566,7 +3573,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "49",
+            "current": "47",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -3684,7 +3691,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "146",
+            "current": "148",
             "maximum": "146"
           },
           "meeting_status": "scheduled"
@@ -3763,8 +3770,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "7",
+            "maximum": "10"
           },
           "meeting_status": "scheduled"
         }
@@ -3812,7 +3819,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "15",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3861,7 +3868,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "15",
             "maximum": "20"
           },
           "meeting_status": "scheduled"
@@ -3956,13 +3963,13 @@
               "location_status": "unknown"
             },
             {
-              "meeting_id": "MICR4104-01:387413b26d78",
+              "meeting_id": "MICR4104-01:2bceda3d2489",
               "type": "LAB",
               "days": [
                 "TUE"
               ],
-              "start_time": "14:15",
-              "end_time": "16:05",
+              "start_time": "16:15",
+              "end_time": "18:05",
               "building": "Faculty Room",
               "room": "FRM",
               "room_type": "Seminar Room",
@@ -3973,7 +3980,7 @@
           "course_language": "English",
           "enrollment": {
             "current": "20",
-            "maximum": "20"
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -4021,7 +4028,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "5",
+            "current": "24",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -4132,7 +4139,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "21",
             "maximum": "30"
           },
           "meeting_status": "scheduled"
@@ -4182,7 +4189,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "25",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -4218,7 +4225,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "26",
+            "current": "25",
             "maximum": "55"
           },
           "meeting_status": "scheduled"

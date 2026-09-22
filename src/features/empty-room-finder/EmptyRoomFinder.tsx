@@ -20,8 +20,8 @@ const weekdayMap: Record<string, MeetingDay> = {
 const copy = {
   en: {
     title: "Empty Room Finder",
-    intro: "Check known rooms in one building against the published timetable.",
-    caveat: "This is not live room occupancy.",
+    intro: "Check rooms listed in the published timetable against scheduled classes.",
+    caveat: "This is not live occupancy and does not include rooms that never appear in the timetable.",
     when: "When do you need a room?",
     day: "Day",
     time: "Time",
@@ -48,8 +48,8 @@ const copy = {
   },
   ar: {
     title: "البحث عن القاعات الشاغرة",
-    intro: "تحقق من القاعات المعروفة في مبنى واحد بالاعتماد على الجدول المنشور.",
-    caveat: "هذه ليست حالة إشغال مباشرة للقاعات.",
+    intro: "تحقق من القاعات الواردة في الجدول المنشور مقابل المحاضرات المجدولة.",
+    caveat: "هذه ليست حالة إشغال مباشرة ولا تشمل القاعات التي لا تظهر في الجدول إطلاقاً.",
     when: "متى تحتاج قاعة؟",
     day: "اليوم",
     time: "الوقت",

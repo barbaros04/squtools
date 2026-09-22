@@ -66,6 +66,7 @@ The snapshot's `source_retrieval_completed_at` is the authoritative freshness ti
 - During the final four weeks before the term and through the SIS add/drop period, refresh daily.
 - After add/drop, refresh at least weekly while the term remains supported.
 - Trigger a manual refresh immediately when SIS shows a timetable revision, a source-selector/report-format change, a collector validation failure, or a credible report of a changed section.
+- The release threshold must be reviewed against the location-status breakdown, not raised silently. The Fall 2026/2027 refresh on 2026-09-22 uses a 12% threshold: its 11.49% unknown locations are exclusively SIS's `Closed section`/`CLO`, `Faculty Room`/`FRM`, `Field`/`FLD`, and `No Room Available`/`NOR` markers, which remain explicitly excluded from room availability.
 
 Every consumer must show the snapshot retrieval-completed timestamp and its age calculated at display time. Consumers must describe data as a snapshot, not as live SIS availability; stale or unavailable snapshot metadata must be visible rather than replaced with an inferred current value.
 

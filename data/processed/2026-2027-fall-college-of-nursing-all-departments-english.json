@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "scripts/scrape_schedule.py",
-  "generated_at": "2026-09-14T10:39:07.423681Z",
+  "generated_at": "2026-09-22T10:27:10.938597Z",
   "term": {
     "term_id": "2026/2027-FALL",
     "label": "Fall 2026/2027",
@@ -11,26 +11,26 @@
     "url": "https://sis.squ.edu.om/SQU_CoursesSchedule.aspx",
     "captures": [
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-nursing-all-departments-english\\preview-response.html",
-        "sha256": "b0b430af3630d7b10a2509021def7b8581698872ebc0ffce10f0c7c4b0636d2e"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-nursing-all-departments-english\\preview-response.html",
+        "sha256": "d4d3340862e4bdb3f9744fed0ead7e7ab8e4a8bce268747e1728902370bdd727"
       },
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-nursing-all-departments-english\\report-viewer-page-001.html",
-        "sha256": "e89a7991e3f5058fbc45df84aa573fc0d42c9494265f9652ec8972a74c1533a0"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-nursing-all-departments-english\\report-viewer-page-001.html",
+        "sha256": "7fb51c1cb9be64819a91d9eb1431f19d8fa0569aa4f84502df9d1e305599e7e4"
       },
       {
-        "path": "data\\raw\\sis\\snapshots\\2026-09-14T104000Z\\college-of-nursing-all-departments-english\\report-viewer-page-002.html",
-        "sha256": "246bb1901f5abf3a5041f6c18c598381f0ba2bebdb3c0ad4f115b9c9f74fef27"
+        "path": "data\\raw\\sis\\snapshots\\2026-09-22T102304Z\\college-of-nursing-all-departments-english\\report-viewer-page-002.html",
+        "sha256": "1e6f613c9ea5fc30a6a3252c93f416ec5272037cb19d7cb9c6fe2a338626cb8f"
       }
     ]
   },
   "record_counts": {
     "courses": 52,
-    "sections": 71,
-    "meetings": 124,
+    "sections": 75,
+    "meetings": 132,
     "unscheduled_sections": 0,
     "duplicate_source_rows": 2,
-    "collapsed_co_taught_rows": 142
+    "collapsed_co_taught_rows": 144
   },
   "courses": [
     {
@@ -62,7 +62,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "44",
+            "current": "40",
             "maximum": "70"
           },
           "meeting_status": "scheduled"
@@ -92,7 +92,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "32",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -191,7 +191,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "NURS1009-02:1f5c29775bf0",
+              "meeting_id": "NURS1009-02:0a0685e37e8b",
               "type": "LEC",
               "days": [
                 "WED"
@@ -199,16 +199,16 @@
               "start_time": "08:00",
               "end_time": "09:50",
               "building": "Nursing Lab",
-              "room": "1029",
-              "room_type": "Lab Room",
+              "room": "0042",
+              "room_type": "Classroom",
               "location_status": "known"
             }
           ],
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "49",
-            "maximum": "55"
+            "current": "55",
+            "maximum": "75"
           },
           "meeting_status": "scheduled"
         },
@@ -237,8 +237,8 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "15",
+            "maximum": "35"
           },
           "meeting_status": "scheduled"
         }
@@ -348,7 +348,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "46",
+            "current": "48",
             "maximum": "74"
           },
           "meeting_status": "scheduled"
@@ -472,7 +472,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "56",
+            "current": "57",
             "maximum": "87"
           },
           "meeting_status": "scheduled"
@@ -673,7 +673,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "18",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -788,7 +788,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "33",
+            "current": "36",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -841,7 +841,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "30",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -888,7 +888,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "37",
+            "current": "35",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -908,7 +908,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "NURS2125-01:0780af8e65d2",
+              "meeting_id": "NURS2125-01:6690f4d0b7df",
               "type": "LEC",
               "days": [
                 "THU"
@@ -916,16 +916,16 @@
               "start_time": "08:00",
               "end_time": "09:50",
               "building": "Nursing Lab",
-              "room": "LET63",
-              "room_type": "Lecture Theatre",
+              "room": "80B",
+              "room_type": "Computer Room",
               "location_status": "known"
             }
           ],
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "61",
-            "maximum": "150"
+            "current": "62",
+            "maximum": "65"
           },
           "meeting_status": "scheduled"
         }
@@ -1253,7 +1253,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "30",
+            "current": "31",
             "maximum": "53"
           },
           "meeting_status": "scheduled"
@@ -1286,7 +1286,7 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "NURS3018-01:72a57457d34d",
+              "meeting_id": "NURS3018-01:2496737daafb",
               "type": "LEC",
               "days": [
                 "WED"
@@ -1294,15 +1294,15 @@
               "start_time": "12:00",
               "end_time": "13:20",
               "building": "Nursing Lab",
-              "room": "LET63",
-              "room_type": "Lecture Theatre",
+              "room": "80B",
+              "room_type": "Computer Room",
               "location_status": "known"
             }
           ],
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "56",
+            "current": "58",
             "maximum": "58"
           },
           "meeting_status": "scheduled"
@@ -1470,7 +1470,7 @@
             "SHEEBA ELIZABETH JOHN SUNDERRAJ",
             "DIVYA RAGHAVAN",
             "SAFIYA TARESH GHALIB AL YAQOUBI",
-            "LINA (M.WALI) (M.AMIN) SHAKMAN"
+            "LINA M.WALI M.AMIN SHAKMAN"
           ],
           "meetings": [
             {
@@ -1513,10 +1513,10 @@
           "section_code": "02",
           "department": "Department of Maternal and Child Health",
           "instructors": [
+            "ERNA JUDITH ROACH",
             "SHEEBA ELIZABETH JOHN SUNDERRAJ",
-            "JUDIE ARULAPPAN",
             "SAFIYA TARESH GHALIB AL YAQOUBI",
-            "LINA (M.WALI) (M.AMIN) SHAKMAN"
+            "LINA M.WALI M.AMIN SHAKMAN"
           ],
           "meetings": [
             {
@@ -1565,7 +1565,8 @@
           "section_code": "01",
           "department": "Department of Adult Health and Critical Care",
           "instructors": [
-            "MARYAM MOHAMMED HAMOOD AL-HARRASI"
+            "NASIR ASAD IBRAHIM MATANI",
+            "JOY KABASINDI KAMANYIRE"
           ],
           "meetings": [
             {
@@ -1585,7 +1586,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "42",
+            "current": "43",
             "maximum": "44"
           },
           "meeting_status": "scheduled"
@@ -1634,7 +1635,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "38",
+            "current": "41",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -1670,8 +1671,36 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "65",
-            "maximum": "66"
+            "current": "41",
+            "maximum": "79"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3125-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "NURS3125-02:d73b5481cb7b",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "Nursing Lab",
+              "room": "80A",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "40",
+            "maximum": "42"
           },
           "meeting_status": "scheduled"
         }
@@ -1706,7 +1735,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "49",
+            "current": "47",
             "maximum": "49"
           },
           "meeting_status": "scheduled"
@@ -1726,7 +1755,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "NURS3135-01:9f831ab80408",
+              "meeting_id": "NURS3135-01:5aa501de14ae",
               "type": "LEC",
               "days": [
                 "WED"
@@ -1734,15 +1763,15 @@
               "start_time": "16:15",
               "end_time": "18:05",
               "building": "Nursing Lab",
-              "room": "1029",
-              "room_type": "Lab Room",
+              "room": "1033",
+              "room_type": "Classroom",
               "location_status": "known"
             }
           ],
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "23",
+            "current": "31",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1791,7 +1820,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "14",
+            "current": "44",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -1889,7 +1918,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "21",
+            "current": "22",
             "maximum": "40"
           },
           "meeting_status": "scheduled"
@@ -1909,7 +1938,7 @@
           ],
           "meetings": [
             {
-              "meeting_id": "NURS3160-01:07d86ff95fa8",
+              "meeting_id": "NURS3160-01:e83701ef4f0f",
               "type": "LEC",
               "days": [
                 "THU"
@@ -1917,12 +1946,12 @@
               "start_time": "08:00",
               "end_time": "09:20",
               "building": "Nursing Lab",
-              "room": "80B",
-              "room_type": "Computer Room",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
               "location_status": "known"
             },
             {
-              "meeting_id": "NURS3160-01:2496737daafb",
+              "meeting_id": "NURS3160-01:72a57457d34d",
               "type": "LEC",
               "days": [
                 "WED"
@@ -1930,7 +1959,48 @@
               "start_time": "12:00",
               "end_time": "13:20",
               "building": "Nursing Lab",
-              "room": "80B",
+              "room": "LET63",
+              "room_type": "Lecture Theatre",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "3.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "48",
+            "maximum": "76"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3160-02",
+          "section_code": "02",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_id": "NURS3160-02:71142007b91c",
+              "type": "LEC",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "Nursing Lab",
+              "room": "80A",
+              "room_type": "Computer Room",
+              "location_status": "known"
+            },
+            {
+              "meeting_id": "NURS3160-02:8ff16b2228f1",
+              "type": "LEC",
+              "days": [
+                "WED"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:20",
+              "building": "Nursing Lab",
+              "room": "80A",
               "room_type": "Computer Room",
               "location_status": "known"
             }
@@ -1938,8 +2008,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "70",
-            "maximum": "70"
+            "current": "27",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -1954,7 +2024,7 @@
           "section_code": "01",
           "department": "Department of Community and Mental Health",
           "instructors": [
-            "WAFA HAMOOD SALEH AL JABRI"
+            "KOUKAB ABDULLAH RASHID AL GHARIBI"
           ],
           "meetings": [
             {
@@ -1974,8 +2044,38 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "78",
+            "current": "36",
             "maximum": "80"
+          },
+          "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS3165-02",
+          "section_code": "02",
+          "department": "Department of Community and Mental Health",
+          "instructors": [
+            "WAFA HAMOOD SALEH AL JABRI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS3165-02:572c2115c431",
+              "type": "LEC",
+              "days": [
+                "SUN"
+              ],
+              "start_time": "16:15",
+              "end_time": "18:05",
+              "building": "Nursing Lab",
+              "room": "1029",
+              "room_type": "Lab Room",
+              "location_status": "known"
+            }
+          ],
+          "credit_hours": "2.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "36",
+            "maximum": "40"
           },
           "meeting_status": "scheduled"
         }
@@ -2059,7 +2159,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "43",
+            "current": "44",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -2193,7 +2293,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "62",
+            "current": "53",
             "maximum": "74"
           },
           "meeting_status": "scheduled"
@@ -2332,7 +2432,7 @@
           "credit_hours": "1.0",
           "course_language": "English",
           "enrollment": {
-            "current": "59",
+            "current": "64",
             "maximum": "74"
           },
           "meeting_status": "scheduled"
@@ -2368,7 +2468,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "59",
+            "current": "57",
             "maximum": "70"
           },
           "meeting_status": "scheduled"
@@ -2418,7 +2518,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "60",
+            "current": "59",
             "maximum": "74"
           },
           "meeting_status": "scheduled"
@@ -2565,7 +2665,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "66",
+            "current": "65",
             "maximum": "80"
           },
           "meeting_status": "scheduled"
@@ -2604,7 +2704,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "27",
+            "current": "31",
             "maximum": "50"
           },
           "meeting_status": "scheduled"
@@ -2637,7 +2737,7 @@
           "credit_hours": "2.0",
           "course_language": "English",
           "enrollment": {
-            "current": "35",
+            "current": "34",
             "maximum": "60"
           },
           "meeting_status": "scheduled"
@@ -2702,7 +2802,7 @@
           "credit_hours": "4.0",
           "course_language": "English",
           "enrollment": {
-            "current": "62",
+            "current": "61",
             "maximum": "72"
           },
           "meeting_status": "scheduled"
@@ -2711,7 +2811,9 @@
           "section_id": "NURS5120-02",
           "section_code": "02",
           "department": "Department of Maternal and Child Health",
-          "instructors": [],
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI"
+          ],
           "meetings": [
             {
               "meeting_id": "NURS5120-02:eb01eb807285",
@@ -2773,6 +2875,75 @@
             "maximum": "4"
           },
           "meeting_status": "scheduled"
+        },
+        {
+          "section_id": "NURS5120-03",
+          "section_code": "03",
+          "department": "Department of Maternal and Child Health",
+          "instructors": [
+            "ATIYA SAID SALIM AL FURQANI"
+          ],
+          "meetings": [
+            {
+              "meeting_id": "NURS5120-03:2b2b1884da8b",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "08:00",
+              "end_time": "13:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-03:986f27a36d7d",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-03:2138d69e1807",
+              "type": "Field Work",
+              "days": [
+                "TUE"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            },
+            {
+              "meeting_id": "NURS5120-03:342282ef1c2e",
+              "type": "Field Work",
+              "days": [
+                "THU"
+              ],
+              "start_time": "14:15",
+              "end_time": "18:05",
+              "building": "Faculty Room",
+              "room": "FRM",
+              "room_type": "Seminar Room",
+              "location_status": "unknown"
+            }
+          ],
+          "credit_hours": "4.0",
+          "course_language": "English",
+          "enrollment": {
+            "current": "2",
+            "maximum": "4"
+          },
+          "meeting_status": "scheduled"
         }
       ]
     },
@@ -2786,7 +2957,7 @@
           "department": "Department of Adult Health and Critical Care",
           "instructors": [
             "EILEAN VICTORIA LAZARUS RATHINASAMY",
-            "NASSER MAJID DHAWI AL-SALMI"
+            "Ashraf Jehad Ibrahim Abuejheisheh"
           ],
           "meetings": [
             {
@@ -2803,10 +2974,10 @@
               "location_status": "known"
             },
             {
-              "meeting_id": "NURS6110-01:168685736679",
+              "meeting_id": "NURS6110-01:ea36535bc0f1",
               "type": "Field Work",
               "days": [
-                "WED"
+                "THU"
               ],
               "start_time": "08:00",
               "end_time": "12:00",
@@ -2816,10 +2987,10 @@
               "location_status": "unknown"
             },
             {
-              "meeting_id": "NURS6110-01:4a6135bec631",
+              "meeting_id": "NURS6110-01:3efbfdbb63c6",
               "type": "Field Work",
               "days": [
-                "WED"
+                "THU"
               ],
               "start_time": "12:00",
               "end_time": "16:05",
@@ -2832,7 +3003,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "20",
+            "current": "11",
             "maximum": "26"
           },
           "meeting_status": "scheduled"
@@ -2841,7 +3012,10 @@
           "section_id": "NURS6110-02",
           "section_code": "02",
           "department": "Department of Adult Health and Critical Care",
-          "instructors": [],
+          "instructors": [
+            "OLABISI IBITOYE",
+            "NASSER MAJID DHAWI AL-SALMI"
+          ],
           "meetings": [
             {
               "meeting_id": "NURS6110-02:089ac5ec1d18",
@@ -2886,8 +3060,8 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "0",
-            "maximum": "0"
+            "current": "11",
+            "maximum": "30"
           },
           "meeting_status": "scheduled"
         }
@@ -2938,8 +3112,7 @@
           "section_code": "01",
           "department": "Department of Adult Health and Critical Care",
           "instructors": [
-            "MARYAM MOHAMMED HAMOOD AL-HARRASI",
-            "SALMA JUMA FADHIL AL MUKHAINI"
+            "MARYAM MOHAMMED HAMOOD AL-HARRASI"
           ],
           "meetings": [
             {
@@ -3059,7 +3232,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "17",
+            "current": "12",
             "maximum": "17"
           },
           "meeting_status": "scheduled"
@@ -3089,7 +3262,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "1",
+            "current": "6",
             "maximum": "17"
           },
           "meeting_status": "scheduled"
@@ -3125,7 +3298,7 @@
           "credit_hours": "3.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
+            "current": "8",
             "maximum": "15"
           },
           "meeting_status": "scheduled"
@@ -3233,8 +3406,8 @@
           "credit_hours": "6.0",
           "course_language": "English",
           "enrollment": {
-            "current": "7",
-            "maximum": "8"
+            "current": "12",
+            "maximum": "23"
           },
           "meeting_status": "scheduled"
         }
