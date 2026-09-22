@@ -68,5 +68,6 @@ This contract is intentionally small. It represents published timetable facts, n
 - Schedule Builder treats meetings in the same section as required together and rejects overlapping meetings across selected sections.
 - Empty Room Finder considers a room occupied only for meetings with a known physical building and room, on matching day and overlapping time.
 - Consumers must handle absent instructor and location fields without treating unknown as free.
+- A consumer may derive a **possible room label** only when it is directly sandwiched between two observed numeric room labels in the same building and numbering sequence. It must remain separate from source-backed rooms and must never be presented as a confirmed room or as available. This is presentation-only inference and does not change the normalized schema.
 
-Any contract change requires a schema-version decision and update to the pipeline documentation.
+Any normalized contract change requires a schema-version decision and update to the pipeline documentation.
