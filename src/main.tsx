@@ -1,7 +1,6 @@
 import { createEffect, createSignal, onCleanup, onMount } from "solid-js";
 import { render } from "solid-js/web";
 import { formatSnapshotAge, formatSnapshotTime, publishedSnapshot } from "./data/snapshot";
-import { TowerArt } from "./components/TowerArt";
 import { EmptyRoomFinder } from "./features/empty-room-finder/EmptyRoomFinder";
 import "./styles.css";
 
@@ -113,7 +112,6 @@ function HomePage(props: { language: Language; onLanguageChange: () => void }) {
   const text = () => copy[props.language];
   return (
     <main class="home-page">
-      <TowerArt />
       <Header {...props} />
       <section class="home-intro" aria-labelledby="home-title">
         <h1 id="home-title">{text().directoryTitle}</h1>
@@ -121,17 +119,18 @@ function HomePage(props: { language: Language; onLanguageChange: () => void }) {
       </section>
       <section class="tool-directory" aria-label={text().brand}>
         <nav class="tool-list" aria-label={text().brand}>
-          {tools.map((tool) => {
+          {tools.filter((tool) => tool.id !== "schedule-builder").map((tool) => {
             const item = () => text().tools[tool.id];
+            const isUnavailable = tool.id === "academic-plan";
             return (
-              <a class={`tool-row ${tool.id}`} href={tool.path}>
+              <a class={`tool-row ${tool.id}`} classList={{ "is-unavailable": isUnavailable }} href={isUnavailable ? undefined : tool.path} aria-disabled={isUnavailable || undefined}>
                 <div class="tool-description">
                   <h2>{item().title}</h2>
                   <p>{item().summary}</p>
                 </div>
                 <div class="tool-row-meta">
                   {tool.id !== "empty-rooms" && <span class="tool-status">{item().availability}</span>}
-                  <span class="tool-action" aria-hidden="true">{text().openTool} <span class="tool-chevron">›</span></span>
+                  {!isUnavailable && <span class="tool-action" aria-hidden="true">{text().openTool} <span class="tool-chevron">›</span></span>}
                 </div>
               </a>
             );

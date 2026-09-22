@@ -56,25 +56,6 @@ a { color: inherit; }
 .app-shell { min-height: 100vh; transition: opacity var(--motion-fast) var(--ease), transform var(--motion-fast) var(--ease); }
 .app-shell.language-changing { opacity: 0.42; transform: translateY(2px); pointer-events: none; }
 .home-page, .tool-page { width: min(100% - var(--space-12), 1120px); min-height: 100vh; margin: 0 auto; padding-block: var(--space-5) var(--space-12); }
-.home-page {
-  display: grid;
-  grid-template-columns: clamp(170px, 20vw, 230px) minmax(0, 1fr);
-  column-gap: clamp(var(--space-8), 6vw, var(--space-16));
-  align-content: start;
-}
-.home-background-art {
-  grid-column: 1;
-  grid-row: 2 / span 2;
-  align-self: center;
-  inline-size: 100%;
-  block-size: clamp(430px, 46vw, 545px);
-  opacity: 0.62;
-  pointer-events: none;
-  animation: tower-breathe 7s var(--ease) infinite alternate;
-}
-.home-page > .site-header, .home-page > .site-footer { grid-column: 1 / -1; }
-.home-page > .home-intro, .home-page > .tool-directory { grid-column: 2; }
-
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: 44px; padding-block-end: var(--space-4); border-block-end: 1px solid var(--border); }
 .wordmark { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--text); font-size: var(--text-ui); font-weight: 600; letter-spacing: -0.015em; text-decoration: none; }
 .brand-mark { display: grid; place-items: center; inline-size: 24px; block-size: 24px; border: 1px solid var(--border-strong); border-radius: var(--radius-xs); color: var(--accent); background: var(--surface); }
@@ -96,7 +77,10 @@ a { color: inherit; }
 .tool-row::before { position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: 3px; background: var(--accent); content: ""; opacity: 0; transition: opacity var(--motion-fast) var(--ease); }
 .tool-row.empty-rooms::before { background: var(--positive); }
 .tool-row.academic-plan::before { background: oklch(70% 0.16 60); }
-@media (hover: hover) and (pointer: fine) { .tool-row:hover { padding-inline: var(--space-8); background: color-mix(in oklch, var(--accent) 4%, transparent); } .tool-row:hover::before { opacity: 1; } }
+@media (hover: hover) and (pointer: fine) { .tool-row:not(.is-unavailable):hover { padding-inline: var(--space-8); background: color-mix(in oklch, var(--accent) 4%, transparent); } .tool-row:not(.is-unavailable):hover::before { opacity: 1; } }
+.tool-row.is-unavailable { color: var(--text-2); background: var(--surface-subtle); cursor: not-allowed; }
+.tool-row.is-unavailable::before { display: none; }
+.tool-row.is-unavailable .tool-description p, .tool-row.is-unavailable .tool-row-meta, .tool-row.is-unavailable .tool-status { color: var(--text-3); }
 .tool-description h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.1rem); font-weight: 600; letter-spacing: -0.04em; line-height: 1.1; }
 .tool-description p { max-width: 54ch; margin: var(--space-2) 0 0; color: var(--text-2); font-size: var(--text-ui); line-height: 1.5; }
 .tool-row-meta { display: grid; justify-items: end; gap: var(--space-3); color: var(--text-3); font-size: var(--text-sm); white-space: nowrap; }
@@ -163,15 +147,12 @@ a { color: inherit; }
 .snapshot-note, .data-counts { margin: 0; color: var(--text-2); font-size: var(--text-xs); line-height: 1.55; }
 [dir="rtl"] .tool-row-meta { justify-items: start; }
 
-@keyframes tower-breathe { from { transform: translateY(0); } to { transform: translateY(-4px); } }
 @keyframes modal-backdrop-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes modal-in { from { opacity: 0; transform: translateY(4px) scale(.985); } to { opacity: 1; transform: translateY(0) scale(1); } }
 
 @media (max-width: 650px) {
   .home-page, .tool-page { width: min(100% - var(--space-8), 1120px); padding-block-start: var(--space-4); }
-  .home-page { display: block; }
   .home-intro { margin-block-start: var(--space-16); }
-  .home-background-art { display: none; }
   .home-intro h1, .room-finder-intro h1 { font-size: clamp(2rem, 11vw, 2.75rem); }
   .tool-row { min-block-size: 0; padding: var(--space-5) var(--space-4); gap: var(--space-3); }
   .tool-row:hover { padding-inline: var(--space-4); }
